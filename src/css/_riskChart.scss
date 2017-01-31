@@ -1,0 +1,66 @@
+
+
+.riskSummaryChart {
+	max-width: 860px;
+	overflow: hidden;
+
+	.riskLine {
+		fill: none;
+		stroke-width: 2px;
+
+		&.r {
+			stroke: #a9d700;
+		}
+
+		&.p {
+			stroke: #4cc5dc;
+		}
+
+		&.h {
+			stroke: #005688;
+		}
+
+		&.l {
+			stroke: #f36f21;
+		}
+
+		&.s {
+			stroke: #fdb813;
+		}
+
+		&.dataVisible {
+			stroke-opacity: .25;
+		}
+	}
+
+
+	.riskCircle {
+		display: none;
+
+		&.riskCirclesActive {
+			display: block;
+		}
+	}
+
+
+	.riskCircle-r {
+		fill: #a9d700;
+	}
+
+	.riskCircle-p {
+		fill: #4cc5dc;
+	}
+
+	.riskCircle-h {
+		fill: #005688;
+	}
+
+	.riskCircle-l {
+		fill: #f36f21;
+	}
+
+	.riskCircle-s {
+		fill: #fdb813;
+	}
+	
+}

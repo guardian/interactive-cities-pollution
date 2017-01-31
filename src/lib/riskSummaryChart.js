@@ -221,7 +221,7 @@ export default function() {
 	function measure(){
 		let box = container.node().getBoundingClientRect();
 		let WIDTH = box.width;
-    	let HEIGHT = box.width * 2/3;//box.height;
+    	let HEIGHT = box.width * .5;//box.height;
 
 		return {
 			WIDTH: WIDTH,
