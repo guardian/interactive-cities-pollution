@@ -40,7 +40,7 @@ const plugins = (babelrc.plugins || []).concat(babelrc.env.client.plugins);
 const rollupPlugins = [
     require('rollup-plugin-json')(),
     require('rollup-plugin-string')({
-        'include': '**/*.html'
+        'include': ['**/*.html', '**/*.csv']
     }),
     require('rollup-plugin-node-resolve')({
         'jsnext': true, 'browser': true

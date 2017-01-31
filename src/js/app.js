@@ -1,0 +1,31 @@
+import csvToJson from '../lib/csvToJson'
+import findUser from '../lib/findUser'
+import riskSummaryChart from '../lib/riskSummaryChart'
+import cities_csv from '../data/pollution_geolocated.csv'
+
+
+let summaryChart;
+
+function init(){
+
+	console.log('ready')
+
+	//list of cities parsed from csv
+	let cities = csvToJson(cities_csv);
+
+	//initializes find user class
+	let userControls = findUser(cities);
+
+
+	//initialize summary chart
+	let summaryChart = riskSummaryChart();
+	summaryChart.init();
+	userControls.registerListener(summaryChart.setUserData);
+
+
+
+
+
+}
+
+init();
