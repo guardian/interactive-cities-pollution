@@ -1,0 +1,143 @@
+$high-1: rgba($news-main-2,0.4);
+$high-2: $news-main-2;
+$med-1: rgba($news-support-2,0.4);
+$med-2: $news-support-2;
+$low-1: rgba($neutral-3,0.4);
+$low-2: rgba($neutral-4,0.6);
+
+
+$high-speed: 6000ms;
+$med-speed: 6000ms;
+$low-speed: 27000ms;
+
+.led-high, .led-med, .led-low {
+  float:left;
+	background: $high-1;
+  // background: linear-gradient($high-1 0%, $high-2 100%);
+  padding: 7px;
+  margin: 12px 3px 0;
+   -webkit-border-radius: 2000px;
+  border-radius: 2000px;
+  border: none;
+  cursor: pointer;
+
+}
+
+@-webkit-keyframes glow-high {
+  0% { background-color: $high-1; -webkit-box-shadow: 0 0 3px $high-1; }
+  50% { background-color: $high-2; -webkit-box-shadow: 0 0 10px $high-2; }
+  100% { background-color: $high-1; -webkit-box-shadow: 0 0 3px $high-1; }
+}
+
+@-moz-keyframes  glow-high {
+  0% { background-color: $high-1; -moz-box-shadow:  0 0 3px $high-1; }
+  50% { background-color: $high-2; -moz-box-shadow:  0 0 10px $high-2; }
+  100% { background-color: $high-1; -moz-box-shadow:  0 0 3px $high-1; }
+}
+
+@-o-keyframes  glow-high {
+  0% { background-color: $high-1; box-shadow: 0 0 3px $high-1; }
+  50% { background-color: $high-2; box-shadow: 0 0 10px $high-2; }
+  100% { background-color: $high-1; box-shadow: 0 0 3px $high-1; }
+}
+
+@keyframes  glow-high {
+  0% { background-color: $high-1; box-shadow: 0 0 3px $high-1; }
+  50% { background-color: $high-2; box-shadow: 0 0 10px $high-2; }
+  100% { background-color: $high-1; box-shadow: 0 0 3px $high-1; }
+}
+
+.led-high  {
+  -webkit-animation:  glow-high $high-speed infinite;
+  -moz-animation:  glow-high $high-speed infinite;
+  -o-animation:  glow-high $high-speed infinite;
+  animation:  glow-high $high-speed infinite;
+}
+
+
+
+
+.led-med {
+	background: $med-1;
+
+
+}
+
+@-webkit-keyframes glow-med {
+  0% { background-color: $med-1; -webkit-box-shadow: 0 0 3px $med-1; }
+  50% { background-color: $med-2; -webkit-box-shadow: 0 0 15px $med-2; }
+  100% { background-color: $med-1; -webkit-box-shadow: 0 0 3px $med-1; }
+}
+
+@-moz-keyframes  glow-med {
+  0% { background-color: $med-1; -moz-box-shadow:  0 0 3px $med-1; }
+  50% { background-color: $med-2; -moz-box-shadow:  0 0 15px $med-2; }
+  100% { background-color: $med-1; -moz-box-shadow:  0 0 3px $med-1; }
+}
+
+@-o-keyframes  glow-med {
+  0% { background-color: $med-1; box-shadow: 0 0 3px $med-1; }
+  50% { background-color: $med-2; box-shadow: 0 0 15px $med-2; }
+  100% { background-color: $med-1; box-shadow: 0 0 3px $med-1; }
+}
+
+@keyframes  glow-med {
+  0% { background-color: $med-1; box-shadow: 0 0 3px $med-1; }
+  50% { background-color: $med-2; box-shadow: 0 0 15px $med-2; }
+  100% { background-color: $med-1; box-shadow: 0 0 3px $med-1; }
+}
+
+.led-med  {
+  -webkit-animation:  glow-med $med-speed infinite;
+  -moz-animation:  glow-med $med-speed infinite;
+  -o-animation:  glow-med $med-speed infinite;
+  animation:  glow-med $med-speed infinite;
+}
+
+
+
+
+
+
+
+
+.led-low {
+background: $low-1;
+  // background: linear-gradient($low-1 0%, $low-2 100%);
+
+
+}
+
+@-webkit-keyframes glow-low {
+  0% { background-color: $low-1; -webkit-box-shadow: 0 0 3px $low-1; }
+  50% { background-color: $low-2; -webkit-box-shadow: 0 0 9px $low-2; }
+  100% { background-color: $low-1; -webkit-box-shadow: 0 0 3px $low-1; }
+}
+
+@-moz-keyframes  glow-low {
+  0% { background-color: $low-1; -moz-box-shadow:  0 0 3px $low-1; }
+  50% { background-color: $low-2; -moz-box-shadow:  0 0 9px $low-2; }
+  100% { background-color: $low-1; -moz-box-shadow:  0 0 3px $low-1; }
+}
+
+@-o-keyframes  glow-low {
+  0% { background-color: $low-1; box-shadow: 0 0 3px $low-1; }
+  50% { background-color: $low-2; box-shadow: 0 0 9px $low-2; }
+  100% { background-color: $low-1; box-shadow: 0 0 3px $low-1; }
+}
+
+@keyframes  glow-low {
+  0% { background-color: $low-1; box-shadow: 0 0 3px $low-1; }
+  50% { background-color: $low-2; box-shadow: 0 0 9px $low-2; }
+  100% { background-color: $low-1; box-shadow: 0 0 3px $low-1; }
+}
+
+.led-low  {
+  -webkit-animation:  glow-low $low-speed infinite;
+  -moz-animation:  glow-low $low-speed infinite;
+  -o-animation:  glow-low $low-speed infinite;
+  animation:  glow-low $low-speed infinite;
+}
+
+
+

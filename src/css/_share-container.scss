@@ -1,0 +1,22 @@
+.gv-share-container{
+        display: inline-block;
+        vertical-align: bottom;
+        font-size:0;
+        margin : $gs-baseline 0;
+        line-height:0;
+        button{
+            background-color:#fff;
+            width:30px;
+            height:30px;
+            border-radius:30px;
+            display:inline-block;
+            background-position:center;
+            background-size:27px;
+            background-repeat: no-repeat;
+            margin-right:6px;
+            border: none;
+        }
+        .share-twitter{ background-image:url('<%= path %>/assets/twitter.svg');}
+        .share-facebook{ background-image:url('<%= path %>/assets/facebook.svg');}
+        .share-mail{ background-image:url('<%= path %>/assets/mail.svg');}
+    }

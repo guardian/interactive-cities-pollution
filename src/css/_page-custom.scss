@@ -1,0 +1,46 @@
+.gv-standfirst{
+	max-width:620px;
+}
+
+.first-strip , .second-strip, .third-strip {
+	padding: gs-height(5) 0 $gs-gutter 0;
+	background-color: $news-support-7;
+	color:$neutral-6;
+	border:none;
+
+	h1 {
+		@include fs-headline(9);
+		font-weight:200;
+	}
+
+}
+
+.second-strip, third-strip {
+	background-color: white;
+	padding:gs-height(1) 0 $gs-gutter 0;
+	color:$neutral-1;
+}
+
+.third-strip {
+	background-color: $news-support-7;
+}
+
+.standfirst-button{
+	background: $neutral-1;
+	padding: 3px 12px;
+	border-radius: 2000px;
+	color: $neutral-4;
+	@include fs-textSans(3);
+
+}
+
+.standfirst-button-selected{
+	background: $news-main-2;
+	color: $neutral-6;
+}
+
+
+
+h3, h5{
+	@include fs-header(2);
+}
