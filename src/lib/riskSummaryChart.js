@@ -26,6 +26,7 @@ import {
 
 import {
 	axisLeft as d3_axisLeft,
+	axisRight as d3_axisRight,
 	axisBottom as d3_axisBottom
 } from 'd3-axis';
 
@@ -33,9 +34,9 @@ import {
 export default function() {
 
 	let margins = {
-        top: 0,
-        bottom: 30,
-        left: 30,
+        top: 12,
+        bottom: 36,
+        left: 20,
         right: 0
     };
 
@@ -83,6 +84,7 @@ export default function() {
 		svg.append("g")
 			.attr('class', 'riskYaxis')
 
+			
 
 		let dots = svg.append("g")
 						.attr("class", "riskCircles");
@@ -106,10 +108,6 @@ export default function() {
 
     	})
 
-
-
-
-
      	drawVisual();
 
      	window.addEventListener('resize', function(){
@@ -122,8 +120,9 @@ export default function() {
 	}, 250);
 
 	function drawVisual(){
+	
 		let params = measure();
-		//console.log('drawing visual', params)
+
 
 		xscale.range([0,params.WIDTH - ( margins.left + padding.left + margins.right  + padding.right)]);
 		yscale.range([params.HEIGHT - (margins.bottom + padding.bottom + margins.top+padding.top),0]);
@@ -131,7 +130,9 @@ export default function() {
 		svgshell.attr("width",params.WIDTH).attr("height",params.HEIGHT);
 
 
-
+		//console.log('drawing visual', params, margins, 0-(params.HEIGHT-margins.top-margins.bottom))
+  
+		//setCurves
 		d3_selectAll('.riskLine')
 			.attr('d', function(data){
 				let type = d3_select(this).attr('id');
@@ -139,7 +140,8 @@ export default function() {
 				let valueline = d3_line()
 					//.curve(d3_curveBasis)
 				    .x(function(d) { return xscale(d.PM25); })
-				    .y(function(d) { return yscale(d[type]); });
+				    .y(function(d) { return yscale(d[type]); })
+
 
 				return valueline(riskCurveData);
 			})
@@ -147,15 +149,35 @@ export default function() {
 
 		// Add the X Axis
 		d3_select(".riskXaxis")
-				.attr("transform", "translate(0," + (params.HEIGHT - margins.bottom) + ")")
+				.attr("transform", "translate(0," + (params.HEIGHT - margins.bottom  - margins.top) + ")")
 				.call(d3_axisBottom(xscale));
 
 		// Add the Y Axis
 		d3_select(".riskYaxis")
-    			.call(d3_axisLeft(yscale));
+    			.call(d3_axisRight(yscale));
+
+
+    	d3_selectAll("g.riskYaxis g.tick line")
+    		.attr("x1", 0-margins.left)
+    		.attr("x2", params.WIDTH-margins.left)
+    		.attr("stroke-dasharray", "1, 3");	
+
+    	d3_selectAll("g.riskYaxis g.tick text")
+    		.attr("y", -12)
+    		.attr("x", 0-margins.left);	
+
+    	d3_selectAll("g.riskYaxis g.tick line")
+		    .filter(function (d) { return d === 0;  })
+		    .attr("class", "firstTick");				
+
+		d3_select("g.riskXaxis domain path")
+		    .attr("display", "none");
 
     	d3_selectAll('.riskCircle')
     			.attr('transform', `translate(${xscale(0)},${yscale(0)})`);
+
+
+    	customYAxis	();		
 
 	}
 
@@ -204,6 +226,19 @@ export default function() {
 
 	}
 
+
+	function customXAxis(g) {
+	  g.call(xaxis);
+	  g.select(".domain").remove();
+	}
+
+	function customYAxis() {
+	  d3_select(".riskYaxis")
+	  .select(".domain")
+	  .remove().selectAll(".tick:not(:first-of-type) line").attr("stroke", "#777").attr("stroke-dasharray", "2,2")
+	  .selectAll(".tick text").attr("x", 4).attr("dy", -12);
+	}
+
 	// Returns an attrTween for translating along the specified path element.
 	function translateAlong(path) {
 
@@ -233,4 +268,7 @@ export default function() {
 		setUserData: moveDots
 
 	}
+
+
+
 }

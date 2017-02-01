@@ -1,37 +1,124 @@
-<div class='gv-container'>
-
-	<div class='gv-slice'>
-
-		<div class='riskSummaryChart'></div>
 
 
+<div class="gv-slice first-strip">
 
+	<div class="gv-inner">
+		<div class="gv-inner-content" id="headerSlice">
+			<h1>Header here</h1>
+			<p class="gv-standfirst">
+				At vero eos et accusamus et iusto odio <span class='standfirst-button'>London</span> ducimus qui blanditiis praesentium voluptatum deleniti atque <span class='standfirst-button standfirst-button-selected'>Beijing</span> corrupti quos dolores et quas molestias excepturi sint occaecati  <span class='standfirst-button'>New York</span>  non provident, similique sunt in culpa qui  <span class='standfirst-button'>Tehran</span>  deserunt mollitia animi, id est laborum et dolorum fuga. 
+			</p>	
+		</div>
+		<div class="gv-inner-content">
+			<div class="gv-share-container">
+
+				<button class="share-twitter"></button>
+				<button class="share-facebook"></button>
+				<button class="share-mail"></button>
+
+			</div>
+		</div>	
 	</div>
-
-	<div class='gv-slice'>
-		selection box and health impact data
+</div>
 
 
-		<div class="locate">
-	        <form class="madlib js-postcode">
-	            <button class="madlib__input__btn" type="button">
-	                <svg class="icon-clear" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><path fill="currentColor" d="M21 9.8l-.8-.8-5.2 4.8-5.2-4.8-.8.8 4.8 5.2-4.8 5.2.8.8 5.2-4.8 5.2 4.8.8-.8-4.8-5.2 4.8-5.2"/></svg>
-	                <svg class="icon-submit" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><path fill="currentColor" d="M22.82 14.63l-7.62-7.63-.72.7 5.5 6.57h-13.98v1.46h13.97l-5.5 6.56.73.7 7.62-7.63v-.74"/></svg>
-	            </button>
-	            <button class="madlib__location js-gps" type="button">
-	                <svg width="30" height="30" viewBox="-3 -3 30 30" xmlns="http://www.w3.org/2000/svg">
-	                    <path d="M0 0h24v24H0z" fill="none"/>
-	                    <path fill="currentColor" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3c-.46-4.17-3.77-7.48-7.94-7.94V1h-2v2.06C6.83 3.52 3.52 6.83 3.06 11H1v2h2.06c.46 4.17 3.77 7.48 7.94 7.94V23h2v-2.06c4.17-.46 7.48-3.77 7.94-7.94H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/>
-	                </svg>
-	            </button>
-	            <div class="madlib__input">
-	                <input class="madlib__input__text" type="text" placeholder="your city" required />
-	            </div>
-	        </form>
-	    </div>
+
+<div class='gv-slice  second-strip'>
+		<div class="gv-inner">
+			<div class="gv-section-title">
+					<h5>Search for your city</h5>
+
+					<div class="locate">
+				        <form class="madlib js-postcode">
+				            <button class="madlib__input__btn" type="button">
+				                <svg class="icon-clear" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><path fill="currentColor" d="M21 9.8l-.8-.8-5.2 4.8-5.2-4.8-.8.8 4.8 5.2-4.8 5.2.8.8 5.2-4.8 5.2 4.8.8-.8-4.8-5.2 4.8-5.2"/></svg>
+				                <svg class="icon-submit" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><path fill="currentColor" d="M22.82 14.63l-7.62-7.63-.72.7 5.5 6.57h-13.98v1.46h13.97l-5.5 6.56.73.7 7.62-7.63v-.74"/></svg>
+				            </button>
+				            <button class="madlib__location js-gps" type="button">
+				                <svg width="30" height="30" viewBox="-3 -3 30 30" xmlns="http://www.w3.org/2000/svg">
+				                    <path d="M0 0h24v24H0z" fill="none"/>
+				                    <path fill="currentColor" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3c-.46-4.17-3.77-7.48-7.94-7.94V1h-2v2.06C6.83 3.52 3.52 6.83 3.06 11H1v2h2.06c.46 4.17 3.77 7.48 7.94 7.94V23h2v-2.06c4.17-.46 7.48-3.77 7.94-7.94H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/>
+				                </svg>
+				            </button>
+				            <div class="madlib__input">
+				                <input class="madlib__input__text" type="text" placeholder="your city" required />
+				            </div>
+				        </form>
+				    </div>
+
+				    <div class='rank-list'>
+				    	<h5>Risk of diseases your city</h5>
+				    	<ul class='rank-list'>
+
+								<li>
+									<div class='led-high' id='riskSlot1'></div>
+									<div class='gv-small-sans'>HIGH RISK<br/>heart disease</div>
+									
+								</li>
+
+								<li>
+									<div class='led-med' id='riskSlot2'></div>		
+									<div class='gv-small-sans'>MEDIUM RISK<br/>respiratory disease</div>
+											
+								</li>	
+
+								<li>
+									<div class='led-low' id='riskSlot3'></div>	
+									<div class='gv-small-sans'>LOW RISK<br/>infant mortality</div>
+									
+								</li>	
+
+								<li>
+									<div class='led-low' id='riskSlot4'></div>
+									<div class='gv-small-sans'>LOW RISK<br/>sick day</div>
+									
+								</li>		
+
+						</ul>
+
+				    </div>
+		 </div>
 
 
-	</div>
+
+			<div class="gv-inner-content">
+					<div class="gv-graph-header">
+						<h3>Title of the graph here</h3>
+					</div>
+		
+					<div class="gv-keys">
+						<div class="gv-key-item">
+							<span class="gv-key-color color-one"></span>
+							<span class="gv-key-text">Line 1</span>
+						</div>
+						<div class="gv-key-item">
+							<span class="gv-key-color color-two"></span>
+							<span class="gv-key-text">Line 2</span>
+						</div>
+						<div class="gv-key-item">
+							<span class="gv-key-color color-three"></span>
+							<span class="gv-key-text">Line 3</span>
+						</div>
+						<div class="gv-key-item">
+							<span class="gv-key-color color-four"></span>
+							<span class="gv-key-text">Line 4</span>
+						</div>
+						<div class="gv-key-item">
+							<span class="gv-key-color color-five"></span>
+							<span class="gv-key-text">Line 5</span>
+						</div>
+					</div>
+
+			
+
+				<div class='riskSummaryChart'>
+
+				</div>
+
+			</div>	
+		</div>
+</div>
+
 
 	<div class='gv-slice'>
 		<h1>The number of cities by percentage of increased risk</h1>
@@ -70,6 +157,7 @@
 
 	<div class='gv-slice'>
 		chart showing global ammounts
-	</div>
+	</div> 
+
 
 </div>

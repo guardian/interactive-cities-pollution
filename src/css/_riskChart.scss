@@ -1,36 +1,143 @@
+$axis-neutral: $neutral-3;
+
+$graph-1: $news-main-1;
+$graph-2: $news-main-2;
+$graph-3:  $news-support-1;
+$graph-4:  $news-support-2;
+$graph-5:  $news-support-3;
+
+
+.gv-graph-header{
+	width:100%;
+	margin-bottom: $gs-baseline;
+}
+
+
+.gv-key-text{
+		@include fs-textSans(1);
+		fill: $axis-neutral;
+		color: $axis-neutral;
+	}
+
+
+.gv-key-item{
+	white-space: nowrap; 
+	display: inline-block; 
+	margin-right: 12px;
+}
+
+
+.gv-key-color{
+		display: inline-block; 
+		width: 7px; 
+		height: 11px; 
+		margin-right: 4px; 
+		border-radius: 2px; 
+		
+	}
+
+
+
+.color-one{
+	background-color: $graph-1;
+}
+
+.color-two{
+	background-color: $graph-2;
+}
+.color-three{
+	background-color:  $graph-5;
+}
+
+.color-four{
+	background-color:  $graph-4;
+}
+
+.color-five{
+	background-color:  $graph-5;
+}
 
 
 .riskSummaryChart {
 	max-width: 860px;
 	overflow: hidden;
 
+
 	.riskLine {
 		fill: none;
 		stroke-width: 2px;
 
 		&.r {
-			stroke: #a9d700;
+			stroke: $graph-1;
 		}
 
 		&.p {
-			stroke: #4cc5dc;
+			stroke: $graph-2;
 		}
 
 		&.h {
-			stroke: #005688;
+			stroke: $graph-3;
 		}
 
 		&.l {
-			stroke: #f36f21;
+			stroke: $graph-4;
 		}
 
 		&.s {
-			stroke: #fdb813;
+			stroke: $graph-5;
 		}
 
 		&.dataVisible {
 			stroke-opacity: .25;
 		}
+	}
+
+	.firstTick{
+		stroke-dasharray: none;
+		stroke-width: 1px;
+
+	}
+
+	.tick{
+		stroke-width:1px;
+		@include fs-textSans(1);
+		fill: $axis-neutral;
+		// stroke: $axis-neutral !important;
+		shape-rendering: crispEdges;
+		// stroke-dasharray: 1, 5;
+	}
+
+	.tick text{
+		fill: $axis-neutral;
+
+		stroke:none;
+	}
+
+	.axes path, .axes line {
+		    fill: none;
+		    stroke: $axis-neutral;
+		    shape-rendering: crispEdges;
+	}
+
+	.riskYaxis{
+		fill: none;
+		    stroke: $axis-neutral;
+		    shape-rendering: crispEdges;
+	}
+
+	.riskYaxis line , .riskXaxis line{
+		fill: none;
+		    stroke: $axis-neutral;
+		    shape-rendering: crispEdges;
+	}
+
+	.riskYaxis path{
+		stroke:none;
+	}
+
+	.riskXaxis path{
+		stroke: $axis-neutral;
+		    shape-rendering: crispEdges;
 	}
 
 
