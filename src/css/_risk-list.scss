@@ -1,10 +1,10 @@
 .rank-list{
 	list-style-type: none;
 	max-width:620px;
-	margin:$gs-baseline 0;
-
-	@media(min-width:980px){
-			border-bottom: none; 
+	
+	margin:$gs-baseline 0 gs-height(1) 0;
+	@media(min-width:1140px){
+		margin:$gs-baseline 0;		
 	}
 
 
@@ -18,7 +18,7 @@
 	border-right: 1px solid $neutral-5;
 	border-bottom:  none;
 
-	@media(min-width:980px){
+	@media(min-width:1140px){
 			display:block;
 			width:gs-span(2);
 			height:60px;
