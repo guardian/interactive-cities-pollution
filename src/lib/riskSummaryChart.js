@@ -174,7 +174,7 @@ export default function() {
 		    .attr("display", "none");
 
     	d3_selectAll('.riskCircle')
-    			.attr('transform', `translate(${xscale(0)},${yscale(0)})`);
+    		.attr('transform', `translate(${xscale(0)},${yscale(0)})`);
 
 
     	customYAxis	();		
