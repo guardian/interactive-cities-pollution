@@ -1,0 +1,45 @@
+$grad1: $neutral-1;
+$grad2: $lightBlue;
+$headerAniTime : 90s;
+$aniEaseMode: linear;
+
+.header-background {
+            background: url("<%= path %>/assets/se-london.jpg"),linear-gradient(180deg, $grad1, $grad2);  
+            background-size: 200% 200%;
+            -webkit-animation: headerAni $headerAniTime $aniEaseMode infinite;
+            -moz-animation: headerAni $headerAniTime $aniEaseMode infinite;
+            -o-animation: headerAni $headerAniTime $aniEaseMode infinite;
+            animation: headerAni $headerAniTime $aniEaseMode infinite;
+            min-height: 100% !important;
+            min-width:100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-blend-mode: multiply;
+        }
+
+        @-webkit-keyframes headerAni {
+            0%{background-position:0% 0% }
+            50%{background-position:100% 0% }
+            100%{background-position:0% 0%}
+        }
+        @-moz-keyframes headerAni {
+             0%{background-position:0% 0% }
+            50%{background-position:100% 0% }
+            100%{background-position:0% 0%}
+        }
+        @-o-keyframes headerAni {
+             0%{background-position:0% 0% }
+            50%{background-position:100% 0% }
+            100%{background-position:0% 0%}
+        }
+        @keyframes headerAni {
+            0%{background-position:0% 0% }
+            50%{background-position:100% 0% }
+            100%{background-position:0% 0%}
+
+        }
+
+
+.header-word-svg{
+  fill:$neutral-6;
+}        

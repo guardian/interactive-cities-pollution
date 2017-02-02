@@ -1,1 +1,10 @@
 @import 'bower_components/guss-typography/_typography.scss';
+
+
+@font-face {
+    font-family: 'Guardian Egyptian Web';
+    src: url('https://interactive.guim.co.uk/fonts/displaysans/fonts/guss-webfonts/GuardianEgyptianWeb/GuardianEgyptianWeb-Light.woff') format('woff2'),
+         url('https://interactive.guim.co.uk/fonts/displaysans/fonts/guss-webfonts/GuardianEgyptianWeb/GuardianEgyptianWeb-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}

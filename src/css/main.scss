@@ -1,3 +1,8 @@
+$darkBlue: #197CAA;
+$lightBlue: #4BC6DF;
+$pink: #DC2A7D;
+
+
 @import "mq";
 @import "fonts";
 @import "grid";
@@ -10,6 +15,7 @@
 @import "riskChart";
 @import "risk-list";
 @import "led-light";
+@import "header-area";
 @import "share-container";
 
 // Uncomment for embeds
@@ -36,9 +42,7 @@
 // }
 
 
-$darkBlue: #197CAA;
-$lightBlue: #4BC6DF;
-$pink: #DC2A7D;
+
 
 .element-atom,.interactive-atom{
     margin:0 !important;
