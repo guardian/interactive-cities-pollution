@@ -62,5 +62,49 @@
 	.riskCircle-s {
 		fill: #fdb813;
 	}
-	
+
+}
+
+.riskByTypesCharts {
+	width: 100%;
+	overflow: hidden;
+
+
+
+
+	.riskLineByType {
+		fill:none;
+		stroke-width: 2px;
+
+
+		&.r {
+			stroke: #a9d700;
+		}
+
+		&.p {
+			stroke: #4cc5dc;
+		}
+
+		&.h {
+			stroke: #005688;
+		}
+
+		&.l {
+			stroke: #f36f21;
+		}
+
+		&.s {
+			stroke: #fdb813;
+		}
+
+	}
+
+}
+
+
+
+.riskTypeContainer {
+	width: 30%;
+	display: inline-block;
+	vertical-align: bottom;
 }

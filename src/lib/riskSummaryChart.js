@@ -60,17 +60,17 @@ export default function() {
 
 	let lineTypes = ['r', 'p', 'h', 'l', 's'];
 
-    
+
 
 
     function buildVisual(){
-		console.log("BUILDING VISUAL")
-   	
+		//console.log("BUILDING VISUAL")
+
     	svgshell = container.append("svg")
-    	
+
     	svg = svgshell.append('g')
     				.attr("transform", `translate(${margins.left}, ${margins.top})`)
-			
+
 
     	xscale.domain(extents.pm25);
 		yscale.domain(extents.dataRange);
@@ -86,11 +86,11 @@ export default function() {
 
 		let dots = svg.append("g")
 						.attr("class", "riskCircles");
-    	
+
 
     	lineTypes.forEach(function(l){
     		let typeGroup = svg.append("g")
-    		
+
     		typeGroup.append('path')
     			.attr("class", d => `riskLine riskLineBase ${l}`)
     			.attr("id", l)
@@ -108,8 +108,8 @@ export default function() {
 
 
 
-		
-	    
+
+
      	drawVisual();
 
      	window.addEventListener('resize', function(){
@@ -123,19 +123,19 @@ export default function() {
 
 	function drawVisual(){
 		let params = measure();
-		console.log('drawing visual', params)
+		//console.log('drawing visual', params)
 
 		xscale.range([0,params.WIDTH - ( margins.left + padding.left + margins.right  + padding.right)]);
 		yscale.range([params.HEIGHT - (margins.bottom + padding.bottom + margins.top+padding.top),0]);
 
 		svgshell.attr("width",params.WIDTH).attr("height",params.HEIGHT);
-	
+
 
 
 		d3_selectAll('.riskLine')
 			.attr('d', function(data){
 				let type = d3_select(this).attr('id');
-		
+
 				let valueline = d3_line()
 					//.curve(d3_curveBasis)
 				    .x(function(d) { return xscale(d.PM25); })
@@ -174,7 +174,7 @@ export default function() {
 		d3_selectAll('.riskLineUser')
 			.attr('d', function(data){
 				let type = d3_select(this).attr('id');
-		
+
 				let valueline = d3_line()
 					//.curve(d3_curveBasis)
 				    .x(function(d) { return xscale(d.PM25); })
@@ -206,8 +206,7 @@ export default function() {
 
 	// Returns an attrTween for translating along the specified path element.
 	function translateAlong(path) {
-		console.log('HERE HERE', path)
-		
+
 
 	  var l = path.getTotalLength();
 	  return function(d, i, a) {
@@ -235,4 +234,3 @@ export default function() {
 
 	}
 }
-

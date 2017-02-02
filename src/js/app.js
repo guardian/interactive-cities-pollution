@@ -1,6 +1,7 @@
 import csvToJson from '../lib/csvToJson'
 import findUser from '../lib/findUser'
 import riskSummaryChart from '../lib/riskSummaryChart'
+import riskByTypeCharts from '../lib/riskByTypeCharts'
 import cities_csv from '../data/pollution_geolocated.csv'
 
 
@@ -24,6 +25,10 @@ function init(){
 
 
 
+	//initialize risk small multiples
+	let riskMultiples = riskByTypeCharts(cities);
+	riskMultiples.init();
+	//userControls.registerListener(summaryChart.setUserData);
 
 
 }
