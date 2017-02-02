@@ -1,9 +1,14 @@
+#headerSlice{
+	padding: gs-height(1) 0 $gs-baseline;
+}
+
+
 .gv-standfirst{
 	max-width:620px;
 }
 
-.first-strip , .second-strip, .third-strip {
-	padding: gs-height(5) 0 $gs-gutter 0;
+.first-strip, .social-strip, .second-strip, .third-strip {
+	margin: 0 0 gs-height(1) 0;
 	background-color: $news-support-7;
 	color:$neutral-6;
 	border:none;
@@ -16,6 +21,7 @@
 }
 
 .second-strip, third-strip {
+	margin: 0 0 $gs-gutter 0;
 	background-color: white;
 	padding:gs-height(1) 0 $gs-gutter 0;
 	color:$neutral-1;
