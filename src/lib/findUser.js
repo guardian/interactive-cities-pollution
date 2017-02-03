@@ -3,11 +3,13 @@ import sendEvent from '../lib/event'
 import geocode from '../lib/geocode'
 import distance from '../lib/distance'
 import toTitleCase from '../lib/toTitleCase'
+import awesomeplete from 'awesomplete'
+
 
 export default function (cities) {
-	
+
     var listeners = [];
-	var userLocationEl = document.querySelector('.js-gps');
+		var userLocationEl = document.querySelector('.js-gps');
 
     window.addEventListener('show-force', evt => {
         document.querySelector('.placeholder').style.display = 'none';
@@ -16,7 +18,14 @@ export default function (cities) {
 
 
 
+		/* AUTO COMPLETE FUNCTIONALITY */
 
+		var input = document.getElementById("awesomeplete_input");
+		var awesomplete = new Awesomplete(input, {
+
+		  autoFirst: true
+		});
+		awesomplete.list = ["China", "India", "Japan", "Russia", "UK", "USA"];
 
 
 
@@ -25,14 +34,14 @@ export default function (cities) {
 
     //get user location via browser lat/long
     madlib(document.querySelector('.js-postcode'), loc => {
-       
+
         geocode(loc, (err, resp) => {
             if (!err) {
                 var center = resp.features[0].center;
                 sendEvent('location', {'latlng': [center[1], center[0]]});
             }
         });
-        
+
     });
 
     //turn on the auto locate button if available
@@ -67,7 +76,7 @@ export default function (cities) {
         var city = rankedCities[0].city;
         var howFar = rankedCities[0].distance;
 
-    
+
         console.log(rankedCities[0])
         updateListeners(rankedCities[0].city);
     });
@@ -89,5 +98,5 @@ export default function (cities) {
     return {
         registerListener: registerListener
     }
- 
+
 }

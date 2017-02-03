@@ -48,6 +48,8 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "autocomplete-js": "^2.3.0",
+    "awesomplete": "^1.1.1",
     "reqwest": "^2.0.5",
     "xr": "^0.2.0"
   }
