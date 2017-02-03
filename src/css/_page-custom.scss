@@ -1,10 +1,9 @@
-#headerSlice{
-	padding: gs-height(1) 0 $gs-baseline;
+h3, h5{
+	@include fs-header(2);
 }
 
-
-.gv-standfirst{
-	max-width:620px;
+#headerSlice{
+	padding: gs-height(1) 0 $gs-baseline;
 }
 
 .first-strip, .social-strip, .second-strip, .third-strip {
@@ -45,8 +44,43 @@
 	color: $neutral-6;
 }
 
-
-
-h3, h5{
-	@include fs-header(2);
+.gv-standfirst{
+	max-width:560px;
 }
+
+.gv-standfirst-holder{
+	position:relative;
+	z-index:200;
+	margin: 0 -20px;
+	padding:$gs-baseline 0 0 20px;
+	background-color:rgba($neutral-1 ,0.9);
+	color:$neutral-6;
+	max-width:720px;
+
+	@media(min-width:740px){
+		
+		margin: 0 0 0 -20px;
+		padding:$gs-baseline 0 0 20px;
+	
+	}
+
+	@media(min-width:980px){
+		
+		margin: -220px 0 0 -20px;
+		
+	
+	}
+
+	h1{
+		@include fs-header(5);
+		font-weight:900;
+		font-size:44px;
+		line-height:48px;
+	}
+
+}
+
+.first-strip{
+	min-height: gs-height(5);
+}
+

@@ -8,6 +8,7 @@ $pink: #DC2A7D;
 @import "grid";
 @import "custom-palette";
 
+@import "header-area";
 @import "locator";
 @import "madlib";
 
@@ -15,7 +16,7 @@ $pink: #DC2A7D;
 @import "riskChart";
 @import "risk-list";
 @import "led-light";
-@import "header-area";
+
 @import "share-container";
 
 // Uncomment for embeds
@@ -127,10 +128,12 @@ $pink: #DC2A7D;
 	img{
 		width:100%;
 	}
-    .gv-header-standfirst{
-        margin-top:18px;
-        margin-bottom:30px;
-    }
+
+  .gv-header-standfirst{
+      margin-top:18px;
+      margin-bottom:30px;
+  }
+  
 	h2{
 		font-size:21px;
 		font-weight:100;

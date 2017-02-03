@@ -1,10 +1,12 @@
-$grad1: $neutral-1;
-$grad2: $lightBlue;
+$grad1: $news-support-7;
+$grad2: $news-support-6;
 $headerAniTime : 90s;
 $aniEaseMode: linear;
 
+$background-grad:linear-gradient(180deg, $grad1, $grad2);
+
 .header-background {
-            background: url("<%= path %>/assets/se-london.jpg"),linear-gradient(180deg, $grad1, $grad2);  
+            background:linear-gradient(180deg, $grad1, $grad2);  
             background-size: 200% 200%;
             -webkit-animation: headerAni $headerAniTime $aniEaseMode infinite;
             -moz-animation: headerAni $headerAniTime $aniEaseMode infinite;
@@ -42,4 +44,96 @@ $aniEaseMode: linear;
 
 .header-word-svg{
   fill:$neutral-6;
-}        
+}   
+
+
+.gv-header-list{
+    display: block;
+    position:relative;
+    z-index:100;
+    list-style-type: none;
+    width:100%;
+    max-width:1300px;
+    height:gs-height(5);
+    margin:0; 
+
+    @media(min-width:980px){
+            display: flex;
+            height:480px;
+        }
+}
+
+.gv-header-list-text{
+    @include fs-header(3)
+    color:$neutral-2;
+    // padding: 0 0 0 $gs-gutter;
+    padding:$gs-baseline $gs-gutter;
+    //border-right: 1px solid $neutral-3;
+}
+
+.gv-header-list-text-selected{
+    color:$multimedia-main-2;
+}
+
+.gv-inner-header{
+    padding:0 !important;
+}
+
+
+.gv-header-list li:first-child{
+    background: url('<%= path %>/assets/city-pics/tehran.jpg'), $background-grad;
+}
+
+
+.gv-header-list  li:nth-child(2){
+    background: url('<%= path %>/assets/city-pics/london.jpg'), $background-grad;
+
+}
+
+.gv-header-list  li:nth-child(3){
+    background: url('<%= path %>/assets/city-pics/beijing.jpg'), $background-grad;
+
+}
+
+.gv-header-list  li:nth-child(4){
+    background: url('<%= path %>/assets/city-pics/mexico-city.jpg'), $background-grad;
+
+}
+
+.gv-header-list li:last-child{
+    background: url('<%= path %>/assets/city-pics/new-delhi.jpg'), $background-grad;
+
+}
+
+.gv-header-list li{
+    display:block;
+    height:20%;
+    width:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;   
+    background-size: 100%;
+   
+
+    @media(min-width:980px){
+            display:inline-block;
+            width: gs-span(3); //16%;
+            height:100%;
+    }
+}
+
+
+
+
+.gv-header-list li:first-child, .gv-header-list li:last-child  { 
+
+
+        @media(min-width:980px){
+            width: gs-span(4)+$gs-gutter;//26%; 
+            height:100%;
+        }
+
+}
+
+
+
