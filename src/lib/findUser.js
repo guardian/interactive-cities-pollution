@@ -17,6 +17,12 @@ export default function (cities) {
     });
 
 
+		var list = [];
+
+		cities.forEach(function(c){
+			list.push (`${c.city}, ${c.country}`);
+		})
+
 
 		/* AUTO COMPLETE FUNCTIONALITY */
 		//  https://www.sitepoint.com/javascript-autocomplete-widget-awesomplete/
@@ -25,7 +31,7 @@ export default function (cities) {
 
 		  autoFirst: true
 		});
-		awesomplete.list = ["China", "India", "Japan", "Russia", "UK", "USA"];
+		awesomplete.list = list;
 
 
 
