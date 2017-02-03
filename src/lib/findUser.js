@@ -19,7 +19,7 @@ export default function (cities) {
 
 
 		/* AUTO COMPLETE FUNCTIONALITY */
-
+		//  https://www.sitepoint.com/javascript-autocomplete-widget-awesomplete/
 		var input = document.getElementById("awesomeplete_input");
 		var awesomplete = new Awesomplete(input, {
 
