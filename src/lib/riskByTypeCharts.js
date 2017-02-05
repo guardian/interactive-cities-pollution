@@ -82,7 +82,7 @@ export default function(cities) {
   function init(){
 
     lineTypes.forEach(function(type){
-      var chart = stepChart(type, cities);
+      var chart = stepChart(type);
       chart.drawVisual();
       charts.push( chart );
     })
@@ -104,14 +104,14 @@ export default function(cities) {
 
 
 
-function stepChart(type, cities){
+function stepChart(type){
 
-  let chart = buildVisual(type, cities);
+  let chart = buildVisual(type);
 
   return chart;
 }
 
-function buildVisual(type, cities){
+function buildVisual(type){
   console.log("BUILDING VISUAL")
 
   let curveData = nestedData.find(function(d){
