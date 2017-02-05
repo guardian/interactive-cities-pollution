@@ -36,7 +36,7 @@ h3, h5{
 	border-radius: 2000px;
 	color: $neutral-4;
 	@include fs-textSans(3);
-
+	cursor: pointer;
 }
 
 .standfirst-button-selected{
@@ -52,23 +52,23 @@ h3, h5{
 	position:relative;
 	z-index:200;
 	margin: 0 -20px;
-	padding:$gs-baseline 0 0 20px;
+	padding:$gs-baseline 0 20px 20px;
 	background-color:rgba($neutral-1 ,0.9);
 	color:$neutral-6;
 	max-width:720px;
 
 	@media(min-width:740px){
-		
+
 		margin: 0 0 0 -20px;
-		padding:$gs-baseline 0 0 20px;
-	
+		padding:$gs-baseline 0 20px 20px;
+
 	}
 
 	@media(min-width:980px){
-		
+
 		margin: -220px 0 0 -20px;
-		
-	
+
+
 	}
 
 	h1{
@@ -83,4 +83,3 @@ h3, h5{
 .first-strip{
 	min-height: gs-height(5);
 }
-

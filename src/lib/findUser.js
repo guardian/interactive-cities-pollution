@@ -10,6 +10,17 @@ export default function (cities) {
     var listeners = [];
 		var userLocationEl = document.querySelector('.js-gps');
 
+    /* STANDFIRST BUTTON FUNCTIONALITY */
+    var stBtns = document.querySelectorAll('.standfirst-button');
+    stBtns.forEach(el => {
+      el.addEventListener('click', e =>{
+
+        let source = e.target || e.srcElement;
+        let city = matchCity(source.getAttribute('data-city'));
+        document.getElementById("awesomeplete_input").value = `${toTitleCase(city.city)}, ${city.country}`
+        updateListeners(city);
+      })
+    })
 
 
 		/* AUTO COMPLETE FUNCTIONALITY */
@@ -25,13 +36,15 @@ export default function (cities) {
 		});
 
     window.addEventListener('awesomplete-selectcomplete', e => {
-      console.log(e.text.label)
-      var city = cities.filter(c => {
-        return (e.text.label == `${toTitleCase(c.city)}, ${c.country}`) ? true : false;
-      })[0]
+      var city = matchCity(e.text.label)
       updateListeners(city);
     })
 
+    function matchCity (label){
+      return cities.filter(c => {
+        return (label == `${toTitleCase(c.city)}, ${c.country}`) ? true : false;
+      })[0];
+    }
 
 
 
