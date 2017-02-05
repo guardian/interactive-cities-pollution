@@ -5,6 +5,8 @@ import {
 	//curveBasis as d3_curveBasis
 } from 'd3-shape';
 
+import { nest as d3_nest } from 'd3-collection';
+
 import {
     select as d3_select,
     selectAll as d3_selectAll
@@ -20,7 +22,8 @@ import {
 
 import {
 	scalePoint,
-    scaleLinear
+    scaleLinear,
+    scaleQuantile
 } from 'd3-scale';
 
 import {
@@ -49,6 +52,8 @@ export default function(cities) {
 	let container=d3_select('.continentSummary')
 
 	let svgshell, svg;
+
+  let regionData = processData(cities);
 
   let extents = {
       pm25: d3_extent(cities,d=>d.PM25)
@@ -95,8 +100,29 @@ export default function(cities) {
 	}
 
   function processData(cities){
+    console.log('summary:', cities)
+
+  	let continentNested = d3_nest()
+  										.key(function(d) {
+  												return d.continent;
+  										})
+  										//.rollup(function(group) { return group.length; })
+  										.entries(cities);
+
+    continentNested.forEach(d => {
 
 
+      // var scale = scaleQuantile()
+      //     .domain(d.values)
+      //     .range(['first', 'second', 'third', 'fourth']);
+      //
+      // d.quantiles = scale.quantiles();
+      // console.log(d)
+    })
+
+
+
+    console.log( continentNested)
 
   }
 

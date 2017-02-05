@@ -3,7 +3,7 @@ import findUser from '../lib/findUser'
 import riskSummaryChart from '../lib/riskSummaryChart'
 import continentSummary from '../lib/continentSummary'
 import cities_csv from '../data/pollution_geolocated.csv'
-import continent_csv from '../data/countryToContinent.csv'
+import continent from '../data/countryToContinent.json'
 
 
 let summaryChart;
@@ -14,16 +14,15 @@ function init(){
 
 	//list of cities parsed from csv
 	let cities = csvToJson(cities_csv, "\t");
-	let continent = csvToJson(continent_csv, ",");
-	cities.forEach(c => {
-		if(c.city in continent){
-			c.continent = continent[c.city];
-		} else {
-			console.log(c.city, c.continent)
-		}		
-	})
-
+	//let continent = csvToKeyValue(continent_csv, ",");
 	console.log(continent)
+	cities.forEach(c => {
+		if(c.country in continent){
+			c.continent = continent[c.country];
+		} else {
+			console.log('not found', c.city, c.country, c.continent)
+		}
+	})
 
 	//initializes find user class
 	let userControls = findUser(cities);
