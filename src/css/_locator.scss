@@ -1,5 +1,5 @@
 .gv-locate-btn {
-  background: #005689;
+  background-color: #005689;
   color: #fff;
   @include fs-textSans(1);
   line-height: 19px;
@@ -15,6 +15,13 @@
   display: inline-block;
   cursor: pointer;
 
+  &[data-is-loading] {
+    animation-name: loadinganim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+  }
+
   svg {
     position: absolute;
     height: 35px;
@@ -23,4 +30,10 @@
     top: 1px;
   }
 
+}
+
+@keyframes loadinganim {
+    0% {background-color: #005689;}
+    50% {background-color: #eaeaea;}
+    100% {background-color: #005689;}
 }

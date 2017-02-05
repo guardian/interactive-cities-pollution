@@ -42,8 +42,9 @@ export default function (cities) {
     /* AUTO FIND FUNCTIONALITY */
 
     //get user location via browser lat/long
-    document.querySelector('.gv-locate-btn').addEventListener('click', loc => {
-
+    var locateBtn = document.querySelector('.gv-locate-btn');
+    locateBtn.addEventListener('click', loc => {
+        locateBtn.setAttribute('data-focus', 'true');
         geocode(loc, (err, resp) => {
             if (!err) {
                 var center = resp.features[0].center;
