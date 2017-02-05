@@ -82,29 +82,36 @@ export default function(cities) {
   function init(){
 
     lineTypes.forEach(function(type){
-      var chart = stepChart(type);
+      var chart = stepChart(type, cities);
       chart.drawVisual();
       charts.push( chart );
     })
 
   }
 
+	function setUserData(userData){
+		charts.forEach(c =>{
+			c.displayUserData(userData);
+		})
+	}
+
   return {
-    init: init
+    init: init,
+		setUserData: setUserData
   }
 
 }
 
 
 
-function stepChart(type){
+function stepChart(type, cities){
 
-  let chart = buildVisual(type);
+  let chart = buildVisual(type, cities);
 
   return chart;
 }
 
-function buildVisual(type){
+function buildVisual(type, cities){
   console.log("BUILDING VISUAL")
 
   let curveData = nestedData.find(function(d){
@@ -180,11 +187,34 @@ function buildVisual(type){
     }
   }
 
+	function displayUserData(userData){
+		console.log(type, userData)
+
+
+
+		let nested = d3_nest()
+											.key(function(d) {
+													if(d[type] > userData[type]){
+														return 'below'
+													} else if(d[type] == userData[type]){
+														return 'equal'
+													} else if(d[type] < userData[type]){
+														return 'greater'
+													}
+											})
+											.rollup(function(group) { return group.length; })
+											.entries(cities);
+											console.log(type, nested)
+
+
+	}
+
   return {
     container: container,
     svg: svg,
     type: type,
-    drawVisual: drawVisual
+    drawVisual: drawVisual,
+		displayUserData: displayUserData
   };
 }
 
