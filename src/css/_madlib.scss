@@ -1,18 +1,13 @@
 .madlib {
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid #bdbdbd;
-    border-radius: 100px;
-    background: white;
-    max-width: 190px;
-    overflow: hidden;
-    margin-right: 3px;
-    margin: $gs-baseline 0;
+
 }
 
 .madlib__input {
-    overflow: hidden;
+  display: inline-block;
 }
+
 
 .madlib__input__text {
     @include f-headline;
@@ -113,7 +108,7 @@
     transition: 0.1s background-color ease-out;
 
     color: #333;
-    background-color: #dcdcdc;
+    background-color: #005689;
     &:hover {
         background-color: #bdbdbd;
     }
@@ -159,17 +154,21 @@
     transition: 0.1s background ease-out;
     color: #333;
     background: #dcdcdc;
-    &:hover {
-        background: #bdbdbd;
-    }
+    // &:hover {
+    //     background: #bdbdbd;
+    // }
+    //
+    // &[data-is-loading] {
+    //     -webkit-animation: loading 0.5s infinite;
+    //     animation: loading 0.5s infinite;
+    // }
+    //
+    // &[data-has-error] {
+    //     -webkit-animation: error 0.5s 1;
+    //     animation: error 0.5s 1;
+    // }
 
-    &[data-is-loading] {
-        -webkit-animation: loading 0.5s infinite;
-        animation: loading 0.5s infinite;
-    }
+    svg {
 
-    &[data-has-error] {
-        -webkit-animation: error 0.5s 1;
-        animation: error 0.5s 1;
     }
 }

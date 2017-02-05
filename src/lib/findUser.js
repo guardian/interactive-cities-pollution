@@ -1,43 +1,62 @@
-import madlib from '../lib/madlib'
 import sendEvent from '../lib/event'
 import geocode from '../lib/geocode'
 import distance from '../lib/distance'
 import toTitleCase from '../lib/toTitleCase'
+import awesomeplete from 'awesomplete'
+
 
 export default function (cities) {
-	
+
     var listeners = [];
-	var userLocationEl = document.querySelector('.js-gps');
-
-    window.addEventListener('show-force', evt => {
-        document.querySelector('.placeholder').style.display = 'none';
-        document.querySelector('.data').style.display = 'block';
-    });
+		var userLocationEl = document.querySelector('.js-gps');
 
 
 
+		/* AUTO COMPLETE FUNCTIONALITY */
+		//  https://www.sitepoint.com/javascript-autocomplete-widget-awesomplete/
+		var input = document.getElementById("awesomeplete_input");
+		var awesomplete = new Awesomplete(input, {
+      list: cities,
+		  autoFirst: true,
+      data: function (item, input) {
+        return { label: `${toTitleCase(item.city)}, ${item.country}`, value: `${toTitleCase(item.city)}, ${item.country}` };
+      }
+
+		});
+
+    window.addEventListener('awesomplete-selectcomplete', e => {
+      console.log(e.text.label)
+      var city = cities.filter(c => {
+        return (e.text.label == `${toTitleCase(c.city)}, ${c.country}`) ? true : false;
+      })[0]
+      updateListeners(city);
+    })
 
 
+
+
+    console.log('awesomeplete ready', awesomplete)
 
 
 
     /* AUTO FIND FUNCTIONALITY */
 
     //get user location via browser lat/long
-    madlib(document.querySelector('.js-postcode'), loc => {
-       
+    var locateBtn = document.querySelector('.gv-locate-btn');
+    locateBtn.addEventListener('click', loc => {
+        locateBtn.setAttribute('data-focus', 'true');
         geocode(loc, (err, resp) => {
             if (!err) {
                 var center = resp.features[0].center;
                 sendEvent('location', {'latlng': [center[1], center[0]]});
             }
         });
-        
+
     });
 
     //turn on the auto locate button if available
     if ('geolocation' in navigator) {
-        userLocationEl.style.display = 'block';
+        userLocationEl.style.display = 'inline-block';
         userLocationEl.addEventListener('click', () => {
             userLocationEl.removeAttribute('data-has-error');
             userLocationEl.setAttribute('data-is-loading', '');
@@ -67,9 +86,8 @@ export default function (cities) {
         var city = rankedCities[0].city;
         var howFar = rankedCities[0].distance;
 
-    
-        console.log(rankedCities[0])
-        updateListeners(rankedCities[0].city);
+        document.getElementById("awesomeplete_input").value = `${toTitleCase(city.city)}, ${city.country}`
+        updateListeners(city);
     });
 
 
@@ -89,5 +107,5 @@ export default function (cities) {
     return {
         registerListener: registerListener
     }
- 
+
 }
