@@ -28,7 +28,7 @@ function init(){
 	//initialize risk small multiples
 	let riskMultiples = riskByTypeCharts(cities);
 	riskMultiples.init();
-	//userControls.registerListener(summaryChart.setUserData);
+	userControls.registerListener(riskMultiples.setUserData);
 
 
 }
