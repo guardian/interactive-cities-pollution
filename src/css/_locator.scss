@@ -1,37 +1,26 @@
+.gv-locate-btn {
+  background: #005689;
+  color: #fff;
+  @include fs-textSans(1);
+  line-height: 19px;
+  font-weight: bold;
+  border-radius: 100px;
+  border: 0;
+  outline: 0;
+  margin-right: 6px;
+  line-height: 35px;
+  vertical-align: middle;
+  position: relative;
+  padding: 0 40px 0 10px;
+  display: inline-block;
+  cursor: pointer;
 
-//locator box
-.locate {
-    @include fs-header(3);
-    color: #767676;
-    line-height: 38px;
-    padding-bottom: 3px;
-    margin-bottom: gs-height(1);
-}
+  svg {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    right: 0px;
+    top: 1px;
+  }
 
-.see-all {
-    @include fs-textSans(2);
-    display: inline-block;
-    border-radius: 100px;
-    color: white;
-    line-height: 34px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    background-color: #005689;
-    padding: 0 5px 0 14px;
-    margin: 10px 0 0;
-    &:hover {
-        background-color: #003656;
-    }
-
-    & > svg {
-        display: inline-block;
-        vertical-align: middle;
-    }
-}
-
-.placeholder {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
 }

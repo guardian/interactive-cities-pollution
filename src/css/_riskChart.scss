@@ -1,11 +1,10 @@
 $axis-neutral: $neutral-3;
 
-$graph-1: $news-main-1;
-$graph-2: $news-main-2;
-$graph-3:  $news-support-1;
-$graph-4:  $news-support-2;
-$graph-5:  $news-support-3;
-
+$graph-1: #a9d700;
+$graph-2: #4cc5dc;
+$graph-3:  #005688;
+$graph-4:  #f36f21;
+$graph-5:  #fdb813;
 
 .gv-graph-header{
 	width:100%;
@@ -21,19 +20,19 @@ $graph-5:  $news-support-3;
 
 
 .gv-key-item{
-	white-space: nowrap; 
-	display: inline-block; 
+	white-space: nowrap;
+	display: inline-block;
 	margin-right: 12px;
 }
 
 
 .gv-key-color{
-		display: inline-block; 
-		width: 7px; 
-		height: 11px; 
-		margin-right: 4px; 
-		border-radius: 2px; 
-		
+		display: inline-block;
+		width: 7px;
+		height: 11px;
+		margin-right: 4px;
+		border-radius: 2px;
+
 	}
 
 
