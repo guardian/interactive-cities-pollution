@@ -1,0 +1,50 @@
+line.spread {
+  stroke: #bdbdbd;
+  stroke-width: 2px;
+}
+
+rect.quater2 {
+  fill: #4bc6df;
+}
+
+rect.quater3 {
+  fill: #005689;
+}
+
+text.regionLabel {
+  font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 14px;
+  fill: #333;
+}
+
+.regionXaxis .domain {
+  stroke: none;
+}
+
+
+.regionXaxis .tick line{
+  font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 14px;
+  stroke: #eaeaea;
+
+}
+
+.userData {
+  fill: none;
+
+  &.active {
+    fill: #ffbb00;
+  }
+}
+
+.userDataText {
+  fill: none;
+
+  &.active {
+    font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    fill: #000;
+  }
+
+}

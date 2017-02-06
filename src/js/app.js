@@ -20,7 +20,7 @@ function init(){
 		if(c.country in continent){
 			c.continent = continent[c.country];
 		} else {
-			console.log('not found', c.city, c.country, c.continent)
+			//console.log('not found', c.city, c.country, c.continent)
 		}
 	})
 
