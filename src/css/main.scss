@@ -1,12 +1,26 @@
+@import "mq";
+@import "fonts";
+@import "grid";
+@import "custom-palette";
+
+
 $darkBlue: #197CAA;
 $lightBlue: #4BC6DF;
 $pink: #DC2A7D;
 
 
-@import "mq";
-@import "fonts";
-@import "grid";
-@import "custom-palette";
+$accent-main: $news-support-5;
+
+$graph-1: #a9d700;
+$graph-2: #4cc5dc;
+$graph-3:  #005688;
+$graph-4:  #f36f21;
+$graph-5:  #fdb813;
+
+$neutral-dark: $news-support-7;
+$neutral-medium: $news-support-6;
+$neutral-light: $neutral-5;
+
 
 @import "header-area";
 @import "locator";
