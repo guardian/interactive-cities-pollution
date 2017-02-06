@@ -55,17 +55,17 @@ h3, h5{
 	padding:$gs-baseline 0 20px 20px;
 	background-color:rgba($neutral-1 ,0.9);
 	color:$neutral-6;
-	max-width:720px;
+	max-width:760px;
 
 	@media(min-width:740px){
 
-		margin: 0 0 0 -20px;
+		
 		padding:$gs-baseline 0 20px 20px;
 
 	}
 
 	@media(min-width:980px){
-
+		margin: 0 0 0 -20px;
 		margin: -220px 0 0 -20px;
 
 

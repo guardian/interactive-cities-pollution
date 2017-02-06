@@ -15,6 +15,12 @@
             background-repeat: no-repeat;
             margin-right:6px;
             border: none;
+            outline: none;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background-color:$accent-main;
         }
         .share-twitter{ background-image:url('<%= path %>/assets/twitter.svg');}
         .share-facebook{ background-image:url('<%= path %>/assets/facebook.svg');}
