@@ -45,7 +45,7 @@
 
 			<div class="gv-standfirst-holder">
 					<h1>Determine your risk</h1>
-					<p>At vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque  corrupti quos dolores et quas molestias excepturi sint occaecati non provident, similique sunt in culpa qui deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+					<p>At vero eos et accusamus et iusto odio ducimus qui blanditiis praesentium voluptatum deleniti atque  corrupti quos dolores et quas molestias.</p>
 
 					<div class="gv-share-container">
 						<button class="share-twitter"></button>
@@ -68,7 +68,7 @@
 											<path fill="currentColor" d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm8.94 3c-.46-4.17-3.77-7.48-7.94-7.94V1h-2v2.06C6.83 3.52 3.52 6.83 3.06 11H1v2h2.06c.46 4.17 3.77 7.48 7.94 7.94V23h2v-2.06c4.17-.46 7.48-3.77 7.94-7.94H23v-2h-2.06zM12 19c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/>
 									</svg>
 							</button>
-							 <span>or do this CTA…</span>
+							 <!-- <span>or do this CTA…</span> -->
 							<div class="madlib__input">
 								<input class="madlib__input__text awesomplete" id='awesomeplete_input' type="text" placeholder="Enter a city"/>
 							</div>
@@ -84,36 +84,37 @@
 </div>
 
 <div class='gv-slice second-strip'>
+
+
+
+
 	<div class="gv-inner">
 
 		<div class="gv-section-title">
-			<h2>Increase in risk of death by cause</h2>
+				<h2>Key</h2>
 
-	    <div class='rank-list'>
-
-	    	<ul class='rank-list'>
-
-					<li>
-						<div class='led-high' id='riskSlot1'></div>
-						<div class='gv-small-sans'>HIGH RISK<br/>heart disease</div>
-					</li>
-
-					<li>
-						<div class='led-med' id='riskSlot2'></div>
-						<div class='gv-small-sans'>MEDIUM RISK<br/>respiratory disease</div>
-					</li>
-
-					<li>
-						<div class='led-low' id='riskSlot3'></div>
-						<div class='gv-small-sans'>LOW RISK<br/>infant mortality</div>
-					</li>
-
-					<li>
-						<div class='led-low' id='riskSlot4'></div>
-						<div class='gv-small-sans'>LOW RISK<br/>sick day</div>
-					</li>
-				</ul>
-	  	</div>
+			    <ul class="gv-keys">
+						<li class="gv-key-item">
+							<div class="gv-key-color color-one"></div>
+							<div class="gv-key-text">Acute lower respiratory diseases (children)</div>
+						</li>
+						<li class="gv-key-item">
+							<div class="gv-key-color color-two"></div>
+							<div class="gv-key-text">Chronic obstructive pulmonary disease</div>
+						</li>
+						<li class="gv-key-item">
+							<div class="gv-key-color color-three"></div>
+							<div class="gv-key-text">Ischaemic heart disease</div>
+						</li>
+						<li class="gv-key-item">
+							<div class="gv-key-color color-four"></div>
+							<div class="gv-key-text">Lung cancer</div>
+						</li>
+						<li class="gv-key-item">
+							<div class="gv-key-color color-five"></div>
+							<div class="gv-key-text">Stroke</div>
+						</li>
+					</ul>
 
 		</div>
 
@@ -121,32 +122,58 @@
 
 		<div class="gv-inner-content">
 
-					<div class="gv-keys">
-						<div class="gv-key-item">
-							<span class="gv-key-color color-one"></span>
-							<span class="gv-key-text">Acute lower respiratory diseases (children)</span>
-						</div>
-						<div class="gv-key-item">
-							<span class="gv-key-color color-two"></span>
-							<span class="gv-key-text">Chronic obstructive pulmonary disease</span>
-						</div>
-						<div class="gv-key-item">
-							<span class="gv-key-color color-three"></span>
-							<span class="gv-key-text">Ischaemic heart disease</span>
-						</div>
-						<div class="gv-key-item">
-							<span class="gv-key-color color-four"></span>
-							<span class="gv-key-text">Lung cancer</span>
-						</div>
-						<div class="gv-key-item">
-							<span class="gv-key-color color-five"></span>
-							<span class="gv-key-text">Stroke</span>
-						</div>
-					</div>
+					<h2>Title of chart</h2>
 					<div class='riskSummaryChart'></div>
 			</div>
 	</div>
 </div>
+
+
+<div class='gv-slice second-strip'>
+
+
+
+
+	<div class="gv-inner">
+
+
+		<div class='gv-section-title'><h2>Increase in risk of death by cause</h2></div>
+
+		<div class="gv-inner-content">
+		
+
+			    <div class='rank-list'>
+
+			    	<ul class='rank-list'>
+
+							<li>
+								<div class='led-high' id='riskSlot1'></div>
+								<div class='gv-small-sans'>HIGH RISK<br/>heart disease</div>
+							</li>
+
+							<li>
+								<div class='led-med' id='riskSlot2'></div>
+								<div class='gv-small-sans'>MEDIUM RISK<br/>respiratory disease</div>
+							</li>
+
+							<li>
+								<div class='led-low' id='riskSlot3'></div>
+								<div class='gv-small-sans'>LOW RISK<br/>infant mortality</div>
+							</li>
+
+							<li>
+								<div class='led-low' id='riskSlot4'></div>
+								<div class='gv-small-sans'>LOW RISK<br/>sick day</div>
+							</li>
+						</ul>
+			  	</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
 
 
 <div class='gv-slice second-strip'>
