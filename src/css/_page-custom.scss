@@ -54,12 +54,10 @@ h3, h5{
 	margin: 0 -20px;
 	padding:$gs-baseline 0 20px 20px;
 	background-color:rgba($neutral-1 ,0.9);
-	color:$neutral-6;
+	color:$neutral-dark;
 	max-width:760px;
 
 	@media(min-width:740px){
-
-		
 		padding:$gs-baseline 0 20px 20px;
 
 	}
@@ -76,6 +74,20 @@ h3, h5{
 		font-weight:900;
 		font-size:44px;
 		line-height:48px;
+	}
+
+	h5{
+	  	margin-top: $gs-baseline + $gs-baseline ;
+	    // margin-bottom:$gs-baseline !important;
+	  }
+
+	p, h1, h5, span{
+		color:$neutral-light;
+	}
+
+	.gv-standfirst-ui-text{
+		margin-bottom:gs-height(1) !important;
+		//@include fs-textSans(4);
 	}
 
 }

@@ -15,8 +15,9 @@ div.awesomplete > input {
   min-width: 300px;
   min-height: 35px;
   padding: 0 10px;
-  border: 1px solid #eaeaea;
+  border: 1px solid $neutral-medium;
   border-radius: 100px;
+  color: $neutral-light;
 
 }
 
@@ -30,9 +31,9 @@ div.awesomplete > ul {
 	padding: 0;
 	border-radius: .3em;
 	margin: .2em 0 0;
-	background: hsla(0,0%,100%,.9);
-	background: linear-gradient(to bottom right, white, hsla(0,0%,100%,.8));
-	border: 1px solid rgba(0,0,0,.3);
+	background: $neutral-light;
+	//background: linear-gradient(to bottom right, white, hsla(0,0%,100%,.8));
+	border: 1px solid rgba($neutral-light,.3);
 	box-shadow: .05em .2em .6em rgba(0,0,0,.2);
 	text-shadow: none;
 }
@@ -65,7 +66,7 @@ div.awesomplete > ul:empty {
 		left: 1em;
 		width: 0; height: 0;
 		padding: .4em;
-		background: white;
+		background: $neutral-light;
 		border: inherit;
 		border-right: 0;
 		border-bottom: 0;
@@ -80,24 +81,22 @@ div.awesomplete > ul:empty {
 	}
 
 	div.awesomplete > ul > li:hover {
-		background: hsl(200, 40%, 80%);
+		background: $accent-hover;
 		color: black;
 	}
 
 	div.awesomplete > ul > li[aria-selected="true"] {
-		background: hsl(205, 40%, 40%);
-		color: white;
+		background: $accent-main;
+		color: $neutral-dark;
 	}
 
 		div.awesomplete mark {
-			background: hsl(65, 100%, 50%);
+			background: $accent-hover;
 		}
 
 		div.awesomplete li:hover mark {
-			background: hsl(68, 100%, 41%);
+			background: $accent-hover;
 		}
 
-		div.awesomplete li[aria-selected="true"] mark {
-			background: hsl(86, 100%, 21%);
-			color: inherit;
-		}
+
+

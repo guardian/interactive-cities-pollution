@@ -1,17 +1,17 @@
 .gv-locate-btn {
-  background-color: #005689;
-  color: #fff;
+  background-color: $accent-main;
+  color: $neutral-dark;
   @include fs-textSans(1);
   line-height: 19px;
   font-weight: bold;
   border-radius: 100px;
-  border: 0;
+  border: 1px solid $neutral-dark;
   outline: 0;
   margin-right: 6px;
   line-height: 35px;
   vertical-align: middle;
   position: relative;
-  padding: 0 40px 0 10px;
+  padding: 0 48px 0 12px;
   display: inline-block;
   cursor: pointer;
 
@@ -30,10 +30,16 @@
     top: 1px;
   }
 
+
 }
 
+.gv-locate-btn:hover {
+  background-color: $accent-hover;
+
+}  
+
 @keyframes loadinganim {
-    0% {background-color: #005689;}
-    50% {background-color: #eaeaea;}
-    100% {background-color: #005689;}
+    0% {background-color: $neutral-medium;}
+    50% {background-color: $accent-hover;}
+    100% {background-color: $neutral-medium;}
 }
