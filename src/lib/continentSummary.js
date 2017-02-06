@@ -220,7 +220,7 @@ export default function(cities) {
 
 	function setUserData(userData){
 
-		d3_selectAll('.userData').classed('active', false);
+		d3_selectAll('.userData,.userDataText').classed('active', false);
 
 		d3_select(`.userData-${userData.continent}`)
 			.classed('active', true)

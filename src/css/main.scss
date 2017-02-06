@@ -62,6 +62,10 @@ $neutral-light: $neutral-5;
     *{
     	box-sizing:border-box;
     }
+
+		h2 {
+			@include fs-header(5);
+		}
 }
 
 .interactive:before,.interactive:after{
