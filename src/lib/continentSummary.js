@@ -104,7 +104,7 @@ export default function(cities) {
 						g.append('text')
 							.text( function(){
 								if(r == 'namerica'){
-									return 'North America'
+									return 'North and Central America'
 								} else if(r == 'samerica'){
 									return 'South America'
 								} else if(r == 'europe'){
@@ -121,6 +121,32 @@ export default function(cities) {
 							})
 							.attr('class', `regionLabel regionLabel-${r}`)
 
+
+
+						g.append("circle")
+											.attr("class", d => `maxLabelDot maxLabelDot-${r}`)
+											.attr('r', 5)
+
+
+						g.append('text')
+								.text( function(){
+									if(r == 'namerica'){
+										return 'San Salvador, El Salvador (42)'
+									} else if(r == 'samerica'){
+										return 'Coyhaique, Chile (64)'
+									} else if(r == 'europe'){
+										return 'Tetovo, Macedonia (81)'
+									} else if(r == 'africa'){
+										return 'Bamenda, Cameroon (132)'
+									} else if(r == 'middle_east'){
+										return 'Zabol, Iran (217)'
+									} else if(r == 'asia'){
+										return 'Gwalior, India (176)'
+									} else if(r == 'oceania'){
+										return 'Timaru, New Zealand (15)'
+									}
+								})
+								.attr('class', `maxLabel maxLabel-${r}`)
 
 			})
 
@@ -168,6 +194,13 @@ export default function(cities) {
 
 						d3_select(`.regiong-${r}`).attr("transform", "translate(0," + (offsetY * i) + ")")
 						d3_select(`.regionLabel-${r}`).attr("transform", "translate("+ xscale( rd.sortedPM25[0] ) +"," + (offsetY/2 - 15) + ")")
+
+						d3_select(`.maxLabel-${r}`).attr("transform", "translate("+ xscale( rd.sortedPM25[ rd.sortedPM25.length -1 ] ) +"," + (offsetY/2 + 15) + ")")
+
+						d3_select(`.maxLabelDot-${r}`)
+							.classed('active', true)
+							.attr('cx', xscale( rd.sortedPM25[ rd.sortedPM25.length -1 ] ))
+							.attr('cy', (offsetY/2));
 
 
 						d3_select(`.spread-${r}`)
@@ -253,9 +286,19 @@ export default function(cities) {
 			  return a - b;
 			});
 
+
+
+			var max = d3_max(d.values, c => {
+				return c.PM25;
+			})
+
+			d.maxCity = max;
+
 			d.quartiles =  boxQuartiles(data) ;
 			d.sortedPM25 = data;
 
+
+			console.log(d)
     })
 
 		function boxQuartiles(data) {
@@ -279,8 +322,8 @@ export default function(cities) {
 		let box = container.node().getBoundingClientRect();
 		let WIDTH = box.width;
     let HEIGHT = box.width * .5;//box.height;
-		if(HEIGHT < 400){
-			 HEIGHT = 400;
+		if(HEIGHT < 480){
+			 HEIGHT = 480;
 		}
 
 

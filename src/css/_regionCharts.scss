@@ -53,3 +53,18 @@ text.regionLabel {
   }
 
 }
+
+.maxLabel {
+  text-anchor: end;
+  font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 11px;
+  fill: #767676;
+
+  &.maxLabel-namerica, &.maxLabel-oceania {
+    text-anchor: start;
+  }
+}
+
+.maxLabelDot {
+  fill: #767676;
+}
