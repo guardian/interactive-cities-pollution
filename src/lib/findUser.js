@@ -48,10 +48,6 @@ export default function (cities) {
 
 
 
-    console.log('awesomeplete ready', awesomplete)
-
-
-
     /* AUTO FIND FUNCTIONALITY */
 
     //get user location via browser lat/long

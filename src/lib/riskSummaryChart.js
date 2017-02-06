@@ -84,7 +84,7 @@ export default function() {
 		svg.append("g")
 			.attr('class', 'riskYaxis')
 
-			
+
 
 		let dots = svg.append("g")
 						.attr("class", "riskCircles");
@@ -120,7 +120,7 @@ export default function() {
 	}, 250);
 
 	function drawVisual(){
-	
+
 		let params = measure();
 
 
@@ -131,7 +131,7 @@ export default function() {
 
 
 		//console.log('drawing visual', params, margins, 0-(params.HEIGHT-margins.top-margins.bottom))
-  
+
 		//setCurves
 		d3_selectAll('.riskLine')
 			.attr('d', function(data){
@@ -160,15 +160,15 @@ export default function() {
     	d3_selectAll("g.riskYaxis g.tick line")
     		.attr("x1", 0-margins.left)
     		.attr("x2", params.WIDTH-margins.left)
-    		.attr("stroke-dasharray", "1, 3");	
+    		.attr("stroke-dasharray", "1, 3");
 
     	d3_selectAll("g.riskYaxis g.tick text")
     		.attr("y", -12)
-    		.attr("x", 0-margins.left);	
+    		.attr("x", 0-margins.left);
 
     	d3_selectAll("g.riskYaxis g.tick line")
 		    .filter(function (d) { return d === 0;  })
-		    .attr("class", "firstTick");				
+		    .attr("class", "firstTick");
 
 		d3_select("g.riskXaxis domain path")
 		    .attr("display", "none");
@@ -177,7 +177,7 @@ export default function() {
     		.attr('transform', `translate(${xscale(0)},${yscale(0)})`);
 
 
-    	customYAxis	();		
+    	customYAxis	();
 
 	}
 

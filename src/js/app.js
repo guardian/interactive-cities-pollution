@@ -1,9 +1,10 @@
-import csvToJson from '../lib/csvToJson'
+import { csvToJson, csvToKeyValue } from '../lib/csvToJson'
 import findUser from '../lib/findUser'
 import riskSummaryChart from '../lib/riskSummaryChart'
-import riskByTypeCharts from '../lib/riskByTypeCharts'
+import continentSummary from '../lib/continentSummary'
 import cities_csv from '../data/pollution_geolocated.csv'
 import { share } from '../lib/share.js'
+import continent from '../data/countryToContinent.json'
 
 let summaryChart;
 
@@ -14,7 +15,16 @@ function init(){
 	console.log('ready')
 
 	//list of cities parsed from csv
-	let cities = csvToJson(cities_csv);
+	let cities = csvToJson(cities_csv, "\t");
+	//let continent = csvToKeyValue(continent_csv, ",");
+
+	cities.forEach(c => {
+		if(c.country in continent){
+			c.continent = continent[c.country];
+		} else {
+			//console.log('not found', c.city, c.country, c.continent)
+		}
+	})
 
 	//initializes find user class
 	let userControls = findUser(cities);
@@ -25,12 +35,15 @@ function init(){
 	summaryChart.init();
 	userControls.registerListener(summaryChart.setUserData);
 
-
+	//initialize summary chart
+	let continentChart = continentSummary(cities);
+	continentChart.init();
+	userControls.registerListener(continentChart.setUserData);
 
 	//initialize risk small multiples
-	let riskMultiples = riskByTypeCharts(cities);
-	riskMultiples.init();
-	userControls.registerListener(riskMultiples.setUserData);
+	// let riskMultiples = riskByTypeCharts(cities);
+	// riskMultiples.init();
+	// userControls.registerListener(riskMultiples.setUserData);
 
 
 	// Share buttons
