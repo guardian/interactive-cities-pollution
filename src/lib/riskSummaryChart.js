@@ -16,7 +16,8 @@ import { transition } from 'd3-transition';
 import {
 	max as d3_max,
 	sum as d3_sum,
-	extent as d3_extent
+	extent as d3_extent,
+	range as d3_range
 } from 'd3-array'
 
 import {
@@ -73,8 +74,8 @@ export default function() {
     				.attr("transform", `translate(${margins.left}, ${margins.top})`)
 
 
-    	xscale.domain(extents.pm25);
-		yscale.domain(extents.dataRange);
+			xscale.domain(extents.pm25);
+			yscale.domain(extents.dataRange);
 
 		// Add the X Axis
 		svg.append("g")
@@ -150,7 +151,8 @@ export default function() {
 		// Add the X Axis
 		d3_select(".riskXaxis")
 				.attr("transform", "translate(0," + (params.HEIGHT - margins.bottom  - margins.top) + ")")
-				.call(d3_axisBottom(xscale));
+
+				.call(d3_axisBottom(xscale).tickValues(d3_range(0, 500, 50)));
 
 		// Add the Y Axis
 		d3_select(".riskYaxis")
@@ -228,7 +230,7 @@ export default function() {
 
 
 	function customXAxis(g) {
-	  g.call(xaxis);
+	  g.call(xaxis).tickValues(d3_range(0, 300, 50));
 	  g.select(".domain").remove();
 	}
 
@@ -256,6 +258,10 @@ export default function() {
 		let box = container.node().getBoundingClientRect();
 		let WIDTH = box.width;
     	let HEIGHT = box.width * .5;//box.height;
+
+			if(HEIGHT < 300){
+				 HEIGHT = 300;
+			}
 
 		return {
 			WIDTH: WIDTH,
