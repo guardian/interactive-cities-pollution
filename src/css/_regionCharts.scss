@@ -19,7 +19,6 @@
 
 }
 
-
 line.spread {
   stroke: $axis-neutral;
   stroke-width: 2px;
@@ -37,49 +36,46 @@ text.regionLabel {
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-size: 14px;
   padding: 0 0 6px 0;
-  fill: $axis-neutral;
+  fill: $neutral-dark;
 }
-
-
 
 .regionXaxis .domain {
   stroke: none;
 }
 
-
 .regionXaxis .tick line{
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-size: 14px;
   stroke: #eaeaea;
-
 }
 
 .userData {
   fill: none;
 
   &.active {
-    fill: $accent-main;
-    stroke:$accent-hover;
+    fill: $live-main-1;
+    stroke:$live-main-2;
   }
 }
 
 .userDataText {
   fill: none;
 
-  &.active {
-    font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    fill: $accent-hover;
-  }
+    &.active {
+      font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+      font-size: 12px;
+      text-anchor: middle;
+      font-weight: bold;
+      fill: $live-main-2;
+    }
 
 }
 
 .maxLabel {
   text-anchor: end;
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 14px;
-  fill: $neutral-dark;
+  font-size: 12px;
+  fill: $neutral-medium;
 
   &.maxLabel-namerica, &.maxLabel-oceania, &.maxLabel-samerica, &.maxLabel-europe {
     text-anchor: start;
