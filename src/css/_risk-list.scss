@@ -90,14 +90,23 @@
 }
 
 .riskType {
-	display: inline-block;
+	display: block;
 	vertical-align: top;
-	width: 45%;
-	border-top: 1px solid #ccc;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	width:100%;
+	border-bottom: 1px solid #ccc;
+	margin-right: $gs-gutter;
+	margin-bottom: $gs-baseline;
+	float:left;
+	clear:right;
 
 	h3 {
 		@include fs-header(1);
+	}
+
+	@media (min-width:740px){
+		display: inline-block;
+		width: gs-span(4);
+		float:none;
+		clear:none;
 	}
 }
