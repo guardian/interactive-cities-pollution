@@ -26,11 +26,11 @@ line.spread {
 }
 
 rect.quater2 {
-  fill: $graph-1;
+  fill: $neutral-medium-light;
 }
 
 rect.quater3 {
-  fill:  $graph-2;
+  fill:  $neutral-dark;
 }
 
 text.regionLabel {
@@ -58,7 +58,8 @@ text.regionLabel {
   fill: none;
 
   &.active {
-    fill: #ffbb00;
+    fill: $accent-main;
+    stroke:$accent-hover;
   }
 }
 
@@ -69,7 +70,7 @@ text.regionLabel {
     font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
     font-size: 14px;
     font-weight: bold;
-    fill: #000;
+    fill: $accent-hover;
   }
 
 }
@@ -77,7 +78,7 @@ text.regionLabel {
 .maxLabel {
   text-anchor: end;
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   fill: $neutral-dark;
 
   &.maxLabel-namerica, &.maxLabel-oceania, &.maxLabel-samerica, &.maxLabel-europe {
@@ -87,4 +88,5 @@ text.regionLabel {
 
 .maxLabelDot {
   fill: $neutral-dark;
+  stroke: $neutral-light;
 }

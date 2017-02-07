@@ -35,21 +35,6 @@ h3, h5{
 	z-index:10000000;
 }
 
-
-.standfirst-button{
-	background: $neutral-1;
-	padding: 3px 12px;
-	border-radius: 2000px;
-	color: $neutral-4;
-	@include fs-textSans(3);
-	cursor: pointer;
-}
-
-.standfirst-button-selected{
-	background: $news-main-2;
-	color: $neutral-6;
-}
-
 .gv-standfirst{
 	max-width:560px;
 }
@@ -61,7 +46,7 @@ h3, h5{
 	padding:$gs-baseline 0 20px 20px;
 	background-color:rgba($neutral-1 ,0.9);
 	color:$neutral-dark;
-	max-width:760px;
+	max-width:780px;
 
 	@media(min-width:740px){
 		padding:$gs-baseline 0 20px 20px;
@@ -70,7 +55,7 @@ h3, h5{
 
 	@media(min-width:980px){
 		margin: 0 0 0 -20px;
-		margin: -160px 0 0 -20px;
+		margin: -220px 0 0 -20px;
 
 
 	}
@@ -93,6 +78,18 @@ h3, h5{
 	.gv-standfirst-ui-text{
 		margin-bottom:$gs-baseline !important;
 		//@include fs-textSans(4);
+	}
+
+	.standfirst-button{
+		background: $accent-main;
+		padding: 3px 12px;
+		border-radius: 2000px;
+		color: $neutral-1;
+		@include fs-textSans(3);
+		cursor: pointer;
+	}
+	.standfirst-button:hover{
+		background: $accent-hover;
 	}
 
 }

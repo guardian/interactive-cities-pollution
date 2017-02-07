@@ -1,12 +1,12 @@
-$grad1: $news-support-7;
-$grad2: $news-support-6;
+$grad1: $neutral-dark;
+$grad2: $neutral-medium;
 $headerAniTime : 90s;
 $aniEaseMode: linear;
 
 $background-grad:linear-gradient(180deg, $grad1, $grad2);
 
 .header-background {
-            background:linear-gradient(180deg, $grad1, $grad2);  
+            background:linear-gradient(30deg, $grad1, $grad2);  
             background-size: 200% 200%;
             -webkit-animation: headerAni $headerAniTime $aniEaseMode infinite;
             -moz-animation: headerAni $headerAniTime $aniEaseMode infinite;
@@ -121,12 +121,7 @@ $background-grad:linear-gradient(180deg, $grad1, $grad2);
 }
 
 
-
-
-
-
 .gv-header-list li:first-child, .gv-header-list li:last-child  { 
-
 
         @media(min-width:980px){
             //width: gs-span(4)+$gs-gutter;//26%; 

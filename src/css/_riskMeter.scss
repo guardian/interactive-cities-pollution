@@ -3,7 +3,7 @@
 // Method 1) Pure CSS
 .gv-ratings-css {
   unicode-bidi: bidi-override;
-  color: rgba($graph-2, 0.5);
+  
   font-size: 40px;
   height: 48px;
   width: 120px;
@@ -13,7 +13,7 @@
   //text-shadow: 0 0 2px $graph-1;
   
   &-top {
-    color: $graph-1;
+    
     padding: 0;
     position: absolute;
     z-index: 1;
@@ -25,8 +25,25 @@
   &-bottom {
     padding: 0;
     display: block;
+    opacity: 0.3;
     z-index: 0;
   }
+}
+
+.gv-ratings-one{
+  color: $graph-1;
+}
+.gv-ratings-two{
+  color: $graph-2;
+}
+.gv-ratings-three{
+  color: $graph-3;
+}
+.gv-ratings-four{
+  color: $graph-4;
+}
+.gv-ratings-five{
+  color: $graph-5;
 }
 
 // Method 2) Using a Sprite

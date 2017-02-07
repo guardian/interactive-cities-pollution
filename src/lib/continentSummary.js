@@ -103,7 +103,7 @@ export default function(cities) {
 						    			.attr('r', 5)
 
 						g.append('text')
-											.attr("class", d => `userDataText userDataText-${r}`)
+									.attr("class", d => `userDataText userDataText-${r}`)
 
 						g.append('text')
 							.text( function(){
@@ -247,7 +247,7 @@ export default function(cities) {
 									.attr('cy',  offsetY/2);
 
 									d3_select(`.userDataText-${r}`)
-										.attr('y',  offsetY/2+25);
+										.attr('y',  offsetY/2+30);
 
 						i ++;
 					})
