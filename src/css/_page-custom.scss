@@ -85,7 +85,7 @@ h3, h5{
 	}
 
 	.gv-standfirst-ui-text{
-		//margin-bottom:gs-height(1) !important;
+		margin-bottom:$gs-baseline !important;
 		//@include fs-textSans(4);
 	}
 

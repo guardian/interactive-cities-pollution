@@ -47,9 +47,7 @@ $neutral-light: $neutral-5;
 
 .gv-slice {
 	width:100%;
-
 	margin:0 auto;
-
 }
 
 
@@ -121,22 +119,25 @@ $neutral-light: $neutral-5;
 }
 
 .gv-inner-content {
+
+
+
   p, h2, h3 {
     max-width: 620px;
   }
 }
 
+.gv-inner-content{
+	width:100%;
 @media(min-width:1140px){
-	.gv-inner-content{
-		margin-left:160px;
+			margin-left:160px;
 	}
+@media(min-width:1300px){
+		margin-left:240px;
+}
 }
 
-@media(min-width:1300px){
-	.gv-inner-content{
-		margin-left:240px;
-	}
-}
+
 
 .gv-header {
 	background-color: $lightBlue;
@@ -216,6 +217,14 @@ $neutral-light: $neutral-5;
 }
 
 .gv-section-title {
-	max-width: 220px;
-	float: left;
+	width:100%;
+	float:none;
+	@media(min-width:1140px){
+		max-width: 160px;
+		float: left;
+	}
+	@media(min-width:1300px){
+		max-width: 220px;
+		float: left;
+	}
 }
