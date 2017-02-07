@@ -34,7 +34,11 @@ import {
 } from 'd3-axis';
 
 
+
+
+
 export default function(cities) {
+	let labelTextPad = 6;
 
 	let margins = {
         top: 12,
@@ -120,6 +124,7 @@ export default function(cities) {
 								}
 							})
 							.attr('class', `regionLabel regionLabel-${r}`)
+							.attr('dy',labelTextPad*-1)
 
 
 
@@ -147,6 +152,7 @@ export default function(cities) {
 									}
 								})
 								.attr('class', `maxLabel maxLabel-${r}`)
+								.attr('dy',labelTextPad)
 
 			})
 
@@ -247,6 +253,7 @@ export default function(cities) {
 					})
 
 
+	
 
 	}
 
