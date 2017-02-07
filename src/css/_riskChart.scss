@@ -8,30 +8,6 @@ $axis-neutral: $neutral-3;
 }
 
 
-.gv-key-text{
-		@include fs-textSans(1);
-		fill: $axis-neutral;
-		color: $axis-neutral;
-	}
-
-
-.gv-key-item{
-	white-space: nowrap;
-	display: inline-block;
-	margin-right: 12px;
-}
-
-
-.gv-key-color{
-		display: inline-block;
-		width: 7px;
-		height: 11px;
-		margin-right: 4px;
-		border-radius: 2px;
-
-	}
-
-
 
 .color-one{
 	background-color: $graph-1;
@@ -55,6 +31,7 @@ $axis-neutral: $neutral-3;
 
 .riskSummaryChart {
 	max-width: 760px;
+	min-height: 400px;
 	overflow: hidden;
 
 

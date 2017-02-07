@@ -4,13 +4,12 @@
 	margin:$gs-baseline 0 gs-height(1) 0;
 
 	@media(min-width:1140px){
-		margin:$gs-baseline 0;		
+		margin:$gs-baseline 0;
 	}
 
-	li{ 
+	li{
 		display:inline-block;
 		width:gs-span(2);
-		height:gs-height(1);
 		// border-right: 1px solid $neutral-5;
 		margin-bottom: $gs-baseline;
 		border-bottom:  none;
@@ -18,10 +17,10 @@
 		@media(min-width:1140px){
 			display:block;
 			width:gs-span(2) + $gs-gutter;
-			height: gs-height(1);
-			border-right: none; 
+
+			border-right: none;
 			margin-bottom: $gs-baseline;
-			// border-bottom: 1px solid $neutral-5; 
+			// border-bottom: 1px solid $neutral-5;
 		}
 	}
 }
@@ -37,9 +36,9 @@
 
 
 .gv-key-text{
-		@include fs-textSans(1);
-		fill: $axis-neutral;
-		color: $axis-neutral;
+		@include fs-textSans(2);
+		fill: #333333;
+		color: #333333;
 
 	}
 
