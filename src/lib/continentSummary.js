@@ -183,7 +183,6 @@ export default function(cities) {
 					.attr('y2', -params.HEIGHT)
 
 
-
 					let i = 0;
 					regions.forEach(r =>{
 

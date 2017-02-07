@@ -123,23 +123,23 @@ $axis-neutral: $neutral-3;
 
 
 	.riskCircle-r {
-		fill: #a9d700;
+		fill: $graph-1;
 	}
 
 	.riskCircle-p {
-		fill: #4cc5dc;
+		fill: $graph-2;
 	}
 
 	.riskCircle-h {
-		fill: #005688;
+		fill: $graph-3;
 	}
 
 	.riskCircle-l {
-		fill: #f36f21;
+		fill: $graph-4;
 	}
 
 	.riskCircle-s {
-		fill: #fdb813;
+		fill: $graph-5;
 	}
 
 }

@@ -10,11 +10,11 @@ line.spread {
 }
 
 rect.quater2 {
-  fill: #4bc6df;
+  fill: $graph-1;
 }
 
 rect.quater3 {
-  fill: #005689;
+  fill:  $graph-2;
 }
 
 text.regionLabel {
@@ -59,7 +59,7 @@ text.regionLabel {
   text-anchor: end;
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-size: 11px;
-  fill: #767676;
+  fill: $neutral-dark;
 
   &.maxLabel-namerica, &.maxLabel-oceania, &.maxLabel-samerica, &.maxLabel-europe {
     text-anchor: start;
@@ -67,5 +67,5 @@ text.regionLabel {
 }
 
 .maxLabelDot {
-  fill: #767676;
+  fill: $neutral-dark;
 }

@@ -3,24 +3,21 @@
 @import "grid";
 @import "custom-palette";
 
-
 $darkBlue: #197CAA;
 $lightBlue: #4BC6DF;
 $pink: #DC2A7D;
 
-
 $accent-main: $comment-support-3;
 $accent-hover: $multimedia-main-2;
-
-$graph-1: $news-support-5;
-$graph-2: #4cc5dc;
-$graph-3:  #005688;
-$graph-4:  #f36f21;
-$graph-5:  #fdb813;
-
 $neutral-dark: $news-support-7;
 $neutral-medium: $news-support-6;
 $neutral-light: $neutral-5;
+
+$graph-1: $news-main-1;
+$graph-2: $news-main-2;
+$graph-3: $accent-main;
+$graph-4: $neutral-light;
+$graph-5: $live-support-1;
 
 
 @import "header-area";

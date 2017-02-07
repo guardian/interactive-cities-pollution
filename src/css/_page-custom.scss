@@ -30,6 +30,12 @@ h3, h5{
 	background-color: $news-support-7;
 }
 
+.head-support-strip{
+	background-color: $neutral-dark;
+	z-index:10000000;
+}
+
+
 .standfirst-button{
 	background: $neutral-1;
 	padding: 3px 12px;

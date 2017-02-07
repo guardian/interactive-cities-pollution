@@ -3,17 +3,17 @@
 // Method 1) Pure CSS
 .gv-ratings-css {
   unicode-bidi: bidi-override;
-  color: #c5c5c5;
-  font-size: 25px;
-  height: 25px;
-  width: 100px;
-  margin: 0;
+  color: rgba($graph-2, 0.5);
+  font-size: 40px;
+  height: 48px;
+  width: 120px;
+  margin:0 0 $gs-baseline 0;
   position: relative;
   padding: 0;
-  text-shadow: 0px 1px 0 #a2a2a2;
+  //text-shadow: 0 0 2px $graph-1;
   
   &-top {
-    color: #e7711b;
+    color: $graph-1;
     padding: 0;
     position: absolute;
     z-index: 1;
@@ -49,3 +49,4 @@
   }
   
 }
+
