@@ -14,7 +14,7 @@ h3, h5{
 
 	h1 {
 		@include fs-headline(9);
-		font-weight:200;
+
 	}
 
 }
@@ -70,14 +70,13 @@ h3, h5{
 	}
 
 	h1{
-		@include fs-header(5);
-		font-weight:900;
-		font-size:44px;
-		line-height:48px;
+		@include fs-headline(9);
+
+
 	}
 
 	h5{
-	  	margin-top: $gs-baseline + $gs-baseline ;
+
 	    // margin-bottom:$gs-baseline !important;
 	  }
 
@@ -86,7 +85,7 @@ h3, h5{
 	}
 
 	.gv-standfirst-ui-text{
-		margin-bottom:gs-height(1) !important;
+		//margin-bottom:gs-height(1) !important;
 		//@include fs-textSans(4);
 	}
 
