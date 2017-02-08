@@ -46,8 +46,8 @@ $background-grad:linear-gradient(180deg, $grad1, $grad2);
 
 .gv-header-list{
     display: flex;
-    // position:relative;
-    // z-index:100;
+    position:relative;
+    z-index:100;
     list-style-type: none;
     width:100%;
     max-width:1300px;
