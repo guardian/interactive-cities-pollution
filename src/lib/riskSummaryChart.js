@@ -105,7 +105,7 @@ export default function() {
     		dots.append("circle")
     			.attr("class", d => `riskCircle riskCircle-${l}`)
     			.attr("id", l)
-    			.attr('r', 5)
+    			.attr('r', 3)
 
     	})
 
