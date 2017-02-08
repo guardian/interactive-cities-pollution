@@ -1,11 +1,14 @@
 .gv-keys{
+	display:block;
 	list-style-type: none;
-	max-width:620px;
+	max-width:780px;
 	margin:$gs-baseline 0 gs-height(1) 0;
 
-	@media(min-width:1140px){
+	@media(min-width:980px){
+		display:flex;
 		margin:$gs-baseline 0;
 	}
+
 
 	li{
 		display:block;
@@ -16,10 +19,11 @@
 
 		@media(min-width:1140px){
 			display:block;
-			width:gs-span(2) + $gs-gutter;
+			width:auto;
 
 			border-right: none;
 			margin-bottom: $gs-baseline;
+			margin-right: $gs-gutter;
 			// border-bottom: 1px solid $neutral-5;
 		}
 	}
@@ -36,10 +40,10 @@
 
 
 .gv-key-text{
-		margin: 0 0 0 $gs-gutter;
-		@include fs-textSans(2);
-		fill: #333333;
-		color: #333333;
+	margin: 0 0 0 12px;
+	@include fs-textSans(2);
+	fill: #333333;
+	color: #333333;
 
 }
 
