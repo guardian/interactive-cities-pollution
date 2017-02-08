@@ -1,65 +1,82 @@
 .continentSummary {
   max-width: 760px;
   min-height: 400px;
+
+  .tick{
+    stroke-width:1px;
+    @include fs-textSans(1);
+    fill: $axis-neutral;
+    // stroke: $axis-neutral !important;
+    shape-rendering: crispEdges;
+    // stroke-dasharray: 1, 5;
+  }
+
+  .tick text{
+    fill: $axis-neutral;
+
+    stroke:none;
+  }
+
 }
 
-
 line.spread {
-  stroke: #bdbdbd;
+  stroke: $axis-neutral;
   stroke-width: 2px;
 }
 
 rect.quater2 {
-  fill: #4bc6df;
+  fill: $neutral-medium-light;
 }
 
 rect.quater3 {
-  fill: #005689;
+  fill:  $neutral-dark;
 }
 
 text.regionLabel {
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-size: 14px;
-  fill: #333;
+  font-weight:600;
+  padding: 0 0 6px 0;
+  fill: $neutral-dark;
 }
 
 .regionXaxis .domain {
   stroke: none;
 }
 
-
 .regionXaxis .tick line{
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-size: 14px;
   stroke: #eaeaea;
-
 }
 
 .userData {
   fill: none;
 
   &.active {
-    fill: #ffbb00;
+    fill: $live-main-1;
+    stroke:$live-main-2;
   }
 }
 
 .userDataText {
   fill: none;
 
-  &.active {
-    font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    fill: #000;
-  }
+    &.active {
+      font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+      font-size: 12px;
+      text-anchor: middle;
+      font-weight: bold;
+      fill: $live-main-2;
+    }
 
 }
 
 .maxLabel {
   text-anchor: end;
   font-family: 'Guardian Text Sans Web', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
-  font-size: 11px;
-  fill: #767676;
+  font-size: 12px;
+  fill: $neutral-medium;
 
   &.maxLabel-namerica, &.maxLabel-oceania, &.maxLabel-samerica, &.maxLabel-europe {
     text-anchor: start;
@@ -67,5 +84,6 @@ text.regionLabel {
 }
 
 .maxLabelDot {
-  fill: #767676;
+  fill: $neutral-dark;
+  stroke: $neutral-light;
 }

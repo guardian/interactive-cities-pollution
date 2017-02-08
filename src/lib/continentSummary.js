@@ -34,7 +34,11 @@ import {
 } from 'd3-axis';
 
 
+
+
+
 export default function(cities) {
+	let labelTextPad = 3;
 
 	let margins = {
         top: 12,
@@ -97,9 +101,12 @@ export default function(cities) {
 						g.append("circle")
 						    			.attr("class", d => `userData userData-${r}`)
 						    			.attr('r', 5)
+						g.append("line")
+						    			.attr("class", d => `userData userDataLine-${r}`)   			
 
 						g.append('text')
-											.attr("class", d => `userDataText userDataText-${r}`)
+									.attr("class", d => `userDataText userDataText-${r}`)
+
 
 						g.append('text')
 							.text( function(){
@@ -120,6 +127,7 @@ export default function(cities) {
 								}
 							})
 							.attr('class', `regionLabel regionLabel-${r}`)
+							.attr('dy',labelTextPad*-1)
 
 
 
@@ -147,6 +155,7 @@ export default function(cities) {
 									}
 								})
 								.attr('class', `maxLabel maxLabel-${r}`)
+								.attr('dy',labelTextPad)
 
 			})
 
@@ -181,7 +190,6 @@ export default function(cities) {
 
 				d3_selectAll('.regionXaxis .tick line')
 					.attr('y2', -params.HEIGHT)
-
 
 
 					let i = 0;
@@ -241,13 +249,20 @@ export default function(cities) {
 								d3_select(`.userData-${r}`)
 									.attr('cy',  offsetY/2);
 
-									d3_select(`.userDataText-${r}`)
-										.attr('y',  offsetY/2+25);
+								d3_select(`.userDataText-${r}`)
+									.attr('y',  offsetY/2+30);
+
+								d3_select(`.userDataLine-${r}`)	
+									.attr('y1',offsetY/2)
+									.attr('y2',offsetY/2+18);	
+
+								
 
 						i ++;
 					})
 
 
+	
 
 	}
 
@@ -260,10 +275,18 @@ export default function(cities) {
 			.attr('cx', xscale(userData.PM25));
 
 
-			d3_select(`.userDataText-${userData.continent}`)
-				.classed('active', true)
-				.text(`${toTitleCase(userData.city)}`)
-				.attr('x', xscale(userData.PM25));
+		d3_select(`.userDataText-${userData.continent}`)
+			.classed('active', true)
+			.text(`${toTitleCase(userData.city)}`)
+			.attr('x', xscale(userData.PM25));
+
+
+		d3_select(`.userDataLine-${userData.continent}`)
+			.classed('active', true)
+			.attr('x1',xscale(userData.PM25))
+			.attr('x2',xscale(userData.PM25))	
+
+			
 
 	}
 

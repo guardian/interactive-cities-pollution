@@ -8,8 +8,8 @@
 	}
 
 	li{
-		display:inline-block;
-		width:gs-span(2);
+		display:block;
+		width:gs-span(4);
 		// border-right: 1px solid $neutral-5;
 		margin-bottom: $gs-baseline;
 		border-bottom:  none;
@@ -36,16 +36,16 @@
 
 
 .gv-key-text{
+		margin: 0 0 0 $gs-gutter;
 		@include fs-textSans(2);
 		fill: #333333;
 		color: #333333;
 
-	}
-
+}
 
 .gv-key-item{
 	position:relative;
-	float:left;
+	display:inline-block;
 	margin: 0;
 }
 
@@ -53,7 +53,7 @@
 .gv-key-color{
 		position:relative;
 		float:left;
-		margin: 2px  $gs-gutter $gs-baseline 0;
+		margin: 1px 0 $gs-baseline 0;
 		width: 7px;
 		height: 11px;
 		margin-right: 4px;

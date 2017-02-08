@@ -3,24 +3,24 @@
 @import "grid";
 @import "custom-palette";
 
-
 $darkBlue: #197CAA;
 $lightBlue: #4BC6DF;
 $pink: #DC2A7D;
 
-
 $accent-main: $comment-support-3;
 $accent-hover: $multimedia-main-2;
-
-$graph-1: $news-support-5;
-$graph-2: #4cc5dc;
-$graph-3:  #005688;
-$graph-4:  #f36f21;
-$graph-5:  #fdb813;
-
 $neutral-dark: $news-support-7;
 $neutral-medium: $news-support-6;
+$neutral-medium-light: $neutral-4;
 $neutral-light: $neutral-5;
+
+$graph-1: $news-main-1;
+$graph-2: $news-main-2;
+$graph-3: $accent-main;
+$graph-4: $neutral-medium;
+$graph-5: $live-support-1;
+
+$axis-neutral: $neutral-3;
 
 
 @import "header-area";
@@ -30,6 +30,7 @@ $neutral-light: $neutral-5;
 @import "page-custom";
 @import "riskChart";
 @import "riskChartKey";
+@import "riskMeter";
 @import "regionCharts";
 @import "risk-list";
 @import "led-light";
@@ -46,9 +47,7 @@ $neutral-light: $neutral-5;
 
 .gv-slice {
 	width:100%;
-
 	margin:0 auto;
-
 }
 
 
@@ -120,22 +119,25 @@ $neutral-light: $neutral-5;
 }
 
 .gv-inner-content {
+
+
+
   p, h2, h3 {
     max-width: 620px;
   }
 }
 
+.gv-inner-content{
+	width:100%;
 @media(min-width:1140px){
-	.gv-inner-content{
-		margin-left:160px;
+			margin-left:160px;
 	}
+@media(min-width:1300px){
+		margin-left:240px;
+}
 }
 
-@media(min-width:1300px){
-	.gv-inner-content{
-		margin-left:240px;
-	}
-}
+
 
 .gv-header {
 	background-color: $lightBlue;
@@ -215,6 +217,14 @@ $neutral-light: $neutral-5;
 }
 
 .gv-section-title {
-	max-width: 220px;
-	float: left;
+	width:100%;
+	float:none;
+	@media(min-width:1140px){
+		max-width: 160px;
+		float: left;
+	}
+	@media(min-width:1300px){
+		max-width: 220px;
+		float: left;
+	}
 }

@@ -1,0 +1,82 @@
+// @import "lesshat";
+
+// Method 1) Pure CSS
+.gv-ratings-css {
+  unicode-bidi: bidi-override;
+  
+  font-size: 40px;
+  height: 36px;
+  width: 120px;
+  margin:0-$gs-baseline 0 $gs-baseline 0;
+  position: relative;
+  padding: 0;
+  //text-shadow: 0 0 2px $graph-1;
+  
+  &-top {
+    
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  &-bottom {
+    padding: 0;
+    display: block;
+    opacity: 0.3;
+    z-index: 0;
+  }
+}
+
+.gv-ratings-one{
+  color: $graph-1;
+}
+.gv-ratings-two{
+  color: $graph-2;
+}
+.gv-ratings-three{
+  color: $graph-3;
+}
+.gv-ratings-four{
+  color: $graph-4;
+}
+.gv-ratings-five{
+  color: $graph-5;
+}
+
+// Method 2) Using a Sprite
+.gv-ratings-sprite {
+  background: url("<%= path %>/assets/rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 24px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: $gs-baseline 0;
+  
+  &-rating {
+    background: url("<%= path %>/assets/rating-sprite.png") repeat-x;
+    background-position: 0 100%;
+    float: left;
+    height: 21px;
+
+    display:block;
+  }
+  
+}
+
+
+
+
+//
+.gv-high-num{
+  width: 120px;
+  @include fs-headline(8);
+  font-size:3.5em;
+  font-weight:200;
+  text-align: center;
+}
+

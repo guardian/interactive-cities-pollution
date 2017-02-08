@@ -1,3 +1,6 @@
+
+
+
 .madlib {
     display: inline-block;
     vertical-align: middle;
@@ -21,19 +24,19 @@
     padding: 4px 15px 3px;
 
     &::-webkit-input-placeholder {
-       color: #767676;
+       color: $neutral-light;
     }
 
     &:-moz-placeholder { /* Firefox 18- */
-       color: #767676;
+       color: $neutral-light;
     }
 
     &::-moz-placeholder {  /* Firefox 19+ */
-       color: #767676;
+       color: $neutral-light;
     }
 
     &:-ms-input-placeholder {
-       color: #767676;
+       color: $neutral-light;
     }
 
     &:valid {
