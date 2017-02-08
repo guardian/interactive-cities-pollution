@@ -5,9 +5,9 @@
   unicode-bidi: bidi-override;
   
   font-size: 40px;
-  height: 48px;
+  height: 36px;
   width: 120px;
-  margin:0 0 $gs-baseline 0;
+  margin:0-$gs-baseline 0 $gs-baseline 0;
   position: relative;
   padding: 0;
   //text-shadow: 0 0 2px $graph-1;
@@ -62,8 +62,21 @@
     background-position: 0 100%;
     float: left;
     height: 21px;
+
     display:block;
   }
   
+}
+
+
+
+
+//
+.gv-high-num{
+  width: 120px;
+  @include fs-headline(8);
+  font-size:3.5em;
+  font-weight:200;
+  text-align: center;
 }
 
