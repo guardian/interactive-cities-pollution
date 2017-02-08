@@ -2,6 +2,7 @@ import { csvToJson, csvToKeyValue } from '../lib/csvToJson'
 import findUser from '../lib/findUser'
 import riskSummaryChart from '../lib/riskSummaryChart'
 import continentSummary from '../lib/continentSummary'
+import riskListSummary from '../lib/riskList'
 import cities_csv from '../data/pollution_geolocated.csv'
 import { share } from '../lib/share.js'
 import continent from '../data/countryToContinent.json'
@@ -39,6 +40,10 @@ function init(){
 	let continentChart = continentSummary(cities);
 	continentChart.init();
 	userControls.registerListener(continentChart.setUserData);
+
+	let riskList = riskListSummary();
+	userControls.registerListener(riskList.setUserData);
+
 
 	//initialize risk small multiples
 	// let riskMultiples = riskByTypeCharts(cities);

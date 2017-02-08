@@ -87,6 +87,17 @@
 
 .riskTypesContainer {
 	max-width: 800px;
+
+	.gv-high-num {
+		display: none;
+	}
+
+	&.active {
+		.gv-high-num {
+			display: block;
+		}
+
+	}
 }
 
 .riskType {
@@ -114,7 +125,7 @@
 		margin-bottom: $gs-baseline;
 	}
 
-	
+
 }
 
 .riskType:nth-of-type(even) {
@@ -127,4 +138,3 @@
      	margin: 0 20px gs-height(1) 0;
      }
 }
-

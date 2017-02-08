@@ -3,17 +3,17 @@
 // Method 1) Pure CSS
 .gv-ratings-css {
   unicode-bidi: bidi-override;
-  
+
   font-size: 40px;
   height: 36px;
-  width: 120px;
+  width: 130px;
   margin:0-$gs-baseline 0 $gs-baseline 0;
   position: relative;
   padding: 0;
   //text-shadow: 0 0 2px $graph-1;
-  
+
   &-top {
-    
+    width: 100%;
     padding: 0;
     position: absolute;
     z-index: 1;
@@ -21,6 +21,34 @@
     top: 0;
     left: 0;
     overflow: hidden;
+
+    span {
+      display: none;
+    }
+
+    &[data-total='1']{
+      span:nth-of-type(1) {
+        display: inline-block;
+      }
+    }
+
+    &[data-total='2']{
+      span:nth-of-type(1),span:nth-of-type(2) {
+        display: inline-block;
+      }
+    }
+
+    &[data-total='3']{
+      span:nth-of-type(1),span:nth-of-type(2),span:nth-of-type(3) {
+        display: inline-block;
+      }
+    }
+
+    &[data-total='4']{
+      span:nth-of-type(1),span:nth-of-type(2),span:nth-of-type(3),span:nth-of-type(4) {
+        display: inline-block;
+      }
+    }
   }
   &-bottom {
     padding: 0;
@@ -28,6 +56,8 @@
     opacity: 0.3;
     z-index: 0;
   }
+
+
 }
 
 .gv-ratings-one{
@@ -56,7 +86,7 @@
   text-indent: -999em;
   width: 110px;
   margin: $gs-baseline 0;
-  
+
   &-rating {
     background: url("<%= path %>/assets/rating-sprite.png") repeat-x;
     background-position: 0 100%;
@@ -65,7 +95,7 @@
 
     display:block;
   }
-  
+
 }
 
 
@@ -79,4 +109,3 @@
   font-weight:200;
   text-align: center;
 }
-
