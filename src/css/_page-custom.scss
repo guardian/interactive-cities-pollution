@@ -57,7 +57,7 @@ h3, h5{
 		border-bottom: 1px dotted $neutral-2;
 		padding:$gs-baseline 0 0 20px;
 
-		margin: -279px 0 0 -20px;
+		margin: -269px 0 0 -20px;
 
 
 	}
@@ -68,7 +68,7 @@ h3, h5{
 
 
 		@media(min-width:740px){
-			@include fs-headline(9);
+			@include fs-headline(8);
 		}
 
 
@@ -113,5 +113,9 @@ h3, h5{
 	@media(min-width:980px){
 		margin: 0 0 $gs-baseline -20px;
 		padding: $gs-baseline $gs-gutter $gs-baseline+$gs-baseline; 
+	}
+
+	.locate{
+		padding-top: $gs-baseline;
 	}
 }
