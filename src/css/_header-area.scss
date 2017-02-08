@@ -5,6 +5,8 @@ $aniEaseMode: linear;
 
 $background-grad:linear-gradient(30deg, $grad1, $grad2);
 
+$standy-grad: linear-gradient(0deg, $grad1, $grad1);
+
 .header-background {
     background:$background-grad;
             // background:linear-gradient(30deg, $grad1, $grad2);  
@@ -62,7 +64,7 @@ $background-grad:linear-gradient(30deg, $grad1, $grad2);
 
 .gv-header-list-text{
     display: none;
-    @include fs-header(3);
+    @include fs-header(2);
     color:$accent-main;
     // padding: 0 0 0 $gs-gutter;
     padding:$gs-baseline $gs-gutter;

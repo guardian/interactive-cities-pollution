@@ -1,6 +1,6 @@
 // @import "lesshat";
-
 // Method 1) Pure CSS
+
 .gv-ratings-css {
     unicode-bidi: bidi-override;
     font-size: 36px;
@@ -68,9 +68,6 @@
 }
 
 
-
-
-//
 .gv-high-num{
   width: 120px;
   @include fs-headline(8);
@@ -102,12 +99,13 @@
 
   @media (min-width:740px){
     display: inline-block;
-    width: gs-span(4);
-    margin: 0 20px $gs-baseline+$gs-baseline 0;
+    width: gs-span(5);
+    margin: 0 10px $gs-baseline+$gs-baseline 0;
+    padding: 0 10px 0 0;
     float:none;
     clear:none;
     border-right: 1px dotted #DEDEDE;
-      border-bottom: none;
+    border-bottom: none;
   }
 
   h3 {
@@ -123,6 +121,7 @@
 }
 
 .riskType:last-child {
+     border-right: none; 
      border-bottom: none;
      @media (max-width:740px){
       margin: 0 20px gs-height(1) 0;
