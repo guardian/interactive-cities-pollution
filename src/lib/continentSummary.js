@@ -100,7 +100,7 @@ export default function(cities) {
 
 						g.append("circle")
 						    			.attr("class", d => `userData userData-${r}`)
-						    			.attr('r', 5)
+						    			.attr('r', 3)
 						g.append("line")
 						    			.attr("class", d => `userData userDataLine-${r}`)   			
 
@@ -133,7 +133,7 @@ export default function(cities) {
 
 						g.append("circle")
 											.attr("class", d => `maxLabelDot maxLabelDot-${r}`)
-											.attr('r', 5)
+											.attr('r', 6)
 
 
 						g.append('text')
@@ -207,7 +207,7 @@ export default function(cities) {
 
 						d3_select(`.maxLabelDot-${r}`)
 							.classed('active', true)
-							.attr('cx', xscale( rd.sortedPM25[ rd.sortedPM25.length -1 ] ))
+							.attr('cx', xscale( rd.sortedPM25[ rd.sortedPM25.length -1 ] )-1)
 							.attr('cy', (offsetY/2));
 
 

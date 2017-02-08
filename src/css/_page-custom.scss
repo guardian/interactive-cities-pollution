@@ -61,7 +61,13 @@ h3, h5{
 	}
 
 	h1{
-		@include fs-headline(9);
+		width:95%;
+		@include fs-headline(4);
+
+
+		@media(min-width:740px){
+			@include fs-headline(9);
+		}
 
 
 	}
@@ -81,10 +87,10 @@ h3, h5{
 	}
 
 	.standfirst-button{
-		background: $accent-main;
+		background: $neutral-2;
 		padding: 3px 12px;
 		border-radius: 2000px;
-		color: $neutral-1;
+		color: $neutral-6;
 		@include fs-textSans(3);
 		cursor: pointer;
 	}

@@ -56,7 +56,7 @@ $background-grad:linear-gradient(180deg, $grad1, $grad2);
 
     @media(min-width:740px){
             
-            height:480px;
+            height:640px;
         }
 }
 
@@ -85,50 +85,56 @@ $background-grad:linear-gradient(180deg, $grad1, $grad2);
     display:inline-block;
     width: 20%;
     height:100%;
-    background-size: 100% 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;       
+
+    
 }
 
 .gv-header-list li:first-child{
     background: url('<%= path %>/assets/city-pics/tehran.jpg'), $background-grad;
-    background-position: center top;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; 
+    
 }
 
 
 .gv-header-list  li:nth-child(2){
     background: url('<%= path %>/assets/city-pics/london.jpg'), $background-grad;
-    background-position: center top;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; 
+    
 
 }
 
 .gv-header-list  li:nth-child(3){
     background: url('<%= path %>/assets/city-pics/beijing.jpg'), $background-grad;
-    background-position: center top;
-
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; 
 }
 
 .gv-header-list  li:nth-child(4){
     background: url('<%= path %>/assets/city-pics/mexico-city.jpg'), $background-grad;
-    background-position: center top;
-
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; 
 }
 
 .gv-header-list li:last-child{
     background: url('<%= path %>/assets/city-pics/new-delhi.jpg'), $background-grad;
-    background-position: center top;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;   
 }
 
 
-.gv-header-list li:first-child, .gv-header-list li:last-child  { 
 
-        @media(min-width:980px){
-            //width: gs-span(4)+$gs-gutter;//26%; 
-            height:100%;
-        }
-
-}
 
 
 
