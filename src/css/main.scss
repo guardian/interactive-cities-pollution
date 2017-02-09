@@ -136,7 +136,7 @@ $axis-neutral: $neutral-3;
 
 .gv-inner-content{
 	width:100%;
-	
+
 @media(min-width:1140px){
 			margin-left:160px;
 	}
@@ -229,10 +229,11 @@ $axis-neutral: $neutral-3;
 	float:none;
 	@media(min-width:1140px){
 		max-width: 160px;
+		padding-right:20px;
 		float: left;
 	}
 	@media(min-width:1300px){
-		max-width: 220px;
+		max-width: 240px;
 		float: left;
 	}
 }
