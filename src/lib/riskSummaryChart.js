@@ -71,8 +71,7 @@ export default function() {
     	svgshell = container.append("svg")
 
     	svg = svgshell.append('g')
-    				.attr("transform", `translate(${margins.left}, ${margins.top})`)
-
+    				.attr("transform", `translate(${margins.left}, ${margins.top})`)	
 
 			xscale.domain(extents.pm25);
 			yscale.domain(extents.dataRange);
@@ -86,6 +85,8 @@ export default function() {
 			.attr('class', 'riskYaxis')
 
 
+		svg.append("g")
+			.attr('class', 'sourceHolder');
 
 		let dots = svg.append("g")
 						.attr("class", "riskCircles");
@@ -131,7 +132,7 @@ export default function() {
 		svgshell.attr("width",params.WIDTH).attr("height",params.HEIGHT);
 
 
-		//console.log('drawing visual', params, margins, 0-(params.HEIGHT-margins.top-margins.bottom))
+		console.log('drawing visual', params, margins, 0-(params.HEIGHT-margins.top-margins.bottom))
 
 		//setCurves
 		d3_selectAll('.riskLine')
@@ -178,9 +179,9 @@ export default function() {
     	d3_selectAll('.riskCircle')
     		.attr('transform', `translate(${xscale(0)},${yscale(0)})`);
 
-
     	customYAxis	();
 
+    	addSource();
 	}
 
 	function moveDots(userData){
@@ -229,10 +230,18 @@ export default function() {
 	}
 
 
+	function addSource(){
+
+		console.log('adding source');
+		d3_select(".sourceHolder")
+				.text(" function source ");
+	}
+
 	function customXAxis(g) {
 	  g.call(xaxis).tickValues(d3_range(0, 300, 50));
 	  g.select(".domain").remove();
 	}
+
 
 	function customYAxis() {
 	  d3_select(".riskYaxis")
@@ -244,8 +253,8 @@ export default function() {
 	// Returns an attrTween for translating along the specified path element.
 	function translateAlong(path) {
 
-
 	  var l = path.getTotalLength();
+
 	  return function(d, i, a) {
 	    return function(t) {
 	      var p = path.getPointAtLength(t * l);

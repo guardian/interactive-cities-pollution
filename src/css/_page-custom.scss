@@ -114,6 +114,21 @@ h3, h5{
 	min-height: gs-height(1);
 }
 
+.footer-strip{
+	background-color:rgba($neutral-dark,0.125);
+	min-height: gs-height(5);
+	.gv-inner{
+		border-top:1px solid $news-main-2;
+	}
+}
+
+
+.byline-strip{
+	@include fs-bodyHeading(2);
+	margin: gs-height(1) 0 gs-height(1);
+	min-height: gs-height(2);
+
+}
 
 .gv-locate-form-holder{
 	//background: $standy-grad;
@@ -122,6 +137,8 @@ h3, h5{
 		margin: 0 0 $gs-baseline -20px;
 		padding: $gs-baseline $gs-gutter $gs-baseline+$gs-baseline; 
 	}
+
+
 
 	.locate{
 		padding-top: $gs-baseline;
