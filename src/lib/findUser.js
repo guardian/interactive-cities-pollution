@@ -12,7 +12,8 @@ export default function (cities) {
 
     /* STANDFIRST BUTTON FUNCTIONALITY */
     var stBtns = document.querySelectorAll('.standfirst-button');
-    stBtns.forEach(el => {
+
+    [].forEach.call(stBtns, function(el) {
       el.addEventListener('click', e =>{
 
         let source = e.target || e.srcElement;
@@ -20,7 +21,8 @@ export default function (cities) {
         document.getElementById("awesomeplete_input").value = `${toTitleCase(city.city)}, ${city.country}`
         updateListeners(city);
       })
-    })
+    });
+
 
 
 		/* AUTO COMPLETE FUNCTIONALITY */
