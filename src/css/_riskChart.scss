@@ -25,8 +25,12 @@
 
 .riskSummaryChart {
 	max-width: 760px;
-	min-height: 400px;
+	min-height: 80px;
 	overflow: hidden;
+
+	@media(min-width:740px){
+		min-height: 400px;
+	}
 
 
 	.riskLine {

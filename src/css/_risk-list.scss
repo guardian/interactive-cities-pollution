@@ -129,6 +129,15 @@
 
 }
 
+.riskType:first-child {
+	h3 {
+		margin-top:$gs-baseline;
+		@media (min-width:740px){
+	     	margin-top:0;
+	     }
+	}    
+}
+
 .riskType:nth-of-type(even) {
      border-right: none;
 }
