@@ -54,8 +54,8 @@ text.regionLabel {
   fill: none;
 
   &.active {
-    fill: $live-main-1;
-    stroke:$live-main-2;
+    fill: $accent-main;
+    stroke:$accent-strong;
   }
 }
 
@@ -67,7 +67,7 @@ text.regionLabel {
       font-size: 12px;
       text-anchor: middle;
       font-weight: bold;
-      fill: $live-main-2;
+      fill: $accent-strong;
     }
 
 }

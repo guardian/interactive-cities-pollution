@@ -3,43 +3,46 @@ $grad2: $neutral-medium;
 $headerAniTime : 90s;
 $aniEaseMode: linear;
 
-$background-grad:linear-gradient(180deg, $grad1, $grad2);
+$background-grad:linear-gradient(30deg, $grad1, $grad2);
+
+$standy-grad: linear-gradient(0deg, $grad1, $grad1);
 
 .header-background {
-            background:linear-gradient(30deg, $grad1, $grad2);  
-            background-size: 200% 200%;
-            -webkit-animation: headerAni $headerAniTime $aniEaseMode infinite;
-            -moz-animation: headerAni $headerAniTime $aniEaseMode infinite;
-            -o-animation: headerAni $headerAniTime $aniEaseMode infinite;
-            animation: headerAni $headerAniTime $aniEaseMode infinite;
-            min-height: 100% !important;
-            min-width:100%;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-blend-mode: multiply;
+    background:$background-grad;
+            // background:linear-gradient(30deg, $grad1, $grad2);  
+            // background-size: 200% 200%;
+            // -webkit-animation: headerAni $headerAniTime $aniEaseMode infinite;
+            // -moz-animation: headerAni $headerAniTime $aniEaseMode infinite;
+            // -o-animation: headerAni $headerAniTime $aniEaseMode infinite;
+            // animation: headerAni $headerAniTime $aniEaseMode infinite;
+            // min-height: 100% !important;
+            // min-width:100%;
+            // background-position: center center;
+            // background-repeat: no-repeat;
+            // background-blend-mode: multiply;
         }
 
-        @-webkit-keyframes headerAni {
-            0%{background-position:0% 0% }
-            50%{background-position:100% 0% }
-            100%{background-position:0% 0%}
-        }
-        @-moz-keyframes headerAni {
-             0%{background-position:0% 0% }
-            50%{background-position:100% 0% }
-            100%{background-position:0% 0%}
-        }
-        @-o-keyframes headerAni {
-             0%{background-position:0% 0% }
-            50%{background-position:100% 0% }
-            100%{background-position:0% 0%}
-        }
-        @keyframes headerAni {
-            0%{background-position:0% 0% }
-            50%{background-position:100% 0% }
-            100%{background-position:0% 0%}
+        // @-webkit-keyframes headerAni {
+        //     0%{background-position:0% 0% }
+        //     50%{background-position:100% 0% }
+        //     100%{background-position:0% 0%}
+        // }
+        // @-moz-keyframes headerAni {
+        //      0%{background-position:0% 0% }
+        //     50%{background-position:100% 0% }
+        //     100%{background-position:0% 0%}
+        // }
+        // @-o-keyframes headerAni {
+        //      0%{background-position:0% 0% }
+        //     50%{background-position:100% 0% }
+        //     100%{background-position:0% 0%}
+        // }
+        // @keyframes headerAni {
+        //     0%{background-position:0% 0% }
+        //     50%{background-position:100% 0% }
+        //     100%{background-position:0% 0%}
 
-        }
+        // }
 
  
 
@@ -54,15 +57,14 @@ $background-grad:linear-gradient(180deg, $grad1, $grad2);
     height:240px;
     margin:0; 
 
-    @media(min-width:740px){
-            
-            height:640px;
+    @media(min-width:740px){         
+            height:480px;
         }
 }
 
 .gv-header-list-text{
     display: none;
-    @include fs-header(3);
+    @include fs-header(2);
     color:$accent-main;
     // padding: 0 0 0 $gs-gutter;
     padding:$gs-baseline $gs-gutter;

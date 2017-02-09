@@ -1,5 +1,5 @@
 .gv-locate-btn {
-  background-color: $accent-main;
+  background-color: $accent-hover;
   color: $neutral-dark;
   @include fs-textSans(1);
   line-height: 19px;
@@ -39,12 +39,12 @@
 }
 
 .gv-locate-btn:hover {
-  background-color: $accent-hover;
+  background-color: $accent-strong;
 
 }  
 
 @keyframes loadinganim {
-    0% {background-color: $neutral-medium;}
+    0% {background-color: $accent-main;}
     50% {background-color: $accent-hover;}
-    100% {background-color: $neutral-medium;}
+    100% {background-color: $accent-main;}
 }

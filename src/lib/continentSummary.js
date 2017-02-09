@@ -98,11 +98,13 @@ export default function(cities) {
 						g.append('rect')
 							.attr('class', `quater2 quater2-${r}`);
 
+						g.append("line")
+							.attr("class", d => `userData userDataLine-${r}`)   
+
 						g.append("circle")
 						    			.attr("class", d => `userData userData-${r}`)
 						    			.attr('r', 3)
-						g.append("line")
-						    			.attr("class", d => `userData userDataLine-${r}`)   			
+									
 
 						g.append('text')
 									.attr("class", d => `userDataText userDataText-${r}`)
