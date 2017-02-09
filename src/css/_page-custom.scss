@@ -57,18 +57,20 @@ h3, h5{
 		border-bottom: 1px dotted $neutral-2;
 		padding:$gs-baseline 0 0 20px;
 
-		margin: -269px 0 0 -20px;
+		margin: -282px 0 0 -20px;
 
 
 	}
 
 	h1{
-		width:95%;
-		@include fs-headline(4);
+		
+		@include fs-headline(5);
 
 
 		@media(min-width:740px){
+			max-width: 680px;
 			@include fs-headline(8);
+			margin-bottom:$gs-baseline;
 		}
 
 
@@ -80,7 +82,13 @@ h3, h5{
 	  }
 
 	p, h1, h2, h5, span{
+		width:95%;
 		color:$neutral-light;
+		@media(min-width:740px){
+			max-width: 720px;
+		}
+
+		
 	}
 
 	.gv-standfirst-ui-text{

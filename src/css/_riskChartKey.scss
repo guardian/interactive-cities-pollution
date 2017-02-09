@@ -1,36 +1,75 @@
+.gv-flex-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    }
+
+.gv-flex-item {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1  auto;
+    flex: 0 1  auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    }
+
+
+
+
+/*
+    Legacy Firefox implementation treats all flex containers
+    as inline-block elements.
+*/
+
+
+@-moz-document url-prefix() {
+.gv-flex-container {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    }
+
+}
+
 .gv-keys{
-	display:block;
-	list-style-type: none;
 	max-width:780px;
 	margin:$gs-baseline 0 gs-height(1) 0;
 
 	@media(min-width:980px){
-		display:flex;
 		margin:$gs-baseline 0;
 	}
-
-
-	li{
-		display:block;
-		width:gs-span(4);
-		// border-right: 1px solid $neutral-5;
-		margin-bottom: $gs-baseline;
-		border-bottom:  none;
-
-		@media(min-width:1140px){
-			display:block;
-			width:auto;
-
-			border-right: none;
-			margin-bottom: $gs-baseline;
-			margin-right: $gs-gutter;
-			// border-bottom: 1px solid $neutral-5;
-		}
-	}
 }
-
-
-
 
 
 .gv-graph-header{
@@ -40,7 +79,7 @@
 
 
 .gv-key-text{
-	margin: 0 0 0 12px;
+	margin: 0 12px 0 ;
 	@include fs-textSans(2);
 	fill: #333333;
 	color: #333333;
@@ -55,13 +94,13 @@
 
 
 .gv-key-color{
-		position:relative;
-		float:left;
-		margin: 1px 0 $gs-baseline 0;
-		width: 7px;
-		height: 11px;
-		margin-right: 4px;
-		border-radius: 2px;
+	position:relative;
+	float:left;
+	margin: 2px 0 $gs-baseline 0;
+	width: 7px;
+	height: 11px;
+	margin-right: 4px;
+	border-radius: 2px;
 }
 
 
@@ -74,13 +113,13 @@
 	background-color: $graph-2;
 }
 .color-three{
-	background-color:  $graph-3;
+	background-color: $graph-3;
 }
 
 .color-four{
-	background-color:  $graph-4;
+	background-color: $graph-4;
 }
 
 .color-five{
-	background-color:  $graph-5;
+	background-color: $graph-5;
 }

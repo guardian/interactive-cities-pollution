@@ -67,7 +67,11 @@ $axis-neutral: $neutral-3;
     }
 
 		h2 {
-			@include fs-header(5);
+				@include fs-header(2);
+			@media(min-width:740px){
+				@include fs-header(5);
+			}
+			
 		}
 }
 
@@ -132,6 +136,7 @@ $axis-neutral: $neutral-3;
 
 .gv-inner-content{
 	width:100%;
+	
 @media(min-width:1140px){
 			margin-left:160px;
 	}
