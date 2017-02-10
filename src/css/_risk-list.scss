@@ -120,6 +120,10 @@
 		margin-bottom: $gs-baseline;
 	}
 
+	p{
+		@include fs-textSans(3);
+	}
+
 
 }
 

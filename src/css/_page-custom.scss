@@ -41,12 +41,15 @@ h3, h5{
 
 .gv-standfirst-holder, .gv-locate-form-holder{
 	position:relative;
+	width:100%;
+	max-width:800px;
 	z-index:200;
-	margin: 0 -20px;
-	padding:$gs-baseline 0 20px 20px;
+	margin: 0;
+
+	padding:$gs-baseline 0 20px 10px;
 	background-color:rgba($neutral-1 ,0.9);
 	color:$neutral-dark;
-	max-width:800px;
+	
 
 	@media(min-width:740px){
 		padding:$gs-baseline 0 20px 20px;
@@ -127,6 +130,9 @@ h3, h5{
 	@include fs-bodyHeading(2);
 	margin: gs-height(1) 0 gs-height(1);
 	min-height: gs-height(2);
+	a{
+		color:$news-main-1;
+	}
 
 }
 

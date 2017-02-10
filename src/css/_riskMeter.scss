@@ -3,25 +3,32 @@
 
 .gv-ratings-css {
   unicode-bidi: bidi-override;
-  font-size: 40px;
+  font-size: 36px;
   height: 36px;
-  width: 130px;
+  width: 160px;
   margin:0-$gs-baseline 0 $gs-baseline 0;
   position: relative;
   padding: 0;
 
+  span {
+      width: 14px;
+      height: 22px;
+      margin:0;
+      padding:0;  
+      text-align: top;
+    }
+
   //text-shadow: 0 0 2px $graph-1;
 
   &-top {
-    width: 100%;
+    width: 160px;
     padding: 0;
     position: absolute;
-    z-index: 1;
     display: block;
     top: 0;
     left: 0;
-    overflow: hidden;
-
+    opacity: 1;
+    z-index: 1;
     span {
       display: none;
     }
@@ -51,10 +58,17 @@
     }
   }
   &-bottom {
+    width: 160px;
     padding: 0;
+    position: absolute;
     display: block;
+    top: 0;
+    left: 0;
     opacity: 0.3;
     z-index: 0;
+    span {
+       display: inline-block;
+    }
   }
 
 

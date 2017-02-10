@@ -9,7 +9,7 @@ import continent from '../data/countryToContinent.json'
 
 let summaryChart;
 
-var shareFn = share('Share text goes here','https://www.theguardian.com/p/5dtd9')
+var shareFn = share('Are you at risk? Find out how pollution levels increase your chance of death','https://gu.com/p/5q5px')
 
 function init(){
 

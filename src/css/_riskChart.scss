@@ -176,6 +176,11 @@
 }
 
 .gv-source{
+	margin-top: 0;
 	@include fs-textSans(1);
 	color: $neutral-3;
+
+	@media (min-width:980px){
+		margin-top: -28px;
+	}
 }
