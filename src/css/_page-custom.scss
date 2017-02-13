@@ -41,12 +41,15 @@ h3, h5{
 
 .gv-standfirst-holder, .gv-locate-form-holder{
 	position:relative;
+	width:100%;
+	max-width:800px;
 	z-index:200;
-	margin: 0 -20px;
-	padding:$gs-baseline 0 20px 20px;
+	margin: 0;
+
+	padding:$gs-baseline 0 20px 10px;
 	background-color:rgba($neutral-1 ,0.9);
 	color:$neutral-dark;
-	max-width:800px;
+	
 
 	@media(min-width:740px){
 		padding:$gs-baseline 0 20px 20px;
@@ -57,18 +60,20 @@ h3, h5{
 		border-bottom: 1px dotted $neutral-2;
 		padding:$gs-baseline 0 0 20px;
 
-		margin: -269px 0 0 -20px;
+		margin: -282px 0 0 -20px;
 
 
 	}
 
 	h1{
-		width:95%;
-		@include fs-headline(4);
+		
+		@include fs-headline(5);
 
 
 		@media(min-width:740px){
+			max-width: 680px;
 			@include fs-headline(8);
+			margin-bottom:$gs-baseline;
 		}
 
 
@@ -80,7 +85,13 @@ h3, h5{
 	  }
 
 	p, h1, h2, h5, span{
+		width:95%;
 		color:$neutral-light;
+		@media(min-width:740px){
+			max-width: 720px;
+		}
+
+		
 	}
 
 	.gv-standfirst-ui-text{
@@ -103,9 +114,27 @@ h3, h5{
 }
 
 .first-strip{
-	min-height: gs-height(5);
+	min-height: gs-height(1);
 }
 
+.footer-strip{
+	background-color:rgba($neutral-dark,0.125);
+	min-height: gs-height(5);
+	.gv-inner{
+		border-top:1px solid $news-main-2;
+	}
+}
+
+
+.byline-strip{
+	@include fs-bodyHeading(2);
+	margin: gs-height(1) 0 gs-height(1);
+	min-height: gs-height(2);
+	a{
+		color:$news-main-1;
+	}
+
+}
 
 .gv-locate-form-holder{
 	//background: $standy-grad;
@@ -114,6 +143,8 @@ h3, h5{
 		margin: 0 0 $gs-baseline -20px;
 		padding: $gs-baseline $gs-gutter $gs-baseline+$gs-baseline; 
 	}
+
+
 
 	.locate{
 		padding-top: $gs-baseline;

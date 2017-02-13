@@ -23,10 +23,15 @@
 }
 
 
+
 .riskSummaryChart {
 	max-width: 760px;
-	min-height: 400px;
+	min-height: 80px;
 	overflow: hidden;
+
+	@media(min-width:740px){
+		min-height: 400px;
+	}
 
 
 	.riskLine {
@@ -64,7 +69,7 @@
 
 	}
 
-	.tick{
+	.tick, .sourceHolder{
 		stroke-width:1px;
 		@include fs-textSans(1);
 		fill: $axis-neutral;
@@ -75,7 +80,6 @@
 
 	.tick text{
 		fill: $axis-neutral;
-
 		stroke:none;
 	}
 
@@ -172,6 +176,11 @@
 }
 
 .gv-source{
+	margin-top: 0;
 	@include fs-textSans(1);
 	color: $neutral-3;
+
+	@media (min-width:980px){
+		margin-top: -28px;
+	}
 }

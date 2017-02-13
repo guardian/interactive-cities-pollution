@@ -50,8 +50,8 @@ $axis-neutral: $neutral-3;
 .gv-slice {
 	width:100%;
 	margin:0 auto;
-}
 
+}
 
 .element-atom,.interactive-atom{
     margin:0 !important;
@@ -66,7 +66,11 @@ $axis-neutral: $neutral-3;
     }
 
 		h2 {
-			@include fs-header(5);
+				@include fs-header(2);
+			@media(min-width:740px){
+				@include fs-header(5);
+			}
+
 		}
 }
 
@@ -100,16 +104,19 @@ $axis-neutral: $neutral-3;
 
 .gv-inner{
 	max-width:620px;
-	margin:0 auto;
+	margin:0;
 	padding:0 10px;
 
 	@media(min-width:480px){
-		padding:0 20px;
+
 	}
 	@media(min-width:740px){
+		margin:0 auto;
+		padding:0 20px;
 		max-width:740px;
 	}
 	@media(min-width:980px){
+
 		max-width:980px;
 	}
 	@media(min-width:1140px){
@@ -119,6 +126,18 @@ $axis-neutral: $neutral-3;
 		max-width:1300px;
 	}
 }
+
+
+.gv-inner-standfirst{
+	padding:0;
+
+	@media(min-width:980px){
+		padding:0 20px;
+	}
+
+}
+
+
 
 .gv-inner-content {
 
@@ -131,6 +150,7 @@ $axis-neutral: $neutral-3;
 
 .gv-inner-content{
 	width:100%;
+
 @media(min-width:1140px){
 			margin-left:160px;
 	}
@@ -223,10 +243,11 @@ $axis-neutral: $neutral-3;
 	float:none;
 	@media(min-width:1140px){
 		max-width: 160px;
+		padding-right:20px;
 		float: left;
 	}
 	@media(min-width:1300px){
-		max-width: 220px;
+		max-width: 240px;
 		float: left;
 	}
 }

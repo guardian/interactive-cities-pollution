@@ -67,7 +67,9 @@
 	margin:$gs-baseline 0 gs-height(1) 0;
 
 	@media(min-width:980px){
-		margin:$gs-baseline 0;
+
+		margin:0 0 $gs-baseline 0;
+
 	}
 }
 
@@ -80,7 +82,9 @@
 
 .gv-key-text{
 	margin: 0 12px 0 ;
-	@include fs-textSans(2);
+
+	@include fs-textSans(1);
+
 	fill: #333333;
 	color: #333333;
 
@@ -122,4 +126,11 @@
 
 .color-five{
 	background-color: $graph-5;
+}
+.color-six{
+    background-color: $neutral-light;
+}
+
+.color-seven{
+    background-color: $neutral-dark;
 }
