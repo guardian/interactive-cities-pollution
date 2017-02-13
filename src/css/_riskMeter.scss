@@ -6,7 +6,7 @@
   font-size: 36px;
   height: 36px;
   width: 160px;
-  margin:0-$gs-baseline 0 $gs-baseline 0;
+  margin:0 0 $gs-baseline 0;
   position: relative;
   padding: 0;
 
@@ -115,6 +115,7 @@
 
 .gv-high-num{
   width: 120px;
+  height: 28px;
   @include fs-headline(8);
   font-size:3.5em;
   font-weight:200;
