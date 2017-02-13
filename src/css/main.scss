@@ -56,6 +56,7 @@ $axis-neutral: $neutral-3;
 .element-atom,.interactive-atom{
     margin:0 !important;
     background:#fff !important;
+		overflow: hidden;
 }
 .element-atom,
 .interactive-atom,
@@ -131,6 +132,10 @@ $axis-neutral: $neutral-3;
 .gv-inner-standfirst{
 	padding:0;
 
+	.gv-inner-content {
+		width: auto;
+	}
+
 	@media(min-width:980px){
 		padding:0 20px;
 	}
@@ -149,7 +154,7 @@ $axis-neutral: $neutral-3;
 }
 
 .gv-inner-content{
-	width:100%;
+
 
 @media(min-width:1140px){
 			margin-left:160px;

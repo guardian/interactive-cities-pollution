@@ -37,8 +37,20 @@ export default function (cities) {
 
 		});
 
-    window.addEventListener('awesomplete-selectcomplete', e => {
-      var city = matchCity(e.text.label)
+    // window.addEventListener('awesomplete-select', e => {
+    //
+    //   var city = matchCity(e.text.label)
+    //   console.log('select', city)
+    //   updateListeners(city);
+    // })
+
+    window.addEventListener('awesomplete-close', e => {
+      //console.log(e)
+      var city = matchCity(document.querySelector('.visually-hidden').innerHTML);
+
+
+      document.getElementById("awesomeplete_input").value = `${toTitleCase(city.city)}, ${city.country}`
+      console.log('close', city)
       updateListeners(city);
     })
 
