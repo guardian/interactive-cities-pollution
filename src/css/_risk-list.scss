@@ -127,13 +127,21 @@
 
 }
 
+.riskNumber {
+	display: none;
+	min-height: 40px;
+	.active & {
+		display: block;
+	}
+}
+
 .risk-title{
 	h1,h2,h3,h4,h5{
 		margin-bottom:$gs-baseline !important;
 			@media (min-width:980px){
 		     	margin-bottom:0 !important;
 		    }
-	}  
+	}
 }
 
 
