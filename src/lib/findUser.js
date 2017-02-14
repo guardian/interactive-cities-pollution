@@ -31,6 +31,7 @@ export default function (cities) {
 		var awesomplete = new Awesomplete(input, {
       list: cities,
 		  autoFirst: true,
+      minChars: 4,
       data: function (item, input) {
         return { label: `${toTitleCase(item.city)}, ${item.country}`, value: `${toTitleCase(item.city)}, ${item.country}` };
       }

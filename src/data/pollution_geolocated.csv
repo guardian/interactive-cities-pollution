@@ -84,6 +84,7 @@ Shenyang	China	41.805699	123.431472	72
 Chengdu	China	30.572816	104.066801	71
 Harbin	China	45.803775	126.534967	71
 Namkham	Myanmar	23.830423	97.684657	71
+Delta region	Egypt	#N/A	#N/A	71
 Kaifeng	China	34.797281	114.307583	70
 Yichang	China	30.691967	111.286471	70
 Yangquan	China	37.856972	113.580519	70
@@ -147,6 +148,7 @@ Jinhua	China	29.079175	119.647421	63
 Mumbai	India	19.075984	72.877656	63
 Huzhou	China	30.894348	120.086823	63
 Linfen	China	36.088005	111.518976	62
+Al Gharbia - Bida Zayed	United Arab Emirates	#N/A	#N/A	62
 Xining	China	36.617134	101.778224	62
 Sylhet	Bangladesh	24.904539	91.861101	61
 Kolkata	India	22.572646	88.363895	61
@@ -289,6 +291,7 @@ Hamadan	Iran	34.798857	48.515022	47
 KUTAHYA	Turkey	39.419955	29.985732	47
 KAYSERI	Turkey	38.720489	35.482597	47
 Zhangjiajie	China	29.117096	110.479191	47
+Pakdasht	Iran	#N/A	#N/A	47
 Saad Al-Abdullah	Kuwait	29.313868	47.719386	46
 Wendeng	China	37.193886	122.057941	46
 Qingdao	China	36.067108	120.382609	46
@@ -321,6 +324,7 @@ Mianyang	China	31.467495	104.678946	44
 Balasore	India	21.486934	86.9246	44
 Kohima	India	25.658596	94.105331	44
 ADIYAMAN	Turkey	37.76365	38.277259	44
+Santa Gertrudes – Jd. Luciana, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	44
 Dongguan	China	23.020673	113.7518	43
 Lishui	China	28.46763	119.922796	43
 Chaozhou	China	23.656704	116.622756	43
@@ -331,6 +335,7 @@ Thimphu	Bhutan	27.472792	89.639286	43
 KAHRAMANMARAS	Turkey	37.575275	36.922822	43
 Korba	India	22.35945	82.75006	43
 ZYWIEC	Poland	49.6913	19.182398	43
+Robatkarim	Iran	#N/A	#N/A	43
 Ujjain	India	23.179301	75.78491	43
 ZONGULDAK	Turkey	41.453521	31.78938	43
 Hohhot	China	40.842585	111.749181	43
@@ -394,6 +399,7 @@ Kochi	India	9.931233	76.267304	38
 MONTANA	Bulgaria	43.408516	23.225729	37
 Urmia	Iran	37.549806	45.078628	37
 KRAKOW	Poland	50.06465	19.94498	37
+Shahryar	Iran	#N/A	#N/A	37
 ARDAHAN	Turkey	41.11295	42.70228	37
 Sari	Iran	36.565873	53.058633	37
 Rajshahi	Bangladesh	24.363589	88.624135	37
@@ -475,6 +481,7 @@ Maoming	China	21.662999	110.925456	32
 OSTRAVA	Czech Republic	49.820923	18.262524	32
 Cochabamba	Bolivia, Plurinational States of	-17.413977	-66.165322	32
 NEVSEHIR	Turkey	38.624694	34.714151	32
+Bojnord	Iran	#N/A	#N/A	32
 San Carlos City	Philippines	10.483734	123.412896	32
 Salem	India	11.664325	78.146014	32
 DABROWA GORNICZA	Poland	50.32169	19.194913	32
@@ -674,6 +681,7 @@ Zhanjiang	China	21.270746	110.359336	26
 Gyeongbuk	Republic of Korea	36.4919	128.8889	26
 Incheon	Republic of Korea	37.456256	126.705206	26
 TORINO	Italy	45.070312	7.686856	26
+Rio Claro, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	26
 JASLO	Poland	49.744566	21.472287	26
 CREMA	Italy	45.364337	9.682484	26
 Pirdop	Bulgaria	42.703373	24.177048	26
@@ -780,6 +788,7 @@ PIACENZA	Italy	45.052621	9.692984	23
 TORCHIAROLO	Italy	40.482073	18.053639	23
 Phayao	Thailand	19.215437	100.202369	23
 Rayong	Thailand	12.707434	101.147352	23
+Vere Plains Clarendon	Jamaica	#N/A	#N/A	23
 GRUDZIADZ	Poland	53.483749	18.753565	23
 BELGRADE	Serbia	44.786568	20.448922	23
 Bnei Brak	Israel	32.084932	34.835226	23
@@ -993,11 +1002,14 @@ MONTALE	Italy	43.934742	11.017563	19
 MADDALONI	Italy	41.036703	14.381239	19
 Százhalombatta	Hungary	47.308332	18.909671	19
 GRAZ	Austria	47.070714	15.439504	19
+Catanduva, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	19
+Limeira – Boa Vista, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	19
 FERRARA	Italy	44.838124	11.619787	19
 FOLIGNO	Italy	42.950868	12.701475	19
 WEIZ	Austria	47.21717	15.62297	19
 Sabaneta	Colombia	6.150559	-75.61682	19
 BRANDYS	Czech Republic	49.762799	15.051998	19
+Bramsthan, Flacq	Mauritius	#N/A	#N/A	19
 Taipei	China	25.032969	121.565418	19
 Fukuoka city	Japan	33.590355	130.401716	19
 KRANJ	Slovenia	46.242834	14.355542	19
@@ -1015,6 +1027,7 @@ MODENA	Italy	44.647128	10.925227	18
 CHOMUTOV	Czech Republic	50.463498	13.410737	18
 Quito	Ecuador	-0.180653	-78.467838	18
 VILLEURBANNE	France	45.771944	4.890171	18
+Old Harbour Plains, St. Catherine	Jamaica	#N/A	#N/A	18
 LIEPAJA	Latvia	56.504668	21.010806	18
 OSTROLEKA	Poland	53.087654	21.559255	18
 OSIO SOTTO	Italy	45.620259	9.584231	18
@@ -1104,6 +1117,8 @@ WIDUCHOWA	Poland	53.126879	14.390618	18
 PARIS	France	48.856614	2.352222	18
 MOLINELLA	Italy	44.62269	11.669638	17
 BERENDRECHT	Belgium	51.34287	4.31409	17
+Cordeirópolis – Módolo, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	17
+Jaboticabal, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	17
 LINZ	Austria	48.30694	14.28583	17
 Ashkelon	Israel	31.668789	34.574252	17
 CASTELLARANO	Italy	44.513251	10.733162	17
@@ -1267,6 +1282,7 @@ GRANICA	Poland	52.138167	20.804988	16
 MOERKERKE	Belgium	51.243057	3.340071	16
 EJIDO (EL)	Spain	36.773115	-2.810355	16
 REGIÃO METROPOLITANA DO RIO DE JANEIRO	Brazil	-22.810034	-43.406662	16
+LYKOVRISI	Greece	#N/A	#N/A	16
 GUIDONIA MONTECELIO	Italy	41.993969	12.724504	16
 TRAISMAIER	Austria	48.351868	15.741889	16
 DUISBURG	Germany	51.434408	6.762329	16
@@ -1306,6 +1322,8 @@ ORADEA	Romania	47.046501	21.918944	16
 MONS	Belgium	50.454241	3.956659	16
 WORMS	Germany	49.634137	8.350718	16
 Copacabana	Colombia	6.357621	-75.505078	16
+Araçatuba, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	16
+Araraquara, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	16
 LANDSHUT	Germany	48.544192	12.146853	16
 BRINDISI	Italy	40.632728	17.941762	16
 SERAING	Belgium	50.583883	5.49963	16
@@ -1565,10 +1583,12 @@ STOKE - ON - TRENT	United Kingdom	53.002668	-2.179404	14
 KLAGENFURT	Austria	46.63646	14.312225	14
 OVIEDO	Spain	43.361914	-5.849389	14
 LEIDEN	Netherlands	52.160114	4.49701	14
+South Eastern Manchester	Jamaica	#N/A	#N/A	14
 Kuching	Malaysia	1.607681	110.378544	14
 POTSDAM	Germany	52.390569	13.064473	14
 RIVA DEL GARDA	Italy	45.889198	10.84307	14
 OXFORD	United Kingdom	51.752021	-1.257726	14
+Jundiaí, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	14
 São José dos Campos, REGIÃO METROPOLITANA DO VALE DO PARAÍBA E LITORAL NORTE	Brazil	-23.223701	-45.900907	14
 TARANTO	Italy	40.464361	17.24703	14
 AYTRE	France	46.134424	-1.113732	14
@@ -1629,6 +1649,7 @@ LEUNA	Germany	51.323266	12.024228	13
 KEHLHEIM	Germany	48.918412	11.886563	13
 IMST	Austria	47.24013	10.73954	13
 DRAMMEN	Norway	59.744074	10.204456	13
+Bauru, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	13
 Canoas, REGIÃO METROPOLITANA DE PORTO ALEGRE	Brazil	-30.034647	-51.217658	13
 Charqueadas, REGIÃO METROPOLITANA DE PORTO ALEGRE	Brazil	-30.034647	-51.217658	13
 DEVA	Romania	45.866257	22.914374	13
@@ -1673,6 +1694,7 @@ OUROL	Spain	43.564569	-7.642286	13
 LUDWIGSBURG	Germany	48.894062	9.195464	13
 DURANGO	Spain	43.171186	-2.631334	13
 FRIEDRICHSHAFEN	Germany	47.661765	9.480011	13
+BIANDRATE	United Kingdom	#N/A	#N/A	13
 Resende, REGIÃO DO MÉDIO PARAÍBA	Brazil	-7.239961	-36.78195	13
 AIX-EN-PROVENCE	France	43.529742	5.447427	13
 ROUEN	France	49.443232	1.099971	13
@@ -1699,6 +1721,7 @@ KONSTANZ	Germany	47.67795	9.173238	13
 NEWPORT	United Kingdom	51.584151	-2.997664	13
 Punta Umbría	Spain	37.185259	-6.970498	13
 NEUENBURG	Germany	48.846547	8.588548	13
+SCHWÃ„BISCH HALL	Germany	#N/A	#N/A	13
 UTRECHT	Netherlands	52.090737	5.12142	13
 KAPFENBERG	Austria	47.443329	15.279191	13
 BLUDENZ	Austria	47.15991	9.80821	13
@@ -1718,7 +1741,6 @@ BAD AROLSEN/KOHLGRUND	Germany	51.435531	8.943719	13
 LUGO	Spain	43.009738	-7.556758	13
 BREMEN	Germany	53.079296	8.801694	13
 Lebanon, PA	United States of America	40.340925	-76.41135	13
-Not in a City,Lemhi,ID	United States of America	44.851592	-113.619775	13
 FLENSBURG	Germany	54.793743	9.446996	13
 NEUSTADT A.D.DONAU	Germany	48.803006	11.767073	13
 SANTIAGO DE COMPOSTELA	Spain	42.878213	-8.544844	13
@@ -1801,6 +1823,7 @@ SOPOT	Poland	54.441581	18.560096	12
 CASTRO-URDIALES	Spain	43.368822	-3.215635	12
 GROTTAGLIE	Italy	40.537954	17.435493	12
 PLYMOUTH	United Kingdom	50.375456	-4.142656	12
+Campos, REGIÃO DO NORTE FLUMINENSE	Brazil	#N/A	#N/A	12
 GRENOBLE	France	45.188529	5.724524	12
 Napa, CA	United States of America	38.297538	-122.286865	12
 LONS-LE-SAUNIER	France	46.671361	5.550796	12
@@ -1886,6 +1909,8 @@ VITERBO	Italy	42.420677	12.107669	11
 Louisville/Jefferson County, KY-IN	United States of America	38.252665	-85.758456	11
 ST. GALLEN	Switzerland	47.424482	9.376717	11
 ELCHE/ELX	Spain	38.269933	-0.712561	11
+Jacarei, REGIÃO METROPOLITANA DO VALE DO PARAÍBA E LITORAL NORTE	Brazil	#N/A	#N/A	11
+Jaú, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	11
 ROBLA (LA)	Spain	42.801249	-5.627395	11
 ARANJUEZ	Spain	40.030502	-3.604053	11
 Johnstown, PA	United States of America	40.326741	-78.92197	11
@@ -2071,3 +2096,850 @@ El Centro, CA	United States of America	32.792	-115.563051	10
 SARIÑENA	Spain	41.791631	-0.157691	10
 CHESTERFIELD	United Kingdom	53.235048	-1.421629	10
 Christchurch	New Zealand	-43.532054	172.636225	10
+Columbus, GA-AL	United States of America	32.460976	-84.987709	10
+Hattiesburg, MS	United States of America	31.327119	-89.290339	10
+Houston-Sugar Land-Baytown, TX	United States of America	29.735505	-94.977427	10
+South Bend-Mishawaka, IN-MI	United States of America	41.69152	-86.228571	10
+VIROINVAL	Belgium	50.071472	4.605994	10
+RIVAS-VACIAMADRID	Spain	40.351906	-3.535733	10
+Little Rock-North Little Rock-Conway, AR	United States of America	34.726942	-92.334489	10
+GANDIA	Spain	38.968032	-0.184467	10
+MONTREAL	Canada	45.501689	-73.567256	10
+Marília, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	10
+PONTEVEDRA	Spain	42.429885	-8.64462	10
+NEUGLOBSOW	Germany	53.145031	13.049326	10
+SANTA MARGARIDA I ELS MONJOS	Spain	41.318858	1.658779	10
+Macon, GA	United States of America	32.840695	-83.632402	10
+STOCKTON-ON-TEES	United Kingdom	54.570455	-1.328982	10
+SINISCOLA	Italy	40.576627	9.693566	10
+BRUNICO	Italy	46.796574	11.938042	10
+CASTLEBAR	Ireland	53.855001	-9.287926	10
+SARROCH	Italy	39.065497	9.010838	10
+AGIA PARASKEVI	Greece	38.013583	23.821808	10
+Sanniquellie (rural)	Liberia	7.358656	-8.709579	10
+FORT-DE-FRANCE	France	14.616065	-61.05878	10
+LA ROCHELLE	France	46.160329	-1.151139	10
+TOULON	France	43.124228	5.928	10
+AJACCIO	France	41.919229	8.738635	10
+ANGOULEME	France	45.648377	0.156237	10
+MONT-DE-MARSAN	France	43.893485	-0.499782	10
+NIORT	France	46.323716	-0.464777	10
+Dallas-Fort Worth-Arlington, TX	United States of America	32.743344	-97.026241	10
+Michigan City-La Porte, IN	United States of America	41.707539	-86.89503	10
+LUNEL-VIEL	France	43.677936	4.092158	10
+LEMIEUX	Canada	46.297243	-72.110739	10
+SAINT-NAZAIRE	France	47.273498	-2.213848	10
+PERPIGNAN	France	42.688659	2.894833	10
+NOTRE-DAME-DE-BLIQUETUIT	France	49.496075	0.755175	10
+BILLERE	France	43.302207	-0.39742	10
+VIERZON	France	47.221438	2.069791	10
+AUXERRE	France	47.798202	3.573781	10
+PEYRUSSE-VIEILLE	France	43.629637	0.180711	10
+LA TARDIERE	France	46.660858	-0.732981	10
+LOURDES	France	43.091463	-0.045726	10
+GUIPRY	France	47.824931	-1.841174	10
+AIRVAULT	France	46.82465	-0.138802	10
+BELFORT	France	47.639674	6.863849	10
+BLOIS	France	47.586092	1.335947	10
+BOURGOIN-JALLIEU	France	45.597108	5.27212	10
+CARLING	France	49.167409	6.714006	10
+CARTIGNIES	France	50.092535	3.84397	10
+CHATEAUROUX	France	46.811434	1.686779	10
+FROSSAY	France	47.244253	-1.934206	10
+LA COURONNE	France	45.608466	0.101397	10
+LONGLAVILLE	France	49.533942	5.800257	10
+MONTLUCON	France	46.341547	2.601991	10
+PERIGUEUX	France	45.184029	0.721115	10
+SAINT-ETIENNE-DE-MONTLUC	France	47.276451	-1.78059	10
+SAINT-GELY-DU-FESC	France	43.69208	3.804436	10
+SAINT-JULIEN-LES-METZ	France	49.133658	6.202202	10
+Nashville-Davidson-Murfreesboro-Franklin, TN	United States of America	35.89948	-86.781189	10
+Bloomington, IN	United States of America	39.165325	-86.526386	10
+MADRID	Spain	40.416775	-3.70379	10
+TORREJÓN DE ARDOZ	Spain	40.456755	-3.475497	10
+VALVERDE	Spain	27.809779	-17.915042	10
+POBLA (SA)	Spain	39.769738	3.025078	10
+READING	United Kingdom	51.454265	-0.97813	10
+GUADALAJARA	Spain	20.659699	-103.349609	10
+Detroit-Warren-Livonia, MI	United States of America	42.341202	-83.28356	10
+Harrisburg-Carlisle, PA	United States of America	40.160004	-77.686813	10
+McAllen-Edinburg-Mission, TX	United States of America	26.215907	-98.325293	10
+New Castle, IN	United States of America	39.928935	-85.370248	10
+Prineville, OR	United States of America	44.299849	-120.834466	10
+Reading, PA	United States of America	40.335648	-75.926875	10
+Sandersville,Washington,GA	United States of America	32.981543	-82.810138	10
+Vallejo-Fairfield, CA	United States of America	38.256212	-121.928093	10
+ALCORCÓN	Spain	40.346845	-3.827844	10
+MO I RANA	Norway	66.313712	14.141975	10
+Davenport-Moline-Rock Island, IA-IL	United States of America	41.519018	-90.542196	10
+Nelson Airshed B	New Zealand	#N/A	#N/A	10
+WOLFSBURG	Germany	52.42265	10.786546	10
+ALICANTE/ALACANT	Spain	38.345996	-0.490686	10
+ECHEDORO	Greece	40.666667	22.816667	10
+La Trobe Valley	Australia	-38.15	146.8	10
+Sapporo city	Japan	43.062096	141.354376	10
+Ann Arbor, MI	United States of America	42.280826	-83.743038	10
+State College, PA	United States of America	40.793395	-77.860001	10
+Thomasville-Lexington, NC	United States of America	35.882468	-80.106453	10
+Geraldine	New Zealand	-44.091185	171.243735	10
+MONDAINO	Italy	43.857429	12.671921	10
+BRUDERHEIM	Canada	53.803499	-112.926586	10
+Bakersfield, CA	United States of America	35.373292	-119.018712	10
+Cedar Rapids, IA	United States of America	41.97788	-91.665623	10
+Grand Rapids-Wyoming, MI	United States of America	42.883043	-85.72166	10
+Jackson, MS	United States of America	32.298757	-90.18481	10
+Milwaukee-Waukesha-West Allis, WI	United States of America	43.016681	-88.007031	10
+Nogales, AZ	United States of America	31.340377	-110.934253	10
+Richmond	New Zealand	-41.338466	173.183809	10
+VALLADOLID	Spain	41.652251	-4.724532	10
+ZINGST	Germany	54.435716	12.688801	10
+SANT FELIU DE LLOBREGAT	Spain	41.38467	2.049462	10
+Presidente Prudente, INTERIOR DO ESTADO	Brazil	#N/A	#N/A	10
+Knoxville, TN	United States of America	35.960638	-83.920739	10
+MERANO	Italy	46.671294	11.152518	10
+Kalamazoo-Portage, MI	United States of America	42.201154	-85.580002	10
+Parkersburg-Marietta-Vienna, WV-OH	United States of America	39.263721	-81.555488	10
+Pascagoula, MS	United States of America	30.365755	-88.556127	10
+Texarkana, TX-Texarkana, AR	United States of America	33.41261	-94.074085	10
+TOLEDO	Spain	39.862832	-4.027323	10
+Geraldton	Australia	-28.773219	114.609633	10
+Baltimore-Towson, MD	United States of America	39.401496	-76.601913	10
+Augusta-Richmond County, GA-SC	United States of America	33.473498	-82.010515	10
+Corpus Christi, TX	United States of America	27.800583	-97.396381	10
+HEITERWANG	Austria	47.444123	10.748333	10
+FüRTH/ODENWALD	Germany	49.662188	8.831843	10
+NEUHAUSEN	Germany	48.682099	9.275825	10
+ALAGÓN	Spain	41.768917	-1.117315	10
+ALZIRA	Spain	39.151185	-0.433364	10
+PONFERRADA	Spain	42.549996	-6.598259	10
+Clarksville, TN-KY	United States of America	36.529771	-87.359453	10
+Fairmont, WV	United States of America	39.485085	-80.142578	10
+Hagerstown-Martinsburg, MD-WV	United States of America	38.597626	-80.454903	10
+WINDSOR	Canada	42.314937	-83.036363	10
+HAMILTON	Canada	43.250021	-79.866091	10
+Ambato	Ecuador	-1.254341	-78.62285	9
+SAINTE-ODE	Belgium	50.02683	5.54655	9
+Columbia, SC	United States of America	34.00071	-81.034814	9
+Dayton, OH	United States of America	39.758948	-84.191607	9
+ALCOBENDAS	Spain	40.537251	-3.637225	9
+Cuenca	Ecuador	-2.900129	-79.005897	9
+Bowling Green, KY	United States of America	36.968522	-86.480804	9
+Charleston, WV	United States of America	38.34982	-81.632623	9
+Florence, SC	United States of America	34.195433	-79.762563	9
+Florence-Muscle Shoals, AL	United States of America	34.814856	-87.642664	9
+Keene, NH	United States of America	42.933692	-72.278141	9
+Lansing-East Lansing, MI	United States of America	42.760815	-84.542798	9
+Lexington-Fayette, KY	United States of America	38.040584	-84.503716	9
+Mena,Polk,AR	United States of America	34.586217	-94.239655	9
+Montgomery, AL	United States of America	32.366805	-86.299969	9
+Sanford, NC	United States of America	35.479876	-79.180299	9
+Springfield, MO	United States of America	37.208957	-93.292299	9
+Tuscaloosa, AL	United States of America	33.209841	-87.569173	9
+Warner Robins, GA	United States of America	32.613001	-83.624201	9
+Tampere	Finland	61.497752	23.760954	9
+Viznar	Spain	37.233173	-3.553772	9
+AGEN	France	44.203142	0.616363	9
+ATTON	France	48.890533	6.088963	9
+BAIE-MAHAULT	France	16.20735	-61.648144	9
+BIZANOS	France	43.288931	-0.355226	9
+CASTRES	France	43.606214	2.241295	9
+DOLE	France	47.09534	5.49081	9
+DREUX	France	48.736134	1.370889	9
+EPINAL	France	48.172402	6.449403	9
+GUERET	France	46.169599	1.871452	9
+L'HOPITAL	France	49.159773	6.733282	9
+MACON	France	46.306884	4.828731	9
+MONTANDON	France	47.29717	6.834709	9
+ROANNE	France	46.034432	4.072695	9
+SAINTE-MARGUERITE-SUR-MER	France	49.905407	0.954487	9
+SAINTE-SUZANNE	France	48.097456	-0.349277	9
+SENS	France	48.20065	3.28268	9
+Raleigh-Cary, NC	United States of America	35.817867	-78.792512	9
+Decatur, AL	United States of America	34.605925	-86.983342	9
+Fort Smith, AR-OK	United States of America	35.385924	-94.398548	9
+Libby,Lincoln,MT	United States of America	48.388286	-115.555999	9
+McAlester, OK	United States of America	34.93343	-95.769713	9
+Somerset, KY	United States of America	37.092022	-84.604108	9
+Spartanburg, SC	United States of America	34.949567	-81.932048	9
+Talladega-Sylacauga, AL	United States of America	33.173172	-86.251641	9
+Tallahassee, FL	United States of America	30.438256	-84.280733	9
+Waterloo-Cedar Falls, IA	United States of America	42.520394	-92.435371	9
+TOLOSA	Spain	43.134754	-2.075095	9
+ARANDA DE DUERO	Spain	41.669228	-3.690217	9
+SAN ANDRES Y SAUCES	Spain	28.784222	-17.799154	9
+Loures	Portugal	38.831549	-9.174109	9
+Palmerston	Australia	-12.479277	130.984961	9
+Chattanooga, TN-GA	United States of America	35.04563	-85.30968	9
+Memphis, TN-MS-AR	United States of America	35.149534	-90.04898	9
+Oklahoma City, OK	United States of America	35.46756	-97.516428	9
+BRESSANONE	Italy	46.717705	11.657244	9
+CAMBRE	Spain	43.292615	-8.342279	9
+POSSEN	Germany	51.338889	10.858056	9
+Candor,Montgomery,NC	United States of America	35.295142	-79.745316	9
+Tulsa, OK	United States of America	36.153982	-95.992775	9
+KRISTIANSAND	Norway	58.159912	8.018206	9
+BOURNEMOUTH	United Kingdom	50.719164	-1.880769	9
+Muswellbrook	Australia	-32.265166	150.888323	9
+VULCAN	Romania	45.634809	25.418103	9
+GRANGEMOUTH	United Kingdom	56.009715	-3.72277	9
+Nelson Airshed A	New Zealand	#N/A	#N/A	9
+Cantagalo - Euclidelândia, REGIÃO SUL	Brazil	#N/A	#N/A	9
+PATERNA	Spain	39.503709	-0.443162	9
+SAN BARTOLOME DE TIRAJANA	Spain	27.924946	-15.573029	9
+Austin-Round Rock, TX	United States of America	30.453163	-97.724177	9
+HOUSTON	Canada	54.397997	-126.648209	9
+SASKATOON	Canada	52.133214	-106.670046	9
+Allentown-Bethlehem-Easton, PA-NJ	United States of America	40.649752	-75.338623	9
+Wichita, KS	United States of America	37.687176	-97.330053	9
+SIMMERATH	Germany	50.606131	6.29923	9
+VIELSALM	Belgium	50.284017	5.91469	9
+Butte-Silver Bow, MT	United States of America	46.003823	-112.534778	9
+Dyersburg, TN	United States of America	36.034516	-89.385628	9
+Green Bay, WI	United States of America	44.519159	-88.019826	9
+Greenville-Mauldin-Easley, SC	United States of America	34.839974	-82.626006	9
+Gulfport-Biloxi, MS	United States of America	30.41338	-89.072958	9
+Harriman, TN	United States of America	35.933964	-84.552436	9
+Hickory-Lenoir-Morganton, NC	United States of America	35.745407	-81.684819	9
+Hot Springs, AR	United States of America	34.5037	-93.05518	9
+Stuttgart,Arkansas,AR	United States of America	34.500375	-91.552628	9
+CEE	Spain	42.957669	-9.192	9
+SUNDERLAND	United Kingdom	54.906869	-1.383801	9
+Monaco	Monaco	43.737411	7.420816	9
+Blenheim	New Zealand	-41.513442	173.96125	9
+Singleton	Australia	-32.561969	151.175316	9
+Buchanan (rural)	Liberia	#N/A	#N/A	9
+SAINT-PIERRE	France	45.257298	6.400683	9
+QUEBEC	Canada	52.939916	-73.549136	9
+Pasto	Colombia	1.205884	-77.285787	9
+Athens, TN	United States of America	35.442851	-84.59299	9
+Burns,Harney,OR	United States of America	43.586261	-119.054103	9
+El Dorado, AR	United States of America	33.20763	-92.666267	9
+El Paso, TX	United States of America	31.761878	-106.485022	9
+Huntsville, AL	United States of America	34.730369	-86.586104	9
+Medford, OR	United States of America	42.326515	-122.875595	9
+Middlesborough, KY	United States of America	36.607257	-83.714285	9
+Mobile, AL	United States of America	30.695366	-88.039891	9
+Quincy,Plumas,CA	United States of America	39.936836	-120.947176	9
+Salisbury, NC	United States of America	35.670973	-80.474226	9
+Valdosta, GA	United States of America	30.832702	-83.278485	9
+Winchester, VA-WV	United States of America	39.18566	-78.163334	9
+Yreka,Siskiyou,CA	United States of America	41.735419	-122.634471	9
+TULLE	France	45.26565	1.771697	9
+BURLINGTON	Canada	43.32552	-79.799032	9
+DUNCAN	Canada	48.778691	-123.707942	9
+GATINEAU	Canada	45.476545	-75.701272	9
+KAMLOOPS	Canada	50.674522	-120.327267	9
+LAVAL	Canada	45.606649	-73.712409	9
+LONDON	Canada	51.507351	-0.127758	9
+SAINT-SIMON	Canada	45.733253	-72.866611	9
+VARENNES	Canada	45.681034	-73.437497	9
+LIMOGES	France	45.833619	1.261105	9
+FONTAINEBLEAU	France	48.404676	2.70162	9
+VERNEUIL	France	49.104122	3.671497	9
+LA COULONCHE	France	48.647835	-0.45693	9
+VANNES	France	47.658236	-2.760847	9
+LES MAZURES	France	49.88797	4.626513	9
+PARAY-LE-FRESIL	France	46.656629	3.610482	9
+CAMPULUNG	Romania	45.270605	25.053104	9
+Kaiapoi	New Zealand	-43.383032	172.656958	9
+Helsinki	Finland	60.169856	24.938379	9
+GENOVA	Italy	44.40565	8.946256	9
+Madison, WI	United States of America	43.073052	-89.40123	9
+Ibarra	Ecuador	0.339176	-78.122234	9
+Ashland, AL	United States of America	33.273726	-85.836074	9
+Daphne-Fairhope-Foley, AL	United States of America	30.406587	-87.683597	9
+Fayetteville, NC	United States of America	35.052664	-78.878358	9
+Flint, MI	United States of America	43.012527	-83.687456	9
+Gainesville, GA	United States of America	34.297879	-83.824066	9
+Marshall, TX	United States of America	32.544871	-94.367418	9
+Rutland, VT	United States of America	43.610624	-72.972606	9
+Winston-Salem, NC	United States of America	36.09986	-80.244216	9
+GRANADILLA DE ABONA	Spain	28.12227	-16.576891	9
+ALCORA (L')	Spain	40.074646	-0.213915	9
+Södertälje	Sweden	59.195363	17.625689	9
+Washington, DC	United States of America	38.597626	-80.454903	9
+Safi	Morocco	32.300815	-9.227203	9
+Rotorua	New Zealand	-38.136848	176.249746	9
+HERDORF	Germany	50.778035	7.947323	9
+Dunedin	New Zealand	-45.87876	170.502798	9
+MERIDA	Spain	38.919144	-6.340805	9
+New York, Northern New Jersey, Long Island	United States of America	41.203322	-77.194525	9
+Adrian, MI	United States of America	41.897547	-84.037166	9
+Charleston-North Charleston, SC	United States of America	32.85462	-79.97481	9
+Chico, CA	United States of America	39.728494	-121.837478	9
+Cookeville, TN	United States of America	36.162839	-85.501642	9
+East Stroudsburg, PA	United States of America	40.999539	-75.181291	9
+Kansas City, MO-KS	United States of America	39.099727	-94.578567	9
+Klamath Falls, OR	United States of America	42.224867	-121.78167	9
+San Antonio, TX	United States of America	29.424122	-98.493628	9
+Moranbah	Australia	-22.000914	148.045765	9
+Oxnard-Thousand Oaks-Ventura, CA	United States of America	34.159816	-119.045183	9
+Hawkes Bay	New Zealand	-39.771162	176.741637	9
+PRINCE GEORGE	Canada	53.917064	-122.749669	9
+ALCAÑIZ	Spain	41.051035	-0.133537	9
+AURILLAC	France	44.930953	2.444997	9
+ISSOIRE	France	45.54151	3.248128	9
+LAVAL	France	45.606649	-73.712409	9
+SARREGUEMINES	France	49.106031	7.070862	9
+VESOUL	France	47.619788	6.15428	9
+ARTEIXO	Spain	43.303868	-8.510297	9
+TALAVERA DE LA REINA	Spain	39.962884	-4.830454	9
+Charlotte-Gastonia-Concord, NC-SC	United States of America	33.836081	-81.163725	9
+Waimate	New Zealand	-44.73264	171.048135	9
+ZAMORA	Spain	41.503471	-5.746788	9
+Huntington-Ashland, WV-KY-OH	United States of America	40.417287	-82.907123	9
+Allegan, MI	United States of America	42.529199	-85.855303	9
+Clarksburg, WV	United States of America	39.280645	-80.344534	9
+Crossett,Ashley,AR	United States of America	33.128178	-91.961243	9
+Fayetteville-Springdale-Rogers, AR-MO	United States of America	37.964253	-91.831833	9
+Harrisonburg, VA	United States of America	38.449569	-78.868916	9
+San Luis Obispo-Paso Robles, CA	United States of America	35.636876	-120.654502	9
+STAVANGER	Norway	58.969976	5.733107	9
+ERPFINGEN	Germany	48.351045	9.195933	9
+BERGEN	Norway	60.391263	5.322054	9
+Phoenix-Mesa-Scottsdale, AZ	United States of America	33.678899	-111.883544	9
+TIEFENBACH	Germany	49.436994	12.583633	9
+ALGETE	Spain	40.596462	-3.501645	9
+Appleton, WI	United States of America	44.261931	-88.415385	9
+Cambridge, MD	United States of America	38.563174	-76.078829	9
+Kingsport-Bristol-Bristol, TN-VA	United States of America	37.431573	-78.656894	9
+Lakeview,Lake,OR	United States of America	42.188772	-120.345792	9
+Lumberton, NC	United States of America	34.61822	-79.008642	9
+Morgantown, WV	United States of America	39.629526	-79.955897	9
+New Haven-Milford, CT	United States of America	41.230698	-73.064036	9
+Pikeville,Pike,KY	United States of America	37.479267	-82.518763	9
+Almada	Portugal	38.676524	-9.165105	9
+ABERDEEN	United Kingdom	57.149717	-2.094278	9
+PIEVE D'ALPAGO	Italy	46.166542	12.354741	9
+QUESNEL	Canada	52.981737	-122.494906	9
+TERRACE	Canada	54.518192	-128.603154	9
+WILLIAMS LAKE	Canada	52.141674	-122.141688	9
+CARLSFELD	Germany	48.229073	11.474439	9
+Braga	Portugal	41.545449	-8.426507	9
+Vila Franca de Xira	Portugal	38.955156	-8.988993	9
+San Francisco-Oakland-Fremont, CA	United States of America	37.776978	-122.231952	9
+Ayr	Australia	-19.575841	147.405023	9
+ELDA	Spain	38.476507	-0.79646	9
+Beaver Dam, WI	United States of America	43.457769	-88.837329	9
+Columbia, TN	United States of America	35.615072	-87.035283	9
+Niles-Benton Harbor, MI	United States of America	42.104359	-86.445355	9
+Richmond-Berea, KY	United States of America	37.692171	-84.259497	9
+Sioux City, IA-NE-SD	United States of America	42.499994	-96.400307	9
+Topeka, KS	United States of America	39.055824	-95.689018	9
+KITCHENER	Canada	43.412924	-80.477147	9
+LONGUEUIL	Canada	45.536944	-73.510713	9
+CALGARY	Canada	51.048615	-114.070846	9
+PORTO TORRES	Italy	40.833368	8.402293	8
+Baton Rouge, LA	United States of America	30.458283	-91.14032	8
+SEGOVIA	Spain	40.942903	-4.108807	8
+HERNANI	Spain	43.265793	-1.97685	8
+Upper Hunter	Australia	-32.508215	137.781115	8
+ONDA	Spain	39.96513	-0.262595	8
+Vantaa	Finland	60.293352	25.037769	8
+Hazard,Perry,KY	United States of America	37.24954	-83.193228	8
+Seaford, DE	United States of America	38.641226	-75.611038	8
+TORONTO	Canada	43.653226	-79.383184	8
+Des Moines-West Des Moines, IA	United States of America	41.52549	-93.630511	8
+Rangiora	New Zealand	-43.303356	172.595725	8
+Tokoroa	New Zealand	-38.217965	175.870579	8
+Omaha-Council Bluffs, NE-IA	United States of America	41.218364	-95.817993	8
+Trenton-Ewing, NJ	United States of America	40.261521	-74.817564	8
+TELDE	Spain	27.995531	-15.417373	8
+ALFARO	Spain	42.177298	-1.750231	8
+Jackson, TN	United States of America	35.614517	-88.813947	8
+Roanoke, VA	United States of America	37.27097	-79.941427	8
+Winona, MN	United States of America	44.055391	-91.666352	8
+VILLAR DEL ARZOBISPO	Spain	39.733981	-0.827019	8
+GUADALIX DE LA SIERRA	Spain	40.786001	-3.69529	8
+CAUDETE DE LAS FUENTES	Spain	39.558279	-1.280678	8
+ALMONTE	Spain	37.259658	-6.516975	8
+Newcastle	Australia	-32.926696	151.778892	8
+Greensboro-High Point, NC	United States of America	36.022452	-79.878468	8
+Malembá, REGIÃO METROPOLITANA DE SALVADOR	Brazil	-12.97304	-38.502304	8
+San Martín de Valdeiglesias	Spain	40.363562	-4.403503	8
+Collie	Australia	-33.358871	116.154041	8
+TALLINN	Estonia	59.436961	24.753575	8
+THESSALONIKI	Greece	40.640063	22.944419	8
+Bay City, MI	United States of America	43.594468	-83.888865	8
+Dover, DE	United States of America	39.158168	-75.524368	8
+Eau Claire, WI	United States of America	44.811349	-91.498494	8
+Gardnerville Ranchos, NV	United States of America	38.88824	-119.741287	8
+Kalispell, MT	United States of America	48.191989	-114.316813	8
+Lawrenceburg, TN	United States of America	35.242302	-87.334739	8
+Lawton, OK	United States of America	34.603567	-98.395929	8
+Portsmouth, OH	United States of America	38.731743	-82.997674	8
+Reno-Sparks, NV	United States of America	39.516934	-119.816219	8
+HORTENKOPF	Germany	49.2704	7.8274	8
+Lappeenranta	Finland	61.054993	28.189663	8
+Santa Barbara-Santa Maria-Goleta, CA	United States of America	34.465213	-119.777255	8
+Arrúbal	Spain	42.434452	-2.251962	8
+San Diego-Carlsbad-San Marcos, CA	United States of America	33.13306	-117.212511	8
+Richmond, VA	United States of America	37.540725	-77.436048	8
+WITZENHAUSEN/WALD	Germany	51.327039	9.77869	8
+Taumarunui	New Zealand	-38.883246	175.260712	8
+CHAMPFORGEUIL	France	46.820327	4.836557	8
+MONTCEAU-LES-MINES	France	46.67413	4.362979	8
+NEVERS	France	46.990896	3.162845	8
+OYONNAX	France	46.257773	5.655335	8
+SAINT-JEAN-DE-MAURIENNE	France	45.275403	6.344886	8
+VOLMUNSTER	France	49.12171	7.356399	8
+TARTU	Estonia	58.377625	26.729006	8
+Darwin	Australia	-12.462827	130.841777	8
+Launceston, Tasmania	Australia	-41.426181	147.112468	8
+Bridgeport-Stamford-Norwalk, CT	United States of America	41.141156	-73.284652	8
+Burlington, NC	United States of America	36.095692	-79.437799	8
+La Crosse, WI-MN	United States of America	43.801356	-91.239581	8
+Missoula, MT	United States of America	46.878718	-113.996586	8
+Hyvinkää	Finland	60.629952	24.85808	8
+CESURAS	Spain	43.17325	-8.201029	8
+ARRASATE O MONDRAGÓN	Spain	43.064887	-2.490208	8
+Washdyke	New Zealand	-44.352443	171.238404	8
+LEONESSA	Italy	42.566072	12.962445	8
+CARAVACA DE LA CRUZ	Spain	38.104189	-1.860915	8
+CARRACEDELO	Spain	42.555917	-6.732697	8
+Montevideo	Uruguay	-34.901113	-56.164531	8
+BAYONNE	France	43.492949	-1.474841	8
+SAINT-CHAMOND	France	45.476088	4.512712	8
+BOIS-HERPIN	France	48.369762	2.234933	8
+Bryson City (RR name Bryson),Swain,NC	United States of America	35.432896	-83.464355	8
+Hammond, LA	United States of America	30.504358	-90.4612	8
+Jamestown-Dunkirk-Fredonia, NY	United States of America	42.440058	-79.33171	8
+Lafayette, LA	United States of America	30.22409	-92.019843	8
+Norwich-New London, CT	United States of America	41.524265	-72.07591	8
+BEAVERLODGE	Canada	55.213974	-119.423302	8
+BRAMPTON	Canada	43.731548	-79.762418	8
+BRANTFORD	Canada	43.139387	-80.264425	8
+CHARETTE	Canada	46.44065	-72.923934	8
+CHATHAM	Canada	42.404802	-82.191038	8
+COLD LAKE	Canada	54.464317	-110.173147	8
+CORNWALL	Canada	45.021276	-74.730345	8
+GUELPH	Canada	43.544805	-80.248167	8
+MISSISSAUGA	Canada	43.589045	-79.64412	8
+OAKVILLE	Canada	43.467517	-79.687666	8
+PORT ALBERNI	Canada	49.233888	-124.805549	8
+SAINT-ZEPHIRIN-DE-COURVAL	Canada	46.059798	-72.62634	8
+SARNIA	Canada	42.974536	-82.40659	8
+SHERBROOKE	Canada	45.400993	-71.882429	8
+SIMCOE	Canada	42.837263	-80.304042	8
+ST. CATHARINES	Canada	43.159374	-79.246863	8
+Te Kuiti	New Zealand	-38.332983	175.163456	8
+LILLEHAMMER	Norway	61.115271	10.466231	8
+GEHLBERG	Germany	50.678631	10.790595	8
+BURGOS	Spain	42.343992	-3.696906	8
+AKUREYRI	Iceland	65.688492	-18.126169	8
+PUERTO DEL ROSARIO	Spain	28.500821	-13.862837	8
+Perth	Australia	-31.953513	115.857047	8
+ALMAZORA/ALMASSORA	Spain	39.947843	-0.062999	8
+PALMAS DE GRAN CANARIA (LAS)	Spain	27.92022	-15.547437	8
+CERCEDA	Spain	43.189695	-8.472236	8
+ORDES	Spain	43.076374	-8.408066	8
+GALILEA	Spain	42.34778	-2.236484	8
+QUART DE POBLET	Spain	39.482582	-0.444867	8
+Virginia Beach-Norfolk-Newport News, VA-NC	United States of America	35.759573	-79.0193	8
+Bishop, CA	United States of America	37.361424	-118.399664	8
+Jacksonville, FL	United States of America	30.332184	-81.655651	8
+San Andreas,Calaveras,CA	United States of America	38.19603	-120.680487	8
+Pietarsaari	Finland	63.674244	22.712569	8
+BENIDORM	Spain	38.541057	-0.122494	8
+PRADEJÓN	Spain	42.333421	-2.068971	8
+SANTA CRUZ DE TENERIFE	Spain	28.46363	-16.251847	8
+SASSARI	Italy	40.725927	8.555683	8
+Sintra	Portugal	38.802869	-9.381659	8
+GALATI	Romania	45.435321	28.007994	8
+Dumbría	Spain	43.012181	-9.118528	8
+Asheville, NC	United States of America	35.595058	-82.551487	8
+Athens, OH	United States of America	39.32924	-82.101255	8
+Durham, NC	United States of America	35.994033	-78.898619	8
+Emmetsburg,Palo Alto,IA	United States of America	43.112743	-94.683036	8
+Greeley, CO	United States of America	40.423314	-104.709132	8
+Greenville, NC	United States of America	35.612661	-77.366354	8
+Kenansville,Duplin,NC	United States of America	34.962388	-77.962207	8
+New Orleans-Metairie-Kenner, LA	United States of America	29.98453	-90.204453	8
+Spruce Pine,Mitchell,NC	United States of America	35.915401	-82.064561	8
+BALBRIGGAN	Ireland	53.608319	-6.18208	8
+SORIA	Spain	41.766597	-2.479031	8
+Porto Real, REGIÃO DO MÉDIO PARAÍBA	Brazil	-7.239961	-36.78195	8
+SALAMANCA	Spain	20.573931	-101.195717	8
+Bunbury	Australia	-33.327069	115.639174	8
+TRONDHEIM	Norway	63.430515	10.395053	8
+Alexandria, LA	United States of America	31.311294	-92.445137	8
+Bellingham, WA	United States of America	48.74908	-122.478147	8
+Hamilton,Ravalli,MT	United States of America	46.247144	-114.154816	8
+Juneau, AK	United States of America	58.301944	-134.419722	8
+Lincoln, NE	United States of America	40.825763	-96.685198	8
+Rumford (census name for Rumford Compact),Oxford,ME	United States of America	44.131746	-70.493156	8
+Santa Rosa-Petaluma, CA	United States of America	38.398785	-122.821474	8
+Melbourne	Australia	-37.814107	144.96328	8
+Atlantic City, NJ	United States of America	39.364283	-74.422927	8
+AALESUND	Norway	62.472228	6.149482	8
+Arlöv	Sweden	55.634501	13.07441	8
+Sydney	Australia	-33.867487	151.20699	8
+Lahti	Finland	60.982675	25.66121	8
+Oulu	Finland	65.012089	25.465077	8
+NARVA	Estonia	59.37968	28.179133	8
+Las Vegas-Paradise, NV	United States of America	36.097195	-115.146665	8
+WASCHEID	Germany	48.600624	13.785983	8
+AIA	Spain	43.2369	-2.148555	8
+Kotka	Finland	60.466567	26.94594	8
+Minneapolis-St. Paul-Bloomington, MN-WI	United States of America	44.938911	-93.117755	8
+Hartford-West Hartford-East Hartford, CT	United States of America	41.76154	-72.708783	8
+Hilo, HI	United States of America	19.729722	-155.09	8
+Lynchburg, VA	United States of America	37.413754	-79.142246	8
+LEISEL	Germany	49.718641	7.201529	8
+INOWROCLAW	Poland	52.799332	18.256203	8
+Turku	Finland	60.451813	22.26663	8
+TROMSØ	Norway	69.649205	18.955324	8
+Eugene-Springfield, OR	United States of America	44.051085	-123.086563	8
+Sacramento--Arden-Arcade--Roseville, CA	United States of America	38.652612	-121.389788	8
+EDINBURGH	United Kingdom	55.953252	-3.188267	8
+SAGUNTO/SAGUNT	Spain	39.679863	-0.278438	8
+Geelong	Australia	-38.148544	144.361348	8
+Wagga Wagga	Australia	-35.125095	147.349649	8
+EDMONTON	Canada	53.544389	-113.490927	8
+Houma-Bayou Cane-Thibodaux, LA	United States of America	29.795763	-90.822871	8
+Lewiston-Auburn, ME	United States of America	44.016481	-70.285667	8
+Ogden-Clearfield, UT	United States of America	41.110777	-112.026054	8
+Sioux Falls, SD	United States of America	43.544596	-96.731103	8
+VICTORIA	Canada	48.428421	-123.365644	8
+LE PALAIS-SUR-VIENNE	France	45.866629	1.325705	7
+VENACO	France	42.233893	9.173558	7
+VILLIERS-EN-BOIS	France	46.148411	-0.404359	7
+Harjavalta	Finland	61.31371	22.141306	7
+ORUSCO DE TAJUÑA	Spain	40.2861	-3.211421	7
+Hastings	New Zealand	-39.639578	176.839232	7
+ATAZAR (EL)	Spain	40.933333	-3.466667	7
+BADAJOZ	Spain	38.879449	-6.970654	7
+Valdegovía	Spain	42.842042	-3.077657	7
+Lower Hunter	Australia	-32.260669	150.884448	7
+Kouvola	Finland	60.867883	26.70416	7
+CASTLEGAR	Canada	49.323741	-117.659334	7
+NELSON	Canada	49.492812	-117.294834	7
+Arak	Iran	34.095355	49.701349	7
+CADAQUES	Spain	42.288757	3.277972	7
+Baraboo, WI	United States of America	43.471094	-89.744291	7
+Charlottesville, VA	United States of America	38.029306	-78.476678	7
+Grand Junction, CO	United States of America	39.063871	-108.550649	7
+Grants Pass, OR	United States of America	42.439007	-123.328393	7
+Jamesville,Martin,NC	United States of America	35.811272	-76.896616	7
+Mackay	Australia	-21.14121	149.185625	7
+OURENSE	Spain	42.335789	-7.863881	7
+Pontes de García Rodríguez (As)	Spain	43.452606	-7.852247	7
+KELDSNOR	Denmark	54.729148	10.710315	7
+AGüIMES	Spain	27.901833	-15.446348	7
+Gravataí, REGIÃO METROPOLITANA DE PORTO ALEGRE	Brazil	-30.034647	-51.217658	7
+Whangarei	New Zealand	-35.725112	174.323708	7
+POLLENÇA	Spain	39.877194	3.016203	7
+Albany-Schenectady-Troy, NY	United States of America	42.791803	-73.873271	7
+Rochester, NY	United States of America	43.16103	-77.610922	7
+Yakima, WA	United States of America	46.602071	-120.505899	7
+BENICASIM/BENICÃ€SSIM	Spain	#N/A	#N/A	7
+XOVE	Spain	43.684955	-7.51235	7
+Santa Lucía de Tirajana	Spain	27.910139	-15.540137	7
+SAN JORGE	Spain	40.509511	0.332183	7
+POIO	Spain	42.434156	-8.657474	7
+ARAFO	Spain	28.338586	-16.421448	7
+Busselton	Australia	-33.649945	115.344611	7
+Boone, NC	United States of America	36.216795	-81.674552	7
+Colusa,Colusa,CA	United States of America	39.214334	-122.009417	7
+Poughkeepsie-Newburgh-Middletown, NY	United States of America	41.445927	-74.422934	7
+Sierra Vista-Douglas, AZ	United States of America	31.431512	-109.516846	7
+ZAFRA	Spain	38.42253	-6.415723	7
+Townsville	Australia	-19.257622	146.817879	7
+ALGAR DE PALANCIA	Spain	39.780773	-0.367186	7
+Lake Charles, LA	United States of America	30.226595	-93.217376	7
+GIRESUN	Turkey	40.917532	38.392653	7
+Virolahti	Finland	60.582873	27.706898	7
+BURRIANA	Spain	39.889592	-0.08483	7
+Västerås	Sweden	59.6099	16.544809	7
+Adelaide	Australia	-34.928621	138.599959	7
+Augusta-Waterville, ME	United States of America	44.520187	-69.652927	7
+Spokane, WA	United States of America	47.65878	-117.426047	7
+Denver-Aurora, CO	United States of America	39.729432	-104.83192	7
+CÃ__CERES	Spain	28.008766	-15.421799	7
+WASSERKUPPE	Germany	50.5	9.933333	7
+BREÑA ALTA	Spain	28.662979	-17.791705	7
+Provo-Orem, UT	United States of America	40.286006	-111.692627	7
+OBEJO	Spain	38.132746	-4.79991	7
+BUJARALOZ	Spain	41.497428	-0.15301	7
+ALBALAT DELS TARONGERS	Spain	39.703239	-0.337483	7
+Mikkeli	Finland	61.688727	27.272146	7
+Wollongong	Australia	-34.425073	150.893149	7
+SAINT-GERMAIN-SUR-RHONE	France	46.059341	5.817615	7
+Lakeland, FL	United States of America	28.039465	-81.949804	7
+BARRIE	Canada	44.389356	-79.690332	7
+BATHURST	Canada	47.618351	-65.651336	7
+BELLEVILLE	Canada	44.162759	-77.383231	7
+DARTMOUTH	Canada	44.665206	-63.567743	7
+DESCHAMBAULT	Canada	46.65064	-71.929556	7
+FORT SASKATCHEWAN	Canada	53.700716	-113.209466	7
+GRAND BEND	Canada	43.31304	-81.756224	7
+LAMONT	Canada	53.760198	-112.779539	7
+MORRISBURG	Canada	44.897789	-75.183397	7
+NEWMARKET	Canada	44.059187	-79.461256	7
+OSHAWA	Canada	43.897093	-78.865791	7
+PETERBOROUGH	Canada	44.309058	-78.319747	7
+PICTOU	Canada	45.679332	-62.720603	7
+PORT STANLEY	Canada	42.664135	-81.215633	7
+RICHMOND	Canada	-41.338466	173.183809	7
+ROUYN-NORANDA	Canada	48.234236	-79.018784	7
+SAINT-JEAN-SUR-RICHELIEU	Canada	45.305771	-73.25449	7
+ST. ANDREWS	Canada	43.756498	-79.401359	7
+SURREY	Canada	49.10443	-122.801094	7
+TINGWICK	Canada	45.88116	-71.943945	7
+VANCOUVER	Canada	49.282729	-123.120738	7
+ABBOTSFORD	Canada	49.054587	-122.328026	7
+SAINT-MICHEL-L'OBSERVATOIRE	France	43.910292	5.715194	7
+OTTAWA	Canada	45.42153	-75.697193	7
+SAINT-NAZAIRE-LE-DESERT	France	44.570334	5.274508	7
+Whyalla	Australia	-33.034399	137.584915	7
+BARCARROTA	Spain	38.51442	-6.849841	7
+CENGIO	Italy	44.391779	8.197106	7
+LINKOPING	Sweden	58.410807	15.621373	7
+TEGUISE	Spain	29.059953	-13.559599	7
+ALCOY/ALCOI	Spain	38.698707	-0.481094	7
+Pori	Finland	61.485139	21.797418	7
+Detroit Lakes,Becker,MN	United States of America	46.817181	-95.845325	7
+Pocatello, ID	United States of America	42.871303	-112.445534	7
+DONOSTIA-SAN SEBASTIÃ__N	Spain	43.318334	-1.981231	7
+LES ANCIZES-COMPS	France	45.931449	2.806205	7
+Albany	Australia	-35.023823	117.884729	7
+Imatra	Finland	61.171384	28.765148	7
+Duluth, MN-WI	United States of America	46.786672	-92.100485	7
+Vaasa	Finland	63.095089	21.616456	7
+Albury	Australia	-36.080779	146.916469	7
+Canberra	Australia	-35.282	149.128684	7
+Boulder, CO	United States of America	40.014986	-105.270546	7
+Cortina Indian Rancheria,Colusa,CA	United States of America	39.018933	-122.290908	7
+UMEE	Sweden	63.825847	20.263035	7
+Tamworth	Australia	-31.091085	150.930374	7
+OBERRIED-HOFSGRUND	Germany	47.900816	7.89869	7
+SAVIÑAO (O)	Spain	42.647093	-7.654811	7
+SAINT JOHN	Canada	45.273315	-66.063308	7
+Mount Isa	Australia	-20.724705	139.497462	7
+SUNDSVALL	Sweden	62.390811	17.306927	7
+Taihape	New Zealand	-39.677733	175.798805	7
+Syracuse, NY	United States of America	43.048122	-76.147424	7
+Wilmington, NC	United States of America	34.225726	-77.94471	7
+LARACHA	Spain	43.24827	-8.584405	7
+VIVER	Spain	39.921923	-0.59792	7
+Napier	New Zealand	-39.492844	176.912018	7
+Boston-Cambridge-Quincy, MA-NH	United States of America	43.193852	-71.572395	7
+BREÑA BAJA	Spain	28.641297	-17.772467	7
+Portland-Vancouver-Beaverton, OR-WA	United States of America	45.487062	-122.80371	7
+ELCIEGO	Spain	42.514961	-2.618546	7
+TERUEL	Spain	40.345688	-1.106434	7
+REINOSA	Spain	42.999529	-4.139262	7
+Salt Lake City, UT	United States of America	40.760779	-111.891047	7
+CERVO	Spain	43.671212	-7.410357	7
+ALLUMIERE	Italy	42.15575	11.900502	7
+Tampa-St. Petersburg-Clearwater, FL	United States of America	28.036547	-82.681172	7
+San Jose-Sunnyvale-Santa Clara, CA	United States of America	37.325315	-122.05282	7
+Kajaani	Finland	64.227056	27.728601	7
+LLANES	Spain	43.421148	-4.756216	7
+Worcester, MA	United States of America	42.262593	-71.802293	7
+Hamilton	New Zealand	43.250021	-79.866091	7
+HUESCA	Spain	42.131845	-0.407806	7
+WINNIPEG	Canada	49.899754	-97.137494	7
+Concord, NH	United States of America	43.208137	-71.537572	7
+Fort Collins-Loveland, CO	United States of America	40.449256	-105.002428	7
+Grand Island, NE	United States of America	40.926396	-98.342012	7
+FORT MCMURRAY	Canada	56.72638	-111.380341	7
+Seattle-Tacoma-Bellevue, WA	United States of America	47.615657	-122.32679	6
+Wyong	Australia	-33.283629	151.423008	6
+Albuquerque, NM	United States of America	35.085334	-106.605553	6
+PINOSO	Spain	38.403516	-1.041111	6
+VENTA DE BAÑOS	Spain	41.920932	-4.488738	6
+KOHTLA-JARVE	Estonia	59.397474	27.279751	6
+ZORITA DEL MAESTRAZGO	Spain	40.728763	-0.166544	6
+Santo Tirso	Portugal	41.343138	-8.473808	6
+Valkeakoski	Finland	61.264993	24.031037	6
+Devonport, Tasmania	Australia	-41.178353	146.360953	6
+Orlando-Kissimmee, FL	United States of America	28.294555	-81.408858	6
+Jyväskylä	Finland	62.242603	25.747257	6
+Ngaruawahia	New Zealand	-37.667412	175.148837	6
+Norrköping	Sweden	58.587745	16.192421	6
+LEÓN	Spain	42.598726	-5.567096	6
+Göteborg	Sweden	57.70887	11.97456	6
+Bennington, VT	United States of America	42.878135	-73.196774	6
+Brigham City, UT	United States of America	41.510213	-112.015502	6
+Lebanon, NH-VT	United States of America	43.642293	-72.251757	6
+Rochester, MN	United States of America	44.012122	-92.480199	6
+Yuma, AZ	United States of America	32.692651	-114.627692	6
+Lohja	Finland	60.251176	24.067471	6
+POMARANCE	Italy	43.299041	10.872188	6
+Taupo	New Zealand	-38.685692	176.07021	6
+Wellington	New Zealand	-41.28646	174.776236	6
+LANGLEY	Canada	49.074331	-122.559322	6
+Bathurst	Australia	47.618351	-65.651336	6
+BUNYOLA	Spain	39.695965	2.700251	6
+Logan, UT-ID	United States of America	41.73698	-111.833836	6
+CHATENOIS	France	48.272518	7.399494	6
+RAGEADE	France	45.104799	3.277541	6
+Manistee,Manistee,MI	United States of America	44.244447	-86.324253	6
+Sault Ste. Marie, MI	United States of America	46.4953	-84.345317	6
+St. Cloud, MN	United States of America	45.557945	-94.16324	6
+Williston, ND	United States of America	48.146968	-103.617975	6
+TORMS (ELS)	Spain	41.394254	0.720321	6
+CHITIGNANO	Italy	43.660112	11.880045	6
+Miami-Fort Lauderdale-Pompano Beach, FL	United States of America	27.574312	-80.802607	6
+Vandellòs i l'Hospitalet de l'Infant	Spain	40.990899	0.923669	6
+GIANO DELL'UMBRIA	Italy	42.836321	12.587181	6
+Hobart, Tasmania	Australia	-42.881903	147.323814	6
+Corning, NY	United States of America	42.142852	-77.05469	6
+Rapid City, SD	United States of America	44.080543	-103.231015	6
+Matamata	New Zealand	-37.81088	175.776461	6
+ALBISOLA SUPERIORE	Italy	44.336241	8.50991	6
+CORTE BRUGNATELLA	Italy	44.722974	9.352608	6
+SOLLENTUNA	Sweden	59.43911	17.94148	6
+INVERNESS	United Kingdom	57.477773	-4.224721	6
+SAINT-PAUL	France	43.696973	7.122138	6
+BRANDON	Canada	49.848471	-99.95009	6
+CHILLIWACK	Canada	49.15794	-121.951467	6
+Cape Coral-Fort Myers, FL	United States of America	26.558782	-81.922892	6
+Mount Vernon-Anacortes, WA	United States of America	48.46597	-122.324776	6
+Pittsfield, MA	United States of America	42.450085	-73.245382	6
+PORT MOODY	Canada	49.284911	-122.867756	6
+YELLOWKNIFE	Canada	62.453972	-114.371789	6
+CORNER BROOK	Canada	48.948997	-57.950273	6
+DELTA	Canada	49.095215	-123.026476	6
+FORT MACKAY	Canada	57.186758	-111.636785	6
+GRANDE PRAIRIE	Canada	55.16994	-118.798615	6
+KINGSTON	Canada	18.017874	-76.809904	6
+MONCTON	Canada	46.087817	-64.778231	6
+MOUNT PEARL	Canada	47.520641	-52.807682	6
+PARRY SOUND	Canada	45.347392	-80.034783	6
+PORT HAWKESBURY	Canada	45.627647	-61.358554	6
+SAGUENAY	Canada	48.428053	-71.068492	6
+SAULT STE. MARIE	Canada	46.521858	-84.34609	6
+SUDBURY	Canada	46.522099	-80.953035	6
+SYDNEY	Canada	-33.867487	151.20699	6
+THUNDER BAY	Canada	48.380895	-89.247682	6
+WHITEHORSE	Canada	60.721187	-135.056845	6
+BURNABY	Canada	49.248809	-122.98051	6
+Manchester-Nashua, NH	United States of America	42.77995	-71.477185	6
+Springfield, MA	United States of America	42.101483	-72.589811	6
+Tucson, AZ	United States of America	32.221743	-110.926479	6
+VILALBA	Spain	43.29749	-7.680772	6
+Tauranga	New Zealand	-37.687797	176.16513	6
+TORIL	Spain	39.897441	-5.779695	6
+Kuopio	Finland	62.89797	27.678172	6
+Marshall, MN	United States of America	44.448423	-95.791192	6
+Porirua	New Zealand	-41.1339	174.840601	6
+Tezpur	India	26.652849	92.792559	6
+AMETLLA DE MAR (L')	Spain	40.883944	0.799649	6
+CALANDA	Spain	40.940785	-0.231502	6
+Providence-New Bedford-Fall River, RI-MA	United States of America	42.407211	-71.382437	6
+Putaruru	New Zealand	-38.048988	175.780468	6
+Colorado Springs, CO	United States of America	38.833882	-104.821363	6
+MAHÓN	Spain	39.88733	4.259619	6
+PLASENCIA	Spain	40.042095	-6.083807	6
+SANTA CRUZ DE LA PALMA	Spain	28.683989	-17.764575	6
+Brisbane	Australia	-27.471011	153.023449	6
+Auckland	New Zealand	-36.84846	174.763332	6
+LANGDALE	Canada	49.433873	-123.479057	6
+NANAIMO	Canada	49.165884	-123.940065	6
+Pueblo, CO	United States of America	38.254447	-104.609141	6
+PORRETTA TERME	Italy	44.155343	10.976185	6
+SANT ANTONI DE PORTMANY	Spain	38.982636	1.301519	6
+Cadillac, MI	United States of America	44.251953	-85.401162	6
+CANDELARIA	Spain	28.355677	-16.371718	6
+SEULO	Italy	39.870016	9.235615	6
+MURAS	Spain	43.466394	-7.72593	6
+STOCKHOLM	Sweden	59.329323	18.068581	6
+Central Coast	Australia	-33.300134	151.191101	6
+Carson City, NV	United States of America	39.163798	-119.767403	6
+Ukiah, CA	United States of America	39.150171	-123.207783	6
+NORTH VANCOUVER	Canada	49.32699	-123.07328	6
+Madre de Deus, REGIÃO METROPOLITANA DE SALVADOR	Brazil	-12.97304	-38.502304	5
+CUADROS	Spain	42.708742	-5.63988	5
+Punta Arenas	Chile	-53.163833	-70.917068	5
+Santa Cruz-Watsonville, CA	United States of America	36.910231	-121.756895	5
+Sheridan, WY	United States of America	44.797194	-106.956179	5
+SKELLEFTEA	Sweden	64.750244	20.950917	5
+Burlington-South Burlington, VT	United States of America	44.506328	-73.145209	5
+Helena, MT	United States of America	46.588371	-112.024505	5
+VEZZANO	Italy	46.080218	11.001409	5
+VILLALBA DE GUARDO	Spain	42.721653	-4.822903	5
+SAN PABLO DE LOS MONTES	Spain	39.541629	-4.332111	5
+HALMSTAD	Sweden	56.674375	12.857788	5
+TRELLEBORG	Sweden	55.376243	13.157423	5
+VILLA MINOZZO	Italy	44.36487	10.466681	5
+Torrington, CT	United States of America	41.800305	-73.121172	5
+TOJOS (LOS)	Spain	43.154223	-4.254166	5
+BUÑOL	Spain	39.420344	-0.790133	5
+Anchorage, AK	United States of America	61.218056	-149.900278	5
+Brainerd, MN	United States of America	46.352673	-94.202008	5
+FLIN FLON	Canada	54.765769	-101.876215	5
+HALIFAX	Canada	44.648862	-63.57532	5
+HOPE	Canada	49.382993	-121.442475	5
+SAINT-BRISSON	France	47.271968	4.090409	5
+AYLESFORD	Canada	45.028156	-64.836432	5
+DORSET	Canada	45.244235	-78.893889	5
+ELK ISLAND	Canada	53.781261	-112.982038	5
+FERME NEUVE	Canada	46.701978	-75.456654	5
+GRAND FALLS - WINDSOR	Canada	48.927669	-55.657502	5
+LA DORE	Canada	48.713647	-72.649283	5
+LA PATRIE	Canada	45.401858	-71.249643	5
+LA PECHE	Canada	45.68621	-75.992255	5
+NORTH BAY	Canada	46.309115	-79.46082	5
+NOTRE-DAME-DU-ROSAIRE	Canada	46.825481	-70.392222	5
+PETAWAWA	Canada	45.898263	-77.282877	5
+SAINT-FAUSTIN-LAC-CARRE	Canada	46.110407	-74.482001	5
+SENNETERRE	Canada	48.390597	-77.241167	5
+ST. JOHN'S	Canada	47.560541	-52.712831	5
+STUKELY-SUD	Canada	45.316943	-72.415128	5
+WEST VANCOUVER	Canada	49.334897	-123.166785	5
+Gladstone	Australia	-40.96022	148.010022	5
+Lower Hutt	New Zealand	-41.209165	174.908056	5
+Upper Hutt	New Zealand	-41.124433	175.070783	5
+Wainuiomata	New Zealand	-41.263362	174.947905	5
+Fargo, ND-MN	United States of America	46.877186	-96.789803	5
+Turangi	New Zealand	-38.989871	175.808748	5
+Campisábalos	Spain	41.26753	-3.144715	5
+REALEJOS (LOS)	Spain	28.385473	-16.584196	5
+ZARRA	Spain	39.091531	-1.074778	5
+Salinas, CA	United States of America	36.677737	-121.655501	5
+Bremerton-Silverdale, WA	United States of America	47.571551	-122.638824	5
+YSTAD	Sweden	55.429505	13.820031	5
+Raahe	Finland	64.684633	24.479019	5
+Redding, CA	United States of America	40.58654	-122.391675	5
+Växjö	Sweden	56.879004	14.805852	5
+PEÑAUSENDE	Spain	41.283792	-5.867637	5
+Bismarck, ND	United States of America	46.808327	-100.783739	5
+Laconia, NH	United States of America	43.527855	-71.470351	5
+Watertown, SD	United States of America	44.899409	-97.115073	5
+ARRECIFE	Spain	28.965169	-13.555036	4
+Kapaa, HI	United States of America	22.088139	-159.337982	4
+LE TAMPON	France	45.701695	3.127586	4
+ROISEY	France	45.388011	4.67193	4
+UPPSALA	Sweden	59.858564	17.638927	4
+VITORIA-GASTEIZ	Spain	42.859166	-2.681792	4
+Gillette, WY	United States of America	44.291092	-105.502221	4
+Umeå	Sweden	63.825847	20.263035	4
+Honolulu, HI	United States of America	21.306944	-157.858333	4
+Eureka-Arcata-Fortuna, CA	United States of America	40.598187	-124.157276	4
+MORELLA	Spain	40.618139	-0.101549	4
+Clearlake, CA	United States of America	38.958231	-122.626373	4
+Dickinson, ND	United States of America	46.879176	-102.789624	4
+Mace Head	Ireland	53.324722	-9.903333	4
+THOMSON	Canada	45.720398	-63.762237	4
+SAINT-JOSEPH	France	49.528928	-1.519935	4
+CAROLINE	Canada	52.093932	-114.740442	4
+FREDERICTON	Canada	45.963589	-66.643115	4
+LAC-EDOUARD	Canada	47.66173	-72.271136	4
+ST-HILAIRE-DE-DORSET	Canada	45.865231	-70.857041	4
+POWELL RIVER	Canada	49.835235	-124.524706	4
+HAFNARFJORDUR	Iceland	64.029105	-21.968463	4
+Battlement Mesa,Garfield,CO	United States of America	39.441367	-108.025074	4
+NOIA	Spain	42.784276	-8.888289	4
+CERESOLE REALE	Italy	45.432177	7.234307	4
+Farmington, NM	United States of America	36.728058	-108.218686	4
+Pueyo de Araguás (El)	Spain	42.472805	0.161642	4
+Cheyenne, WY	United States of America	41.139981	-104.820246	4
+AUCLAIR	Canada	47.728469	-68.644387	3
+NORMAN WELLS	Canada	65.281494	-126.828652	3
+Te Anau	New Zealand	-45.414451	167.718053	3
+KIRUNA	Sweden	67.8558	20.225282	2
+Muonio	Finland	67.955287	23.684092	2
+Wenden, AZ	United States of America	33.82253	-113.541594	2
+Sinclair,Carbon,WY	United States of America	41.774959	-107.113103	2
