@@ -99,7 +99,7 @@
 	display: block;
     vertical-align: top;
     width: 100%;
-    margin: 0 20px $gs-baseline 0;
+    margin: 0 10px $gs-baseline 0;
     float:left;
 	clear:right;
     border-right: none;
@@ -108,7 +108,6 @@
 	@media (min-width:740px){
 		display: inline-block;
 		width: gs-span(4);
-		margin: 0 20px $gs-baseline 0;
 		float:none;
 		clear:none;
 		border-right: 1px dotted #DEDEDE;
