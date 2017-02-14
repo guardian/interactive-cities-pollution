@@ -28,7 +28,7 @@
 	max-width: 760px;
 	min-height: 80px;
 	overflow: hidden;
-
+	position: relative;
 	@media(min-width:740px){
 		min-height: 400px;
 	}
@@ -79,7 +79,7 @@
 	}
 
 	.tick text{
-		fill: $axis-neutral;
+		fill: #333;
 		stroke:none;
 	}
 
@@ -180,7 +180,51 @@
 	@include fs-textSans(1);
 	color: $neutral-3;
 
-	@media (min-width:980px){
-		margin-top: -28px;
-	}
+
+}
+
+.gv-label1 {
+	position: absolute;
+	color: #333;
+	bottom: 10px;
+	width: 125px;
+	left: calc(50% - 62px);
+	text-align: center;
+	@include fs-textSans(1);
+	color: 333;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+
+.continentSummary {
+	position: relative;
+}
+.gv-label3 {
+	position: absolute;
+	color: #333;
+	bottom: 0px;
+	width: 125px;
+	left: calc(50% - 62px);
+	text-align: center;
+	@include fs-textSans(1);
+	color: 333;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+
+.gv-label2 {
+	position: absolute;
+	top: 5px;
+	color: #333;
+	left: 25px;
+
+	@include fs-textSans(1);
+	color: 333;
+	font-size: 14px;
+	font-weight: bold;
+
 }
