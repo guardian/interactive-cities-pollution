@@ -201,6 +201,7 @@
 .continentSummary {
 	position: relative;
 }
+
 .gv-label3 {
 	position: absolute;
 	color: #333;
@@ -218,9 +219,9 @@
 
 .gv-label2 {
 	position: absolute;
-	top: 5px;
+	top: 6px;
 	color: #333;
-	left: 25px;
+	left: 27px;
 
 	@include fs-textSans(1);
 	color: 333;
